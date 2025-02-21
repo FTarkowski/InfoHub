@@ -49,6 +49,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Nextcloud** – Chmura osobista [(Link)](https://nextcloud.com/).
 - **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
 - **CasaOS** – System zarządzania aplikacjami domowymi [(Link)](https://casaos.io/).
+- **File Browser** – Menedżer plików przez przeglądarkę [(Link)](https://filebrowser.org/).
+- **HexOS** – System operacyjny dla środowiska NAS.
 
 ##### **Zarządzanie Danymi i Backup**
 - **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
@@ -152,3 +154,6 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Canva** – Narzędzie do projektowania [(Link)](https://www.canva.com/).
 - **Deepseek** – Wyszukiwanie AI [(Link)](https://deepseek.com/).
 
+---
+
+Created by [FTarkowski](https://github.com/FTarkowski/)
