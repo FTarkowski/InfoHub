@@ -12,6 +12,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
     - [Hiperwizor typu 2](#hiperwizor-typu-2)
     - [NAS, Chmura, Synchronizacja](#nas-chmura-synchronizacja)
     - [Zarządzanie Danymi i Backup](#zarzadzanie-danymi-i-backup)
+    - [ERP i Zarządzanie Firmą](#erp-i-zarzadzanie-firma)
   - [Sieciowe](#sieciowe)
     - [Firewall i Routery](#firewall-i-routery)
     - [DNS i Proxy](#dns-i-proxy)
@@ -27,6 +28,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
   - [Konteneryzacja i Klasteryzacja](#konteneryzacja-i-klasteryzacja)
   - [Automatyzacja i DevOps](#automatyzacja-i-devops-1)
   - [Sztuczna Inteligencja](#sztuczna-inteligencja)
+  - [Dashboardy i Zarządzanie Interfejsem](#dashboardy-i-zarzadzanie-interfejsem)
+  - [Wideokonferencje](#wideokonferencje)
 
 ---
 
@@ -50,10 +53,14 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
 - **CasaOS** – System zarządzania aplikacjami domowymi [(Link)](https://casaos.io/).
 - **File Browser** – Menedżer plików przez przeglądarkę [(Link)](https://filebrowser.org/).
-- **HexOS** – System operacyjny dla środowiska NAS [(Link)](https://hexos.com/).
+- **HexOS** – System operacyjny dla środowiska NAS.
+- **OpenMediaVault** – Rozwiązanie NAS oparte na Debianie [(Link)](https://www.openmediavault.org/).
 
 ##### **Zarządzanie Danymi i Backup**
 - **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
+
+##### **ERP i Zarządzanie Firmą**
+- **ERPNext** – Oprogramowanie ERP oparte na Pythonie [(Link)](https://github.com/frappe/erpnext).
 
 ---
 
@@ -67,10 +74,12 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Tp-link** – Urządzenia sieciowe [(Link)](https://www.tp-link.com/).
 
 ##### **DNS i Proxy**
-- **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
 - **Pi-hole** – Blokowanie reklam DNS [(Link)](https://pi-hole.net/).
+- **AdGuard** – Blokowanie reklam i ochrona prywatności [(Link)](https://adguard.com/).
 - **Cloudflare** – Usługi DNS i bezpieczeństwo [(Link)](https://www.cloudflare.com/).
 - **Nginx Proxy Manager** – Zarządzanie proxy [(Link)](https://nginxproxymanager.com/).
+- **Traefik** – Wydajny serwer proxy i load balancer [(Link)](https://traefik.io/).
+- **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
 
 ##### **Zarządzanie**
 - **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
@@ -84,6 +93,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 #### **Konteneryzacja (Docker)**
 - **Portainer.io** – GUI dla Docker [(Link)](https://www.portainer.io/).
 - **Dockge** – Lekki manager kontenerów [(Link)](https://github.com/louislam/dockge).
+- **Yacht** – Alternatywny GUI dla Dockera [(Link)](https://yacht.sh/).
 
 ---
 
@@ -102,6 +112,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Meshcentral** – Zarządzanie komputerami zdalnie [(Link)](https://meshcentral.com/).
 - **Remote SSH (VScode)** – SSH w VSCode [(Link)](https://code.visualstudio.com/docs/remote/ssh).
 - **Rustdesk** – Zdalny pulpit typu open-source [(Link)](https://rustdesk.com/).
+- **Rustdesk Server** – Serwer self-host do Rustdesk [(Link)](https://github.com/rustdesk/rustdesk-server).
 
 ---
 
@@ -117,6 +128,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Bazarr** – Napisy do multimediów [(Link)](https://www.bazarr.media/).
 - **Prowlarr** – Indeksatory do PVR [(Link)](https://prowlarr.com/).
 - **Jellyseer** – Zarządzanie żądaniami Jellyfin [(Link)](https://github.com/Fallenbagel/jellyseerr).
+- **Jitsi** – Open-source platforma wideokonferencyjna [(Link)](https://github.com/jitsi).
 
 ---
 
@@ -126,6 +138,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **it-tools** – Narzędzia IT w przeglądarce [(Link)](https://it-tools.tech/).
 - **GetHomepage** – Strona główna aplikacji [(Link)](https://gethomepage.dev/).
 - **Heimdall** – Dashboard do aplikacji [(Link)](https://heimdall.site/).
+- **Dashy** – Konfigurowalny dashboard aplikacji [(Link)](https://dashy.to/).
+- **Homer** – Prostota w zarządzaniu interfejsem [(Link)](https://github.com/bastienwirtz/homer).
 
 ---
 
