@@ -50,7 +50,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
 - **CasaOS** – System zarządzania aplikacjami domowymi [(Link)](https://casaos.io/).
 - **File Browser** – Menedżer plików przez przeglądarkę [(Link)](https://filebrowser.org/).
-- **HexOS** – System operacyjny dla środowiska NAS.
+- **HexOS** – System operacyjny dla środowiska NAS [(Link)](https://hexos.com/).
 
 ##### **Zarządzanie Danymi i Backup**
 - **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
