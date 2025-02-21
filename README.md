@@ -1,23 +1,31 @@
+# InfoHub
+
+## **Description**
+Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opisów, podziałów oraz dokumentacji dotyczącej oprogramowania, technologii, aplikacji i narzędzi wykorzystywanych w środowisku IT. Służy jako szybki punkt odniesienia dla administratorów, deweloperów i entuzjastów technologii, umożliwiając łatwe zarządzanie wiedzą oraz konfiguracjami systemowymi.
+
+---
+
 ## 📑 **Spis treści**
 - [Oprogramowania](#oprogramowania)
   - [Serwerowe](#serwerowe)
     - [Hiperwizor typu 1](#hiperwizor-typu-1)
-    - [NAS i Pamięć Masowa](#nas-i-pamięć-masowa)
-    - [Systemy Operacyjne Serwera Domowego](#systemy-operacyjne-serwera-domowego)
+    - [Hiperwizor typu 2](#hiperwizor-typu-2)
+    - [NAS, Chmura, Synchronizacja](#nas-chmura-synchronizacja)
+    - [Zarządzanie Danymi i Backup](#zarzadzanie-danymi-i-backup)
   - [Sieciowe](#sieciowe)
     - [Firewall i Routery](#firewall-i-routery)
     - [DNS i Proxy](#dns-i-proxy)
-  - [Konteneryzacja i Zarządzanie Kontenerami](#konteneryzacja-i-zarządzanie-kontenerami)
-  - [Monitorowanie i Analiza](#monitorowanie-i-analiza)
+    - [Zarządzanie](#zarzadzanie)
+    - [Monitorowanie](#monitorowanie)
+  - [Konteneryzacja (Docker)](#konteneryzacja-docker)
   - [Automatyzacja i DevOps](#automatyzacja-i-devops)
-  - [Zarządzanie Zdalne i Bezpieczeństwo](#zarządzanie-zdalne-i-bezpieczeństwo)
-  - [Chmura i Synchronizacja](#chmura-i-synchronizacja)
+  - [Zarządzanie Zdalne i Bezpieczeństwo](#zarzadzanie-zdalne-i-bezpieczenstwo)
   - [Aplikacje Multimedialne](#aplikacje-multimedialne)
-  - [Aplikacje i Narzędzia IT](#aplikacje-i-narzędzia-it)
-  - [Edytory i Środowiska Programistyczne](#edytory-i-środowiska-programistyczne)
+  - [Aplikacje i Narzędzia IT](#aplikacje-i-narzedzia-it)
+  - [Edytory i Środowiska Programistyczne](#edytory-i-srodowiska-programistyczne)
 - [Technologie](#technologie)
   - [Konteneryzacja i Klasteryzacja](#konteneryzacja-i-klasteryzacja)
-  - [Automatyzacja i DevOps](#automatyzacja-i-devops)
+  - [Automatyzacja i DevOps](#automatyzacja-i-devops-1)
   - [Sztuczna Inteligencja](#sztuczna-inteligencja)
 
 ---
@@ -28,14 +36,22 @@
 
 ##### **Hiperwizor typu 1**
 - **Proxmox** – Platforma wirtualizacji serwerów [(Link)](https://www.proxmox.com/).
-- **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
+- **VMware ESXi** – Rozwiązanie do wirtualizacji serwerów [(Link)](https://www.vmware.com/).
+- **Hyper-V** – Wirtualizacja Microsoft [(Link)](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/).
 
-##### **NAS i Pamięć Masowa**
+##### **Hiperwizor typu 2**
+- **VirtualBox** – Wirtualizacja na systemie operacyjnym [(Link)](https://www.virtualbox.org/).
+
+##### **NAS, Chmura, Synchronizacja**
 - **TrueNAS** – Oprogramowanie NAS [(Link)](https://www.truenas.com/).
 - **TrueNAS Scale** – NAS z obsługą kontenerów [(Link)](https://www.truenas.com/truenas-scale/).
+- **UNAS Pro** – Rozwiązanie NAS dla profesjonalistów [(Link)](https://www.unas.com/).
+- **Nextcloud** – Chmura osobista [(Link)](https://nextcloud.com/).
+- **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
+- **CasaOS** – System zarządzania aplikacjami domowymi [(Link)](https://casaos.io/).
 
-##### **Systemy Operacyjne Serwera Domowego**
-- **CasaOS** – System dla domowego serwera [(Link)](https://casaos.io/).
+##### **Zarządzanie Danymi i Backup**
+- **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
 
 ---
 
@@ -54,20 +70,18 @@
 - **Cloudflare** – Usługi DNS i bezpieczeństwo [(Link)](https://www.cloudflare.com/).
 - **Nginx Proxy Manager** – Zarządzanie proxy [(Link)](https://nginxproxymanager.com/).
 
----
+##### **Zarządzanie**
+- **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
 
-#### **Konteneryzacja i Zarządzanie Kontenerami**
-- **Portainer.io** – GUI dla Docker [(Link)](https://www.portainer.io/).
-- **Dockge** – Lekki manager kontenerów [(Link)](https://github.com/louislam/dockge).
-
----
-
-#### **Monitorowanie i Analiza**
-- **Uptime Kuma** – Monitor dostępności usług [(Link)](https://github.com/louislam/uptime-kuma).
-- **Grafana** – Wizualizacja danych [(Link)](https://grafana.com/).
-- **Prometheus** – Monitorowanie metryk [(Link)](https://prometheus.io/).
+##### **Monitorowanie**
 - **MySpeed** – Test prędkości sieci [(Link)](https://github.com/alexjustesen/myspeed).
 - **Wazuh** – Analiza bezpieczeństwa [(Link)](https://wazuh.com/).
+
+---
+
+#### **Konteneryzacja (Docker)**
+- **Portainer.io** – GUI dla Docker [(Link)](https://www.portainer.io/).
+- **Dockge** – Lekki manager kontenerów [(Link)](https://github.com/louislam/dockge).
 
 ---
 
@@ -86,13 +100,6 @@
 - **Meshcentral** – Zarządzanie komputerami zdalnie [(Link)](https://meshcentral.com/).
 - **Remote SSH (VScode)** – SSH w VSCode [(Link)](https://code.visualstudio.com/docs/remote/ssh).
 - **Rustdesk** – Zdalny pulpit typu open-source [(Link)](https://rustdesk.com/).
-- **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
-
----
-
-#### **Chmura i Synchronizacja**
-- **Nextcloud** – Chmura osobista [(Link)](https://nextcloud.com/).
-- **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
 
 ---
 
@@ -144,3 +151,4 @@
 - **Copilot** – Asystent kodowania [(Link)](https://github.com/features/copilot).
 - **Canva** – Narzędzie do projektowania [(Link)](https://www.canva.com/).
 - **Deepseek** – Wyszukiwanie AI [(Link)](https://deepseek.com/).
+
