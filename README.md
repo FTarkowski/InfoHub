@@ -38,7 +38,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 #### **Serwerowe**
 
 ##### **Hiperwizor typu 1**
-- **Proxmox** – Platforma wirtualizacji serwerów [(Link)](https://www.proxmox.com/).
+- <img src="https://cdn.simpleicons.org/proxmox/E57000" width="16" height="16"/> **Proxmox** – Platforma wirtualizacji serwerów [(Link)](https://www.proxmox.com/).
 - **VMware ESXi** – Rozwiązanie do wirtualizacji serwerów [(Link)](https://www.vmware.com/).
 - **Hyper-V** – Wirtualizacja Microsoft [(Link)](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/).
 
