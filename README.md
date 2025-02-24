@@ -55,6 +55,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **File Browser** – Menedżer plików przez przeglądarkę [(Link)](https://filebrowser.org/).
 - **HexOS** – System operacyjny dla środowiska NAS.
 - **OpenMediaVault** – Rozwiązanie NAS oparte na Debianie [(Link)](https://www.openmediavault.org/).
+- **Unraid** – System operacyjny dla serwerów NAS z obsługą wirtualizacji i Docker [(Link)](https://unraid.net/).
+
 
 ##### **Zarządzanie Danymi i Backup**
 - **Proxmox Backup Server (PBS)** – Backup dla Proxmox [(Link)](https://www.proxmox.com/en/proxmox-backup-server).
