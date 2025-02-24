@@ -72,6 +72,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **DD-WRT** – Oprogramowanie routerów [(Link)](https://dd-wrt.com/).
 - **OpenWRT** – Zaawansowane oprogramowanie routerów [(Link)](https://openwrt.org/).
 - **Tp-link** – Urządzenia sieciowe [(Link)](https://www.tp-link.com/).
+- **NethServer 8** – Zarządzanie siecią [(Link)](https://docs.nethserver.org/projects/ns8/en/latest/introduction.html).
 
 ##### **DNS i Proxy**
 - **Pi-hole** – Blokowanie reklam DNS [(Link)](https://pi-hole.net/).
