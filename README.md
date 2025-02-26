@@ -16,9 +16,9 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
   - [Sieciowe](#sieciowe)
     - [Firewall i Routery](#firewall-i-routery)
     - [Zarządzanie](#zarzadzanie)
+    - [Monitorowanie](#monitorowanie)
     - [DNS i Proxy](#dns-i-proxy)
     - [Hosting i Panel Administracyjny](#hosting-i-panel-administracyjny)
-    - [Monitorowanie](#monitorowanie)
   - [Konteneryzacja (Docker)](#konteneryzacja-docker)
   - [Automatyzacja i DevOps](#automatyzacja-i-devops)
   - [Zarządzanie Zdalne i Bezpieczeństwo](#zarzadzanie-zdalne-i-bezpieczenstwo)
@@ -80,6 +80,10 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 ##### **Zarządzanie**
 - **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
 
+##### **Monitorowanie**
+- **MySpeed** – Test prędkości sieci [(Link)](https://github.com/alexjustesen/myspeed).
+- **Wazuh** – Analiza bezpieczeństwa [(Link)](https://wazuh.com/).
+
 ##### **DNS i Proxy**
 - **Pi-hole** – Blokowanie reklam DNS [(Link)](https://pi-hole.net/).
 - **AdGuard** – Blokowanie reklam i ochrona prywatności [(Link)](https://adguard.com/).
@@ -95,11 +99,6 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - <img src="" width="16" height="16"/> **DirectAdmin** – Lekki i szybki panel administracyjny dla serwerów WWW [(Link)](https://www.directadmin.com/).
 - <img src="" width="16" height="16"/> **Plesk** – Kompleksowy panel administracyjny do hostingu stron WWW [(Link)](https://www.plesk.com/).
 - <img src="" width="16" height="16"/> **Webuzo** – Panel do zarządzania pojedynczym serwerem WWW [(Link)](https://webuzo.com/).
-
-
-##### **Monitorowanie**
-- **MySpeed** – Test prędkości sieci [(Link)](https://github.com/alexjustesen/myspeed).
-- **Wazuh** – Analiza bezpieczeństwa [(Link)](https://wazuh.com/).
 
 ---
 
