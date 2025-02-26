@@ -17,7 +17,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
     - [Firewall i Routery](#firewall-i-routery)
     - [Zarządzanie](#zarzadzanie)
     - [DNS i Proxy](#dns-i-proxy)
-    - [Zarządzanie Hostingiem i Panelami Administracyjnymi](#zarzadzanie-hostingiem-i-panelami-administracyjnymi)
+    - [Hosting i Panel Administracyjny](#hosting-i-panel-administracyjny)
     - [Monitorowanie](#monitorowanie)
   - [Konteneryzacja (Docker)](#konteneryzacja-docker)
   - [Automatyzacja i DevOps](#automatyzacja-i-devops)
@@ -88,7 +88,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Traefik** – Wydajny serwer proxy i load balancer [(Link)](https://traefik.io/).
 - **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
 
-#### **Zarządzanie Hostingiem i Panelami Administracyjnymi**
+#### **Hosting i Panel Administracyjny**
 - <img src="" width="16" height="16"/> **cPanel** – Najpopularniejszy panel administracyjny dla serwerów Linux [(Link)](https://cpanel.net/).
 - <img src="" width="16" height="16"/> **CyberPanel** – Panel do zarządzania serwerami WWW oparty na OpenLiteSpeed [(Link)](https://cyberpanel.net/).
 - <img src="" width="16" height="16"/> **EasyPanel** – Nowoczesny panel do zarządzania aplikacjami i serwerami [(Link)](https://easypanel.io/).
