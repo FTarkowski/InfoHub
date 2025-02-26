@@ -92,7 +92,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Traefik** – Wydajny serwer proxy i load balancer [(Link)](https://traefik.io/).
 - **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
 
-#### **Hosting i Panel Administracyjny** - [Kliknij po więcej!](https://github.com/FTarkowski/InfoHub/blob/4112b2ee3c6a7a742a4e998859e221efe6007e2d/Hosting%20i%20Panel%20Administracyjny.md)
+#### **Hosting i Panel Administracyjny**
 - <img src="" width="16" height="16"/> **cPanel** – Najpopularniejszy panel administracyjny dla serwerów Linux [(Link)](https://cpanel.net/).
 - <img src="" width="16" height="16"/> **CyberPanel** – Panel do zarządzania serwerami WWW oparty na OpenLiteSpeed [(Link)](https://cyberpanel.net/).
 - <img src="" width="16" height="16"/> **EasyPanel** – Nowoczesny panel do zarządzania aplikacjami i serwerami [(Link)](https://easypanel.io/).
@@ -100,6 +100,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - <img src="" width="16" height="16"/> **Plesk** – Kompleksowy panel administracyjny do hostingu stron WWW [(Link)](https://www.plesk.com/).
 - <img src="" width="16" height="16"/> **Webuzo** – Panel do zarządzania pojedynczym serwerem WWW [(Link)](https://webuzo.com/).
 
+[Kliknij po więcej!](https://github.com/FTarkowski/InfoHub/blob/4112b2ee3c6a7a742a4e998859e221efe6007e2d/Hosting%20i%20Panel%20Administracyjny.md)
 ---
 
 #### **Konteneryzacja (Docker)**
