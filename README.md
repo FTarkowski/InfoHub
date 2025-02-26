@@ -15,8 +15,9 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
     - [ERP i Zarządzanie Firmą](#erp-i-zarzadzanie-firma)
   - [Sieciowe](#sieciowe)
     - [Firewall i Routery](#firewall-i-routery)
-    - [DNS i Proxy](#dns-i-proxy)
     - [Zarządzanie](#zarzadzanie)
+    - [DNS i Proxy](#dns-i-proxy)
+    - [Zarządzanie Hostingiem i Panelami Administracyjnymi](#zarzadzanie-hostingiem-i-panelami-administracyjnymi)
     - [Monitorowanie](#monitorowanie)
   - [Konteneryzacja (Docker)](#konteneryzacja-docker)
   - [Automatyzacja i DevOps](#automatyzacja-i-devops)
@@ -76,6 +77,9 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Tp-link** – Urządzenia sieciowe [(Link)](https://www.tp-link.com/).
 - **NethServer 8** – Zarządzanie siecią [(Link)](https://docs.nethserver.org/projects/ns8/en/latest/introduction.html).
 
+##### **Zarządzanie**
+- **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
+
 ##### **DNS i Proxy**
 - **Pi-hole** – Blokowanie reklam DNS [(Link)](https://pi-hole.net/).
 - **AdGuard** – Blokowanie reklam i ochrona prywatności [(Link)](https://adguard.com/).
@@ -84,8 +88,14 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Traefik** – Wydajny serwer proxy i load balancer [(Link)](https://traefik.io/).
 - **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
 
-##### **Zarządzanie**
-- **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
+#### **Zarządzanie Hostingiem i Panelami Administracyjnymi**
+- <img src="" width="16" height="16"/> **cPanel** – Najpopularniejszy panel administracyjny dla serwerów Linux [(Link)](https://cpanel.net/).
+- <img src="" width="16" height="16"/> **CyberPanel** – Panel do zarządzania serwerami WWW oparty na OpenLiteSpeed [(Link)](https://cyberpanel.net/).
+- <img src="" width="16" height="16"/> **EasyPanel** – Nowoczesny panel do zarządzania aplikacjami i serwerami [(Link)](https://easypanel.io/).
+- <img src="" width="16" height="16"/> **DirectAdmin** – Lekki i szybki panel administracyjny dla serwerów WWW [(Link)](https://www.directadmin.com/).
+- <img src="" width="16" height="16"/> **Plesk** – Kompleksowy panel administracyjny do hostingu stron WWW [(Link)](https://www.plesk.com/).
+- <img src="" width="16" height="16"/> **Webuzo** – Panel do zarządzania pojedynczym serwerem WWW [(Link)](https://webuzo.com/).
+
 
 ##### **Monitorowanie**
 - **MySpeed** – Test prędkości sieci [(Link)](https://github.com/alexjustesen/myspeed).
