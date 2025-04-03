@@ -78,6 +78,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **NethServer 8** – Zarządzanie siecią [(Link)](https://docs.nethserver.org/projects/ns8/en/latest/introduction.html).
 
 ##### **Zarządzanie**
+- **FreshRSS** – Samohostowane oprogramowanie do czytnika RSS [(Link)](https://www.freshrss.org/).
 - **evillimiter** – Ograniczanie przepustowości sieci [(Link)](https://github.com/bitbrute/evillimiter).
 
 ##### **Monitorowanie**
