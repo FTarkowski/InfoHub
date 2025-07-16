@@ -51,12 +51,15 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **TrueNAS Scale** – NAS z obsługą kontenerów [(Link)](https://www.truenas.com/truenas-scale/).
 - **UNAS Pro** – Rozwiązanie NAS dla profesjonalistów [(Link)](https://www.unas.com/).
 - **Nextcloud** – Chmura osobista [(Link)](https://nextcloud.com/).
+- **docker-dropbox-app** – Self-hosted Dropbox API w Dockerze [(Link)](https://github.com/rbonghi/docker-dropbox-app)
 - **Files** – Udostępnianie plików lokalnie [(Link)](https://files.community/).
 - **CasaOS** – System zarządzania aplikacjami domowymi [(Link)](https://casaos.io/).
 - **File Browser** – Menedżer plików przez przeglądarkę [(Link)](https://filebrowser.org/).
 - **HexOS** – System operacyjny dla środowiska NAS.
 - **OpenMediaVault** – Rozwiązanie NAS oparte na Debianie [(Link)](https://www.openmediavault.org/).
+- **openmediavault-webdesk** – GUI dla OMV w Docker Compose [(Link)](https://github.com/TwanoO67/omv-web-desk)
 - **Unraid** – System operacyjny dla serwerów NAS z obsługą wirtualizacji i Docker [(Link)](https://unraid.net/).
+- **Portainer + Nextcloud stack** – docker-compose do prostego wdrożenia portainer/nextcloud [(Link)](https://github.com/tv0ll/portainer-nextcloud)
 
 
 ##### **Zarządzanie Danymi i Backup**
@@ -83,6 +86,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 
 ##### **Monitorowanie**
 - **MySpeed** – Test prędkości sieci [(Link)](https://github.com/alexjustesen/myspeed).
+- **LibreSpeed** – Test przepustowości sieci [(Link)](https://github.com/librespeed/speedtest)
 - **Wazuh** – Analiza bezpieczeństwa [(Link)](https://wazuh.com/).
 
 ##### **DNS i Proxy**
@@ -92,6 +96,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Nginx Proxy Manager** – Zarządzanie proxy [(Link)](https://nginxproxymanager.com/).
 - **Traefik** – Wydajny serwer proxy i load balancer [(Link)](https://traefik.io/).
 - **CoreDNS** – Serwer DNS [(Link)](https://coredns.io/).
+- **DDClient** – Klient Dynamic DNS [(Link)](https://github.com/ddclient/ddclient)
+- **cloudflare-ddns** – Dynamiczny DNS w Dockerze [(Link)](https://github.com/oznu/docker-cloudflare-ddns)
 
 #### **Hosting i Panel Administracyjny**
 [Więcej informacji](https://github.com/FTarkowski/InfoHub/blob/4112b2ee3c6a7a742a4e998859e221efe6007e2d/Hosting%20i%20Panel%20Administracyjny.md)
@@ -108,6 +114,9 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Portainer.io** – GUI dla Docker [(Link)](https://www.portainer.io/).
 - **Dockge** – Lekki manager kontenerów [(Link)](https://github.com/louislam/dockge).
 - **Yacht** – Alternatywny GUI dla Dockera [(Link)](https://yacht.sh/).
+- **Dozzle** – Dashboard kontenerów self-hosted [(Link)](https://github.com/dozzle/dozzle)
+- **Coolify** – Nowoczesna platforma PaaS [(Link)](https://github.com/coollabsio/coolify)
+- **Dokku** – Proste wdrożenia aplikacji w stylu Heroku [(Link)](https://github.com/dokku/dokku)
 
 ---
 
@@ -118,6 +127,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Chef** – Zarządzanie konfiguracją [(Link)](https://www.chef.io/).
 - **Ansible** – Automatyzacja systemów [(Link)](https://www.ansible.com/).
 - **Ansible GUI** – Graficzny interfejs Ansible [(Link)](https://github.com/ansible/awx).
+- **Ansible role - Ubuntu Autoinstall** – Automatyzacja instalacji Ubuntu via PiKVM [(Link)](https://github.com/notthebee/ansible-role-ubuntu_autoinstall)
 
 ---
 
@@ -135,6 +145,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Sonarr** – Pobieranie seriali [(Link)](https://sonarr.tv/).
 - **Radarr** – Pobieranie filmów [(Link)](https://radarr.video/).
 - **Jellyfin** – Serwer multimedialny open-source [(Link)](https://jellyfin.org/).
+- **PhotoPrism** – Zarządzanie zdjęciami [(Link)](https://github.com/photoprism/photoprism)
+- **PhotoPrism w Portainer / Docker Compose** – Oficjalna konfiguracja [(Docs)](https://docs.photoprism.app/getting-started/portainer/) | [(Compose)](https://docs.photoprism.app/getting-started/docker-compose/)
 - **SABnzbd** – Klient Usenet [(Link)](https://sabnzbd.org/).
 - **Transmission** – Klient BitTorrent [(Link)](https://transmissionbt.com/).
 - **qBittorrent** – Klient BitTorrent [(Link)](https://www.qbittorrent.org/).
@@ -143,17 +155,28 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Prowlarr** – Indeksatory do PVR [(Link)](https://prowlarr.com/).
 - **Jellyseer** – Zarządzanie żądaniami Jellyfin [(Link)](https://github.com/Fallenbagel/jellyseerr).
 - **Jitsi** – Open-source platforma wideokonferencyjna [(Link)](https://github.com/jitsi).
+- **OpenBooks** – Biblioteka e-booków (brak linku)
 
 ---
 
 #### **Aplikacje i Narzędzia IT**
 - **Home Assistant** – Automatyzacja domu [(Link)](https://www.home-assistant.io/).
 - **Vault / Bitwarden** – Menedżer haseł [(Link)](https://bitwarden.com/).
+- **Vaultwarden** – Alternatywa self-hosted dla Bitwarden [(Link)](https://github.com/dani-garcia/vaultwarden)
 - **it-tools** – Narzędzia IT w przeglądarce [(Link)](https://it-tools.tech/).
 - **GetHomepage** – Strona główna aplikacji [(Link)](https://gethomepage.dev/).
 - **Heimdall** – Dashboard do aplikacji [(Link)](https://heimdall.site/).
 - **Dashy** – Konfigurowalny dashboard aplikacji [(Link)](https://dashy.to/).
 - **Homer** – Prostota w zarządzaniu interfejsem [(Link)](https://github.com/bastienwirtz/homer).
+- **Dangerzone** – Konwersja niepewnych dokumentów na bezpieczne PDF-y [(Link)](https://github.com/freedomofpress/dangerzone)
+- **Stirling PDF** – Narzędzie do edycji i łączenia PDF-ów [(Link)](https://github.com/sirting-pdf/stirling-pdf)
+- **ConvertX** – Konwerter plików online self-hosted [(Link)](https://github.com/svenstaro/convertx)
+- **Excalidraw** – Webowy edytor diagramów rysunkowych [(Link)](https://github.com/excalidraw/excalidraw)
+- **Draw.io (self-host)** – Edytor diagramów jako usługa [(Link)](https://github.com/jgraph/drawio)
+- **NocoDB** – Bez kodu, baza danych jako usługa [(Link)](https://github.com/nocodb/nocodb)
+- **AppFlowy** – Alternatywa dla Notion [(Link)](https://github.com/AppFlowy-IO/AppFlowy)
+- **InstantDB** – Lekka baza danych [(Link)](https://github.com/instantdb/instant)
+- **LibreOffice Docker** – Pakiet biurowy w kontenerze [(Link)](https://hub.docker.com/r/linuxserver/libreoffice)
 
 ---
 
