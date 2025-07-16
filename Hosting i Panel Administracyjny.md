@@ -116,5 +116,5 @@
 
 ---
 
-Created by [FTarkowski](https://github.com/FTarkowski/)
+Created by <a href="https://github.com/FTarkowski/" target="_blank">FTarkowski</a>
 
