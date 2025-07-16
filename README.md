@@ -178,6 +178,18 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>
 - **LibreOffice Docker** – Pakiet biurowy w kontenerze <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>
 
+- **Typebot** – Tworzenie interaktywnych chatbotów w formie formularzy <a href="https://github.com/baptisteArno/typebot.io" target="_blank">(Link)</a>
+- **Plane** – System do zarządzania projektami, alternatywa dla Jiry i Linear <a href="https://github.com/makeplane/plane" target="_blank">(Link)</a>
+- **Formbricks** – Narzędzie do zbierania feedbacku i tworzenia ankiet <a href="https://github.com/formbricks/formbricks" target="_blank">(Link)</a>
+- **Taskcafe** – Tablicowy system zarządzania zadaniami inspirowany Trello <a href="https://github.com/JordanKnott/taskcafe" target="_blank">(Link)</a>
+- **Planka** – Self-hosted alternatywa Trello z tablicami Kanban <a href="https://github.com/plankanban/planka" target="_blank">(Link)</a>
+- **osTicket** – Popularny system zgłoszeniowy open-source <a href="https://github.com/osTicket/osTicket" target="_blank">(Link)</a>
+- **Helpy** – Self-hosted helpdesk z bazą wiedzy i ticketami <a href="https://github.com/helpyio/helpy" target="_blank">(Link)</a>
+- **Zammad** – Zaawansowany helpdesk/ticketing z UI webowym <a href="https://github.com/zammad/zammad" target="_blank">(Link)</a>
+- **Faveo Helpdesk** – Rozbudowany system obsługi zgłoszeń z panelem klienta <a href="https://github.com/faveosuite/faveo-helpdesk" target="_blank">(Link)</a>
+- **FreeScout** – Lekki helpdesk jako alternatywa dla HelpScout <a href="https://github.com/freescout-help-desk/freescout" target="_blank">(Link)</a>
+- **Asana** – SaaS do zarządzania projektami (brak self-host) <a href="https://asana.com/pl" target="_blank">(Link)</a>
+
 ---
 
 #### **Edytory i Środowiska Programistyczne**
