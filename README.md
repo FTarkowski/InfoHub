@@ -24,6 +24,11 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
   - [Zarządzanie Zdalne i Bezpieczeństwo](#zarzadzanie-zdalne-i-bezpieczenstwo)
   - [Aplikacje Multimedialne](#aplikacje-multimedialne)
   - [Aplikacje i Narzędzia IT](#aplikacje-i-narzedzia-it)
+    - [Systemy](#systemy)
+    - [Zarządzanie](#zarzadzanie-1)
+    - [Komunikacja](#komunikacja)
+    - [Produktywność](#produktywnosc)
+    - [Narzędzia](#narzedzia)
   - [Edytory i Środowiska Programistyczne](#edytory-i-srodowiska-programistyczne)
 - [Technologie](#technologie)
   - [Konteneryzacja i Klasteryzacja](#konteneryzacja-i-klasteryzacja)
@@ -160,35 +165,44 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 ---
 
 #### **Aplikacje i Narzędzia IT**
-- **Home Assistant** – Automatyzacja domu <a href="https://www.home-assistant.io/" target="_blank">(Link)</a>.
-- **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>.
-- **Vaultwarden** – Alternatywa self-hosted dla Bitwarden <a href="https://github.com/dani-garcia/vaultwarden" target="_blank">(Link)</a>
-- **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>.
-- **GetHomepage** – Strona główna aplikacji <a href="https://gethomepage.dev/" target="_blank">(Link)</a>.
-- **Heimdall** – Dashboard do aplikacji <a href="https://heimdall.site/" target="_blank">(Link)</a>.
-- **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>.
-- **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>.
-- **Dangerzone** – Konwersja niepewnych dokumentów na bezpieczne PDF-y <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>
-- **Stirling PDF** – Narzędzie do edycji i łączenia PDF-ów <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>
-- **ConvertX** – Konwerter plików online self-hosted <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>
-- **Excalidraw** – Webowy edytor diagramów rysunkowych <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>
-- **Draw.io (self-host)** – Edytor diagramów jako usługa <a href="https://github.com/jgraph/drawio" target="_blank">(Link)</a>
-- **NocoDB** – Bez kodu, baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>
-- **AppFlowy** – Alternatywa dla Notion <a href="https://github.com/AppFlowy-IO/AppFlowy" target="_blank">(Link)</a>
-- **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>
-- **LibreOffice Docker** – Pakiet biurowy w kontenerze <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>
 
-- **Typebot** – Tworzenie interaktywnych chatbotów w formie formularzy <a href="https://github.com/baptisteArno/typebot.io" target="_blank">(Link)</a>
-- **Plane** – System do zarządzania projektami, alternatywa dla Jiry i Linear <a href="https://github.com/makeplane/plane" target="_blank">(Link)</a>
-- **Formbricks** – Narzędzie do zbierania feedbacku i tworzenia ankiet <a href="https://github.com/formbricks/formbricks" target="_blank">(Link)</a>
-- **Taskcafe** – Tablicowy system zarządzania zadaniami inspirowany Trello <a href="https://github.com/JordanKnott/taskcafe" target="_blank">(Link)</a>
-- **Planka** – Self-hosted alternatywa Trello z tablicami Kanban <a href="https://github.com/plankanban/planka" target="_blank">(Link)</a>
-- **osTicket** – Popularny system zgłoszeniowy open-source <a href="https://github.com/osTicket/osTicket" target="_blank">(Link)</a>
-- **Helpy** – Self-hosted helpdesk z bazą wiedzy i ticketami <a href="https://github.com/helpyio/helpy" target="_blank">(Link)</a>
-- **Zammad** – Zaawansowany helpdesk/ticketing z UI webowym <a href="https://github.com/zammad/zammad" target="_blank">(Link)</a>
-- **Faveo Helpdesk** – Rozbudowany system obsługi zgłoszeń z panelem klienta <a href="https://github.com/faveosuite/faveo-helpdesk" target="_blank">(Link)</a>
-- **FreeScout** – Lekki helpdesk jako alternatywa dla HelpScout <a href="https://github.com/freescout-help-desk/freescout" target="_blank">(Link)</a>
-- **Asana** – SaaS do zarządzania projektami (brak self-host) <a href="https://asana.com/pl" target="_blank">(Link)</a>
+##### **Systemy**
+- **Home Assistant** – Automatyzacja domu <a href="https://www.home-assistant.io/" target="_blank">(Link)</a>  
+- **GetHomepage** – Strona główna aplikacji <a href="https://gethomepage.dev/" target="_blank">(Link)</a>  
+- **Heimdall** – Dashboard do aplikacji <a href="https://heimdall.site/" target="_blank">(Link)</a>  
+- **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>  
+- **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>  
+
+##### **Zarządzanie**
+- **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>  
+- **Vaultwarden** – Alternatywa self-hosted dla Bitwarden <a href="https://github.com/dani-garcia/vaultwarden" target="_blank">(Link)</a>  
+- **Plane** – System do zarządzania projektami <a href="https://github.com/makeplane/plane" target="_blank">(Link)</a>  
+- **Taskcafe** – Tablicowy system zarządzania zadaniami <a href="https://github.com/JordanKnott/taskcafe" target="_blank">(Link)</a>  
+- **Planka** – Alternatywa Trello <a href="https://github.com/plankanban/planka" target="_blank">(Link)</a>  
+- **Asana** – SaaS do zarządzania projektami <a href="https://asana.com/pl" target="_blank">(Link)</a>  
+
+##### **Komunikacja**
+- **Typebot** – Interaktywne chatboty <a href="https://github.com/baptisteArno/typebot.io" target="_blank">(Link)</a>  
+- **Formbricks** – Feedback i ankiety <a href="https://github.com/formbricks/formbricks" target="_blank">(Link)</a>  
+- **osTicket** – System zgłoszeniowy <a href="https://github.com/osTicket/osTicket" target="_blank">(Link)</a>  
+- **Helpy** – Helpdesk z bazą wiedzy <a href="https://github.com/helpyio/helpy" target="_blank">(Link)</a>  
+- **Zammad** – Helpdesk/ticketing <a href="https://github.com/zammad/zammad" target="_blank">(Link)</a>  
+- **Faveo Helpdesk** – Obsługa zgłoszeń z panelem klienta <a href="https://github.com/faveosuite/faveo-helpdesk" target="_blank">(Link)</a>  
+- **FreeScout** – Lekki helpdesk <a href="https://github.com/freescout-help-desk/freescout" target="_blank">(Link)</a>  
+
+##### **Produktywność**
+- **AppFlowy** – Alternatywa dla Notion <a href="https://github.com/AppFlowy-IO/AppFlowy" target="_blank">(Link)</a>  
+- **LibreOffice Docker** – Pakiet biurowy <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>  
+- **NocoDB** – Baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>  
+- **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>  
+
+##### **Narzędzia**
+- **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>  
+- **Dangerzone** – Konwersja dokumentów PDF <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>  
+- **Stirling PDF** – Edycja i łączenie PDF <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>  
+- **ConvertX** – Konwerter plików <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>  
+- **Excalidraw** – Edytor diagramów <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>  
+- **Draw.io (self-host)** – Diagramy online <a href="https://github.com/jgraph/drawio" target="_blank">(Link)</a>
 
 ---
 
