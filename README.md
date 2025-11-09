@@ -57,8 +57,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **TrueNAS Scale** – NAS z obsługą kontenerów <a href="https://www.truenas.com/truenas-scale/" target="_blank">(Link)</a>.
 - **UNAS Pro** – Rozwiązanie NAS dla profesjonalistów <a href="https://www.unas.com/" target="_blank">(Link)</a>.
 - **Nextcloud** – Chmura osobista <a href="https://nextcloud.com/" target="_blank">(Link)</a>.
-- **docker-dropbox-app** – Self-hosted Dropbox API w Dockerze <a href="https://github.com/rbonghi/docker-dropbox-app" target="_blank">(Link)</a>
-- **Files** – Udostępnianie plików lokalnie <a href="https://files.community/" target="_blank">(Link)</a>.
+- **docker-dropbox-app** – Self-hosted Dropbox API w Dockerze <a href="https://github.com/rbonghi/docker-dropbox-app" target="_blank">(Link)</a>.
+- **Syncthing** – Zdecentralizowana synchronizacja plików P2P z szyfrowaniem end-to-end i wersjonowaniem <a href="https://syncthing.net/" target="_blank">(Link)</a>.
 - **CasaOS** – System zarządzania aplikacjami domowymi <a href="https://casaos.io/" target="_blank">(Link)</a>.
 - **File Browser** – Menedżer plików przez przeglądarkę <a href="https://filebrowser.org/" target="_blank">(Link)</a>.
 - **HexOS** – System operacyjny dla środowiska NAS.
