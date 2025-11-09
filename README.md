@@ -210,6 +210,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 
 #### **Edytory i Środowiska Programistyczne**
 - **Visual Studio Code (VSCode)** – Edytor kodu <a href="https://code.visualstudio.com/" target="_blank">(Link)</a>.
+- **VSCodium** – Wersja open-source Visual Studio Code pozbawiona telemetrii <a href="https://vscodium.com/" target="_blank">(Link)</a>.
 - **GitHub** – Repozytorium kodu <a href="https://github.com/" target="_blank">(Link)</a>.
 
 ---
