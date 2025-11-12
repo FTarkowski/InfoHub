@@ -154,6 +154,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Jellyfin** – Serwer multimedialny open-source <a href="https://jellyfin.org/" target="_blank">(Link)</a>.
 - **PhotoPrism** – Zarządzanie zdjęciami <a href="https://github.com/photoprism/photoprism" target="_blank">(Link)</a>
 - **PhotoPrism w Portainer / Docker Compose** – Oficjalna konfiguracja <a href="https://docs.photoprism.app/getting-started/portainer/" target="_blank">(Docs)</a> | <a href="https://docs.photoprism.app/getting-started/docker-compose/" target="_blank">(Compose)</a>
+- **Immich** – Samohostowana platforma do zarządzania zdjęciami i wideo <a href="https://github.com/immich-app/immich" target="_blank">(Link)</a>
+- **HandBrake** – Open-source narzędzie do transkodowania wideo <a href="https://github.com/HandBrake/HandBrake" target="_blank">(Link)</a>
 - **SABnzbd** – Klient Usenet <a href="https://sabnzbd.org/" target="_blank">(Link)</a>.
 - **Transmission** – Klient BitTorrent <a href="https://transmissionbt.com/" target="_blank">(Link)</a>.
 - **qBittorrent** – Klient BitTorrent <a href="https://www.qbittorrent.org/" target="_blank">(Link)</a>.
@@ -193,9 +195,10 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **FreeScout** – Lekki helpdesk <a href="https://github.com/freescout-help-desk/freescout" target="_blank">(Link)</a>  
 
 ##### **Produktywność**
-- **AppFlowy** – Alternatywa dla Notion <a href="https://github.com/AppFlowy-IO/AppFlowy" target="_blank">(Link)</a>  
-- **LibreOffice Docker** – Pakiet biurowy <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>  
-- **NocoDB** – Baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>  
+- **AppFlowy** – Alternatywa dla Notion <a href="https://github.com/AppFlowy-IO/AppFlowy" target="_blank">(Link)</a>
+- **LibreOffice Docker** – Pakiet biurowy <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>
+- **ONLYOFFICE** – Pakiet biurowy do dokumentów, arkuszy i prezentacji <a href="https://github.com/ONLYOFFICE" target="_blank">(Link)</a>
+- **NocoDB** – Baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>
 - **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>  
 
 ##### **Narzędzia**
