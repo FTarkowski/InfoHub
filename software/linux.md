@@ -1,5 +1,5 @@
 # Linux – aplikacje desktopowe
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## System / Monitoring
 | Nazwa | Opis | Licencja | Self-hosted | Link |

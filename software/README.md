@@ -8,9 +8,9 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Self-hosted** – ikona 🟢 oznacza możliwość instalacji we własnej infrastrukturze, ⚪️ – aplikacja desktopowa/SaaS.
 
 ## Spis treści
-- [Serwerowe i storage](software/server.md)
-- [Multimedia i edycja](software/multimedia.md)
-- [Systemy i narzędzia IT](software/it-tools.md)
-- [Linux – aplikacje desktopowe](software/linux.md)
-- [Bezpieczeństwo i sieć](software/security.md)
-- [Edytory i środowiska programistyczne](software/editors.md)
+- [Serwerowe i storage](server.md)
+- [Multimedia i edycja](multimedia.md)
+- [Systemy i narzędzia IT](it-tools.md)
+- [Linux – aplikacje desktopowe](linux.md)
+- [Bezpieczeństwo i sieć](security.md)
+- [Edytory i środowiska programistyczne](editors.md)

@@ -64,7 +64,7 @@ SECTION_FILES = {
     },
 }
 
-README_TEMPLATE = """# Software Hub\nCentralny katalog aplikacji, systemów i narzędzi wspierających codzienną pracę administratorów oraz zespołów IT.\n\n## Jak czytać tabelę\n- **Nazwa** – nazwa projektu; kliknij ikonę 🔗, aby przejść do strony domowej.\n- **Opis** – jednozdaniowy opis funkcji rozwiązania.\n- **Licencja** – `Open Source` oznacza dostęp do kodu, `Proprietary` rozwiązania zamknięte.\n- **Self-hosted** – ikona 🟢 oznacza możliwość instalacji we własnej infrastrukturze, ⚪️ – aplikacja desktopowa/SaaS.\n\n## Spis treści\n- [Serwerowe i storage](software/server.md)\n- [Multimedia i edycja](software/multimedia.md)\n- [Systemy i narzędzia IT](software/it-tools.md)\n- [Linux – aplikacje desktopowe](software/linux.md)\n- [Bezpieczeństwo i sieć](software/security.md)\n- [Edytory i środowiska programistyczne](software/editors.md)\n"""
+README_TEMPLATE = """# Software Hub\nCentralny katalog aplikacji, systemów i narzędzi wspierających codzienną pracę administratorów oraz zespołów IT.\n\n## Jak czytać tabelę\n- **Nazwa** – nazwa projektu; kliknij ikonę 🔗, aby przejść do strony domowej.\n- **Opis** – jednozdaniowy opis funkcji rozwiązania.\n- **Licencja** – `Open Source` oznacza dostęp do kodu, `Proprietary` rozwiązania zamknięte.\n- **Self-hosted** – ikona 🟢 oznacza możliwość instalacji we własnej infrastrukturze, ⚪️ – aplikacja desktopowa/SaaS.\n\n## Spis treści\n- [Serwerowe i storage](server.md)\n- [Multimedia i edycja](multimedia.md)\n- [Systemy i narzędzia IT](it-tools.md)\n- [Linux – aplikacje desktopowe](linux.md)\n- [Bezpieczeństwo i sieć](security.md)\n- [Edytory i środowiska programistyczne](editors.md)\n"""
 
 
 def load_items():
@@ -85,7 +85,7 @@ def build_table(items):
 def write_sections(data):
     base = Path('software')
     for filename, conf in SECTION_FILES.items():
-        lines = [f"# {conf['title']}", 'Powrót: [Software Hub](../README.md)', '']
+        lines = [f"# {conf['title']}", 'Powrót: [Software Hub](README.md)', '']
         for category, label in conf['sections']:
             subset = [item for item in data if item['category'] == category]
             lines.append(f"## {label}")

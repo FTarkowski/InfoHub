@@ -1,5 +1,5 @@
 # Edytory i środowiska programistyczne
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## Edytory i IDE
 | Nazwa | Opis | Licencja | Self-hosted | Link |

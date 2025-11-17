@@ -1,5 +1,5 @@
 # Serwerowe i storage
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## Hiperwizory typu 1
 | Nazwa | Opis | Licencja | Self-hosted | Link |

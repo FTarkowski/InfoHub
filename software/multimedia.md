@@ -1,5 +1,5 @@
 # Multimedia i edycja
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## Aplikacje multimedialne
 | Nazwa | Opis | Licencja | Self-hosted | Link |

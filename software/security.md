@@ -1,5 +1,5 @@
 # Bezpieczeństwo i sieć
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## Analiza malware i RE
 | Nazwa | Opis | Licencja | Self-hosted | Link |

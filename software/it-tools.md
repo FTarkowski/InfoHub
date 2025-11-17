@@ -1,5 +1,5 @@
 # Systemy i narzędzia IT
-Powrót: [Software Hub](../README.md)
+Powrót: [Software Hub](README.md)
 
 ## Systemy i dashboardy
 | Nazwa | Opis | Licencja | Self-hosted | Link |
