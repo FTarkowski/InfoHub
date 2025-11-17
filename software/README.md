@@ -21,6 +21,14 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
     - [Zarządzanie plikami i obrazami](#zarzadzanie-plikami-i-obrazami)
     - [Programistyczne i narzędzia](#programistyczne-i-narzedzia)
     - [Notatki i organizacja](#notatki-i-organizacja)
+    - [Terminale i emulatory](#terminale-i-emulatory)
+    - [Edytory wideo](#edytory-wideo)
+    - [Serwery plików self-hosted](#serwery-plikow-self-hosted)
+    - [Analiza malware i reverse engineering](#analiza-malware-i-reverse-engineering)
+    - [VPN self-hosted](#vpn-self-hosted)
+    - [Menedżery plików](#menedzery-plikow)
+    - [Platformy IoT open-source](#platformy-iot-open-source)
+    - [Blokowanie reklam](#blokowanie-reklam)
   - [Edytory i Środowiska Programistyczne](#edytory-i-srodowiska-programistyczne)
 
 ---
@@ -158,9 +166,210 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Klevernotes** – Notatki z obsługą Markdown i folderów <a href="https://flathub.org/apps/org.kde.klevernotes" target="_blank">(Link)</a>.
 - **Iotas** – Minimalistyczna aplikacja do szybkich notatek (GNOME) <a href="https://flathub.org/apps/org.gnome.World.Iotas" target="_blank">(Link)</a>.
 
+##### Terminale i emulatory
+- **Alacritty** – Wydajny emulator terminala napisany w Rust <a href="https://github.com/alacritty/alacritty" target="_blank">(Link)</a>.
+- **Black Box** – Nowoczesny emulator terminala dla GNOME <a href="https://gitlab.gnome.org/raggesilver/blackbox" target="_blank">(Link)</a>.
+- **Contour** – Terminal z obsługą GPU i rozszerzonym renderingiem <a href="https://github.com/contour-terminal/contour" target="_blank">(Link)</a>.
+- **Foot** – Lekki emulator Wayland <a href="https://codeberg.org/dnkl/foot" target="_blank">(Link)</a>.
+- **GNOME Terminal** – Domyślny terminal środowiska GNOME <a href="https://gitlab.gnome.org/GNOME/gnome-terminal" target="_blank">(Link)</a>.
+- **Guake** – Terminal typu dropdown inspirowany Quake <a href="https://github.com/Guake/guake" target="_blank">(Link)</a>.
+- **Hyper** – Terminal oparty na technologiach webowych <a href="https://github.com/vercel/hyper" target="_blank">(Link)</a>.
+- **iTerm2** – Rozbudowany terminal dla macOS <a href="https://iterm2.com" target="_blank">(Link)</a>.
+- **Kitty** – Terminal z akceleracją GPU <a href="https://github.com/kovidgoyal/kitty" target="_blank">(Link)</a>.
+- **Konsole** – Emulator terminala KDE <a href="https://invent.kde.org/utilities/konsole" target="_blank">(Link)</a>.
+- **LXTerminal** – Lekki terminal środowiska LXDE <a href="https://github.com/lxde/lxterminal" target="_blank">(Link)</a>.
+- **M-x term / ansi-term / vterm** – Terminale wewnątrz Emacsa <a href="https://www.gnu.org/software/emacs/" target="_blank">(Link)</a>.
+- **st** – Minimalistyczny terminal suckless <a href="https://git.suckless.org/st" target="_blank">(Link)</a>.
+- **Terminator** – Terminal z podziałem okien <a href="https://github.com/gnome-terminator/terminator" target="_blank">(Link)</a>.
+- **Terminology** – Terminal środowiska Enlightenment <a href="https://github.com/Enlightenment/terminology" target="_blank">(Link)</a>.
+- **Tilix** – Terminal kafelkowy z sesjami <a href="https://github.com/gnunn1/tilix" target="_blank">(Link)</a>.
+- **urxvt** – Zaawansowany terminal RXVT-Unicode <a href="http://software.schmorp.de/pkg/rxvt-unicode.html" target="_blank">(Link)</a>.
+- **Warp** – Terminal z funkcjami współpracy <a href="https://www.warp.dev" target="_blank">(Link)</a>.
+- **WezTerm** – Terminal GPU z wbudowanym multiplexingiem <a href="https://github.com/wez/wezterm" target="_blank">(Link)</a>.
+- **Xfce4 Terminal** – Terminal środowiska Xfce <a href="https://gitlab.xfce.org/apps/xfce4-terminal" target="_blank">(Link)</a>.
+- **Xterm** – Klasyczny emulator terminala X11 <a href="https://invisible-island.net/xterm" target="_blank">(Link)</a>.
+
+##### Edytory wideo
+- **Olive** – Nieliniowy edytor wideo open-source <a href="https://github.com/olive-editor/olive" target="_blank">(Link)</a>.
+- **DaVinci Resolve** – Profesjonalny pakiet montażowy <a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank">(Link)</a>.
+- **Blender** – Kompleksowe środowisko 3D z montażem wideo <a href="https://www.blender.org" target="_blank">(Link)</a>.
+- **Reaper** – Zaawansowana stacja robocza audio-wideo <a href="https://www.reaper.fm" target="_blank">(Link)</a>.
+- **OpenShot** – Prostota montażu open-source <a href="https://github.com/OpenShot/openshot-qt" target="_blank">(Link)</a>.
+- **HandBrake** – Transkodowanie i konwersja materiałów wideo <a href="https://github.com/HandBrake/HandBrake" target="_blank">(Link)</a>.
+- **Shotcut** – Cross-platformowy edytor oparty na MLT <a href="https://github.com/mltframework/shotcut" target="_blank">(Link)</a>.
+- **FFmpeg** – Narzędzia CLI do obróbki audio/wideo <a href="https://github.com/FFmpeg/FFmpeg" target="_blank">(Link)</a>.
+- **Lightworks** – Profesjonalny NLE <a href="https://lwks.com" target="_blank">(Link)</a>.
+- **Pitivi** – Edytor wideo GNOME <a href="https://gitlab.gnome.org/GNOME/pitivi" target="_blank">(Link)</a>.
+- **Kdenlive** – Zaawansowany edytor KDE <a href="https://invent.kde.org/multimedia/kdenlive" target="_blank">(Link)</a>.
+- **OBS Studio** – Nagrywanie i streaming wideo <a href="https://github.com/obsproject/obs-studio" target="_blank">(Link)</a>.
+- **LiVES** – Edytor i VJ tool <a href="https://lives-video.com" target="_blank">(Link)</a>.
+- **Avidemux** – Edytor do szybkiej obróbki <a href="https://github.com/mean00/avidemux2" target="_blank">(Link)</a>.
+- **Flowblade** – Edytor NLE dla Linuksa <a href="https://github.com/jliljebl/flowblade" target="_blank">(Link)</a>.
+- **Cinelerra** – Profesjonalny montaż wideo <a href="https://cinelerra-gg.org" target="_blank">(Link)</a>.
+
+##### Serwery plików self-hosted
+- **TrueNAS** – Kompleksowy system NAS <a href="https://www.truenas.com" target="_blank">(Link)</a>.
+- **ProFTPD** – Wydajny serwer FTP <a href="https://github.com/proftpd/proftpd" target="_blank">(Link)</a>.
+- **MyDrive** – Prosty menedżer plików webowych <a href="https://github.com/Subarashii-kun/MyDrive" target="_blank">(Link)</a>.
+- **Seafile** – Prywatna chmura z synchronizacją <a href="https://github.com/haiwen/seafile" target="_blank">(Link)</a>.
+- **Nextcloud** – Kompletny pakiet współdzielenia plików <a href="https://github.com/nextcloud/server" target="_blank">(Link)</a>.
+- **SeaweedFS** – Rozproszony system plików <a href="https://github.com/seaweedfs/seaweedfs" target="_blank">(Link)</a>.
+- **GlusterFS** – Skalowalny system plików sieciowych <a href="https://github.com/gluster/glusterfs" target="_blank">(Link)</a>.
+- **vsftpd / FTPd** – Bezpieczny serwer FTP <a href="https://security.appspot.com/vsftpd.html" target="_blank">(Link)</a>.
+- **Pure-FTPd** – Lekki serwer FTP <a href="https://github.com/jedisct1/pure-ftpd" target="_blank">(Link)</a>.
+- **Garage** – Obiektowy storage kompatybilny z S3 <a href="https://github.com/garagehq/garage" target="_blank">(Link)</a>.
+- **sshfs** – Montowanie zasobów przez SSH <a href="https://github.com/libfuse/sshfs" target="_blank">(Link)</a>.
+- **Zenko** – Warstwa zarządzania storage multi-cloud <a href="https://github.com/scality/zenko" target="_blank">(Link)</a>.
+- **Pingvin Share** – Proste udostępnianie plików <a href="https://github.com/stonith404/pingvin-share" target="_blank">(Link)</a>.
+- **Pydio Cells** – Bezpieczna chmura plików <a href="https://github.com/pydio/cells" target="_blank">(Link)</a>.
+- **Sharry** – Wymiana plików z wygasaniem <a href="https://github.com/eikek/sharry" target="_blank">(Link)</a>.
+- **Samba** – Udostępnianie SMB/CIFS <a href="https://www.samba.org" target="_blank">(Link)</a>.
+- **Dufs** – Jednoplikiowy serwer plików HTTP <a href="https://github.com/sigoden/dufs" target="_blank">(Link)</a>.
+- **SFTPgo** – Serwer SFTP/FTP/HTTP z GUI <a href="https://github.com/drakkan/sftpgo" target="_blank">(Link)</a>.
+- **FileBrowser** – Menedżer plików w przeglądarce <a href="https://github.com/filebrowser/filebrowser" target="_blank">(Link)</a>.
+- **Duplicati** – Backup w chmurze i lokalnie <a href="https://github.com/duplicati/duplicati" target="_blank">(Link)</a>.
+- **Syncthing** – Synchronizacja P2P <a href="https://github.com/syncthing/syncthing" target="_blank">(Link)</a>.
+- **Syncany** – Synchronizacja z szyfrowaniem <a href="https://github.com/syncany/syncany" target="_blank">(Link)</a>.
+- **NFS** – Klasyczny protokół udostępniania plików <a href="https://kernel.org" target="_blank">(Link)</a>.
+- **ProjectSend** – Portal do udostępniania plików klientom <a href="https://github.com/ignacionelson/ProjectSend" target="_blank">(Link)</a>.
+- **CephFS** – Rozproszony system plików Ceph <a href="https://github.com/ceph/ceph" target="_blank">(Link)</a>.
+- **OpenMediaVault** – System NAS dla serwerów domowych <a href="https://github.com/openmediavault/openmediavault" target="_blank">(Link)</a>.
+
+##### Analiza malware i reverse engineering
+- **Radare2** – Rama do analizy binariów <a href="https://github.com/radareorg/radare2" target="_blank">(Link)</a>.
+- **Bytecode Viewer** – Analiza bytecode JVM <a href="https://github.com/Konloch/bytecode-viewer" target="_blank">(Link)</a>.
+- **Hopper** – Komercyjny disassembler <a href="https://www.hopperapp.com" target="_blank">(Link)</a>.
+- **Angr** – Silnik analizy symbolicznej <a href="https://github.com/angr/angr" target="_blank">(Link)</a>.
+- **Ghidra** – Framework NSA do RE <a href="https://github.com/NationalSecurityAgency/ghidra" target="_blank">(Link)</a>.
+- **Frida** – Instrumentacja dynamiczna <a href="https://github.com/frida/frida" target="_blank">(Link)</a>.
+- **PyREBox** – Piaskownica do analizy malware <a href="https://github.com/Cisco-Talos/pyrebox" target="_blank">(Link)</a>.
+- **JD-GUI** – Decompiler Java <a href="https://github.com/java-decompiler/jd-gui" target="_blank">(Link)</a>.
+- **Volatility** – Analiza pamięci RAM <a href="https://github.com/volatilityfoundation/volatility" target="_blank">(Link)</a>.
+- **YARA** – Reguły wykrywania malware <a href="https://github.com/VirusTotal/yara" target="_blank">(Link)</a>.
+- **Wireshark** – Analiza ruchu sieciowego <a href="https://gitlab.com/wireshark/wireshark" target="_blank">(Link)</a>.
+- **OllyDbg** – Debugger Windows <a href="http://www.ollydbg.de" target="_blank">(Link)</a>.
+- **Apktool** – Inżynieria wsteczna aplikacji Android <a href="https://github.com/iBotPeaches/Apktool" target="_blank">(Link)</a>.
+- **REMnux** – Dystrybucja do analizy malware <a href="https://remnux.org" target="_blank">(Link)</a>.
+- **wxHexEditor** – Hex editor dla dużych plików <a href="https://github.com/EUA/wxHexEditor" target="_blank">(Link)</a>.
+- **Capstone** – Silnik disassemblingu <a href="https://github.com/capstone-engine/capstone" target="_blank">(Link)</a>.
+
+##### VPN self-hosted
+- **OpenVPN** – Popularne rozwiązanie VPN <a href="https://github.com/OpenVPN/openvpn" target="_blank">(Link)</a>.
+- **Pritunl** – Panel zarządzania OpenVPN/WireGuard <a href="https://github.com/pritunl/pritunl" target="_blank">(Link)</a>.
+- **Tailscale** – VPN typu mesh na bazie WireGuard <a href="https://github.com/tailscale/tailscale" target="_blank">(Link)</a>.
+- **PiVPN** – Skrypty do wdrożenia VPN na Raspberry Pi <a href="https://github.com/pivpn/pivpn" target="_blank">(Link)</a>.
+- **Psiphon** – Sieć VPN i obfuskacja ruchu <a href="https://github.com/Psiphon-Labs/psiphon" target="_blank">(Link)</a>.
+- **strongSwan** – IPsec VPN dla Linuksa <a href="https://github.com/strongswan/strongswan" target="_blank">(Link)</a>.
+- **SoftEther** – Wieloprotokołowy serwer VPN <a href="https://github.com/SoftEtherVPN/SoftEtherVPN" target="_blank">(Link)</a>.
+- **tinc** – VPN mesh z szyfrowaniem <a href="https://github.com/gsliepen/tinc" target="_blank">(Link)</a>.
+- **ZeroTier** – Wirtualne sieci SD-WAN <a href="https://github.com/zerotier/ZeroTierOne" target="_blank">(Link)</a>.
+- **Amnezia VPN** – Samohostowany klient/serwer VPN <a href="https://github.com/amnezia-vpn/amnezia-client" target="_blank">(Link)</a>.
+- **OPNsense** – Firewall/VPN BSD <a href="https://opnsense.org" target="_blank">(Link)</a>.
+- **Firezone** – VPN oparty na WireGuard z GUI <a href="https://github.com/firezone/firezone" target="_blank">(Link)</a>.
+- **NetBird** – Alternatywa Tailscale <a href="https://github.com/netbirdio/netbird" target="_blank">(Link)</a>.
+- **Libreswan** – Implementacja IPsec <a href="https://github.com/libreswan/libreswan" target="_blank">(Link)</a>.
+- **WireGuard Easy** – Prosty interfejs do WireGuard <a href="https://github.com/wg-easy/wg-easy" target="_blank">(Link)</a>.
+- **pfSense** – Firewall/VPN FreeBSD <a href="https://www.pfsense.org" target="_blank">(Link)</a>.
+
+##### Menedżery plików
+- **nnn** – Terminalowy menedżer plików <a href="https://github.com/jarun/nnn" target="_blank">(Link)</a>.
+- **Nemo** – Menedżer środowiska Cinnamon <a href="https://github.com/linuxmint/nemo" target="_blank">(Link)</a>.
+- **Joshuto** – Menedżer terminalowy z interfejsem TUI <a href="https://github.com/kamiyaa/joshuto" target="_blank">(Link)</a>.
+- **Caja** – Menedżer MATE <a href="https://github.com/mate-desktop/caja" target="_blank">(Link)</a>.
+- **Vifm** – Menedżer w stylu Vim <a href="https://github.com/vifm/vifm" target="_blank">(Link)</a>.
+- **PCManFM** – Lekki menedżer LXDE/LXQt <a href="https://github.com/lxde/pcmanfm" target="_blank">(Link)</a>.
+- **Thunar** – Menedżer środowiska Xfce <a href="https://gitlab.xfce.org/xfce/thunar" target="_blank">(Link)</a>.
+- **Ranger** – Menedżer konsolowy z podglądem <a href="https://github.com/ranger/ranger" target="_blank">(Link)</a>.
+- **Dolphin** – Rozbudowany menedżer KDE <a href="https://invent.kde.org/system/dolphin" target="_blank">(Link)</a>.
+- **Midnight Commander** – Klasyczny menedżer tekstowy <a href="https://github.com/MidnightCommander/mc" target="_blank">(Link)</a>.
+- **Double Commander** – Dwupanelowy menedżer multi-platformowy <a href="https://github.com/doublecmd/doublecmd" target="_blank">(Link)</a>.
+- **Konqueror** – Przeglądarka i menedżer KDE <a href="https://invent.kde.org/network/konqueror" target="_blank">(Link)</a>.
+- **Nautilus** – Menedżer GNOME <a href="https://gitlab.gnome.org/GNOME/nautilus" target="_blank">(Link)</a>.
+- **Krusader** – Zaawansowany menedżer plików dla KDE <a href="https://invent.kde.org/utilities/krusader" target="_blank">(Link)</a>.
+- **Sunflower** – Lekki menedżer z dwoma panelami <a href="https://github.com/MeanEYE/Sunflower" target="_blank">(Link)</a>.
+- **Clifm** – Menedżer terminalowy typu "Command Line Interface File Manager" <a href="https://github.com/pascl/clifm" target="_blank">(Link)</a>.
+
+##### Platformy IoT open-source
+- **Home Assistant** – Automatyzacja domu <a href="https://github.com/home-assistant/core" target="_blank">(Link)</a>.
+- **OpenHAB** – Platforma automatyki domowej <a href="https://github.com/openhab/openhab-core" target="_blank">(Link)</a>.
+- **Mainflux** – Platforma IoT z microserwisami <a href="https://github.com/mainflux/mainflux" target="_blank">(Link)</a>.
+- **DeviceHive** – Zestaw narzędzi i protokołów IoT <a href="https://github.com/devicehive/devicehive" target="_blank">(Link)</a>.
+- **WaziGate** – Edge gateway IoT <a href="https://github.com/Waziup/wazigate-edge" target="_blank">(Link)</a>.
+- **ChirpStack** – Stos sieci LoRaWAN <a href="https://github.com/chirpstack" target="_blank">(Link)</a>.
+- **Domoticz** – Lekka platforma domowa <a href="https://github.com/domoticz/domoticz" target="_blank">(Link)</a>.
+- **Eclipse Kura** – Middleware IoT w Javie <a href="https://github.com/eclipse/kura" target="_blank">(Link)</a>.
+- **SensorBee** – Strumieniowe przetwarzanie danych IoT <a href="https://github.com/sensorbee/sensorbee" target="_blank">(Link)</a>.
+- **Gladys Assistant** – Asystent domowy <a href="https://github.com/GladysAssistant/Gladys" target="_blank">(Link)</a>.
+- **SiteWhere** – Platforma IoT na mikroserwisach <a href="https://github.com/sitewhere/sitewhere" target="_blank">(Link)</a>.
+- **Zetta** – API-first middleware IoT <a href="https://github.com/zettajs/zetta" target="_blank">(Link)</a>.
+- **IoTivity** – Standard komunikacji IoT <a href="https://github.com/iotivity/iotivity-lite" target="_blank">(Link)</a>.
+- **MySensors** – Sieci czujników DIY <a href="https://github.com/mysensors/MySensors" target="_blank">(Link)</a>.
+- **EdgeX Foundry** – Mikroserwisy IoT sterowane wydarzeniami <a href="https://github.com/edgexfoundry" target="_blank">(Link)</a>.
+- **ThingsBoard** – Platforma IoT z dashboardami <a href="https://github.com/thingsboard/thingsboard" target="_blank">(Link)</a>.
+
+##### Blokowanie reklam
+**Przeglądarki z blokowaniem**
+- **Brave** – Przeglądarka z wbudowanym Shield <a href="https://github.com/brave/brave-browser" target="_blank">(Link)</a>.
+- **Vivaldi** – Przeglądarka z blokadą trackerów <a href="https://vivaldi.com" target="_blank">(Link)</a>.
+- **Opera** – Wbudowany ad-blocker i VPN <a href="https://www.opera.com" target="_blank">(Link)</a>.
+- **Epic Browser** – Prywatna przeglądarka <a href="https://epicbrowser.com" target="_blank">(Link)</a>.
+- **DuckDuckGo Browser** – Mobilna przeglądarka z blokowaniem śledzenia <a href="https://duckduckgo.com/app" target="_blank">(Link)</a>.
+
+**Rozszerzenia przeglądarkowe**
+- **AdGuard** – Rozszerzenie blokujące reklamy i trackery <a href="https://github.com/AdguardTeam/AdguardBrowserExtension" target="_blank">(Link)</a>.
+- **AdBlock** – Klasyczny blokad reklam <a href="https://getadblock.com" target="_blank">(Link)</a>.
+- **uBlock Origin** – Lekki i skuteczny bloker <a href="https://github.com/gorhill/uBlock" target="_blank">(Link)</a>.
+- **NoScript** – Blokowanie skryptów w przeglądarce <a href="https://github.com/hackademix/noscript" target="_blank">(Link)</a>.
+- **Privacy Badger** – Blokowanie trackerów EFF <a href="https://github.com/EFForg/privacybadger" target="_blank">(Link)</a>.
+- **Ghostery** – Ochrona prywatności i blokowanie śledzenia <a href="https://www.ghostery.com" target="_blank">(Link)</a>.
+- **AdBlocker Ultimate** – Otwartoźródłowy bloker reklam <a href="https://github.com/adblockultimate/AdBlocker-Ultimate" target="_blank">(Link)</a>.
+
+**Rozwiązania DNS**
+- **StevenBlack Hosts** – Zbiorcze listy hostów <a href="https://github.com/StevenBlack/hosts" target="_blank">(Link)</a>.
+- **DNS66** – Filtrowanie DNS na Androidzie <a href="https://github.com/julian-klode/dns66" target="_blank">(Link)</a>.
+- **AdGuard DNS** – Prywatny DNS z blokowaniem reklam <a href="https://adguard-dns.io" target="_blank">(Link)</a>.
+- **hBlock** – Skrypt generujący hostfile <a href="https://github.com/hectorm/hblock" target="_blank">(Link)</a>.
+- **Pi-hole** – Sieciowy DNS sinkhole <a href="https://github.com/pi-hole/pi-hole" target="_blank">(Link)</a>.
+- **Technitium DNS** – Serwer DNS z filtrowaniem <a href="https://github.com/TechnitiumSoftware/DnsServer" target="_blank">(Link)</a>.
+
+**Zapory i firewalle**
+- **OpenSnitch** – Firewall aplikacyjny <a href="https://github.com/evilsocket/opensnitch" target="_blank">(Link)</a>.
+- **Lockdown** – Firewall i VPN prywatności <a href="https://lockdownprivacy.com" target="_blank">(Link)</a>.
+- **pfBlockerNG** – Blokowanie DNS/IP w pfSense <a href="https://github.com/pfsense/FreeBSD-ports/tree/devel/net/pfblockerng" target="_blank">(Link)</a>.
+
+**Serwery proxy**
+- **Privoxy** – Filtrujący proxy HTTP <a href="https://www.privoxy.org" target="_blank">(Link)</a>.
+- **Squid** – Popularny proxy z filtracją <a href="http://www.squid-cache.org" target="_blank">(Link)</a>.
+- **Zen** – Reguły filtrujące dla proxy <a href="https://github.com/zenfilters/zen" target="_blank">(Link)</a>.
+
 ---
 
 #### Edytory i Środowiska Programistyczne
-- **Visual Studio Code (VSCode)** – Edytor kodu <a href="https://code.visualstudio.com/" target="_blank">(Link)</a>.
+- **Visual Studio Code (VSCode)** – Popularny edytor kodu <a href="https://code.visualstudio.com/" target="_blank">(Link)</a>.
 - **VSCodium** – Wersja open-source Visual Studio Code pozbawiona telemetrii <a href="https://vscodium.com/" target="_blank">(Link)</a>.
-- **GitHub** – Repozytorium kodu <a href="https://github.com/" target="_blank">(Link)</a>.
+- **GitHub** – Repozytorium kodu i współpracy <a href="https://github.com/" target="_blank">(Link)</a>.
+- **Gedit** – Lekki edytor GNOME <a href="https://gitlab.gnome.org/GNOME/gedit" target="_blank">(Link)</a>.
+- **Notepads** – Nowoczesny edytor UWP <a href="https://github.com/0x7c13/notepads" target="_blank">(Link)</a>.
+- **Atom** – Rozszerzalny edytor od GitHub <a href="https://github.com/atom/atom" target="_blank">(Link)</a>.
+- **JED** – Prosty edytor tekstowy dla terminala <a href="https://www.jedsoft.org" target="_blank">(Link)</a>.
+- **Lapce** – Wydajny edytor w Rust <a href="https://github.com/lapce/lapce" target="_blank">(Link)</a>.
+- **Mousepad** – Lekki edytor Xfce <a href="https://gitlab.xfce.org/apps/mousepad" target="_blank">(Link)</a>.
+- **Pico** – Klasyczny edytor konsolowy <a href="https://www.nano-editor.org/dist/v2.1/nano.html#Pico" target="_blank">(Link)</a>.
+- **Micro** – Terminalowy edytor z obsługą myszki <a href="https://github.com/zyedidia/micro" target="_blank">(Link)</a>.
+- **Geany** – Lekki IDE z obsługą wielu języków <a href="https://github.com/geany/geany" target="_blank">(Link)</a>.
+- **Notepadqq** – Alternatywa Notepad++ dla Linuksa <a href="https://github.com/notepadqq/notepadqq" target="_blank">(Link)</a>.
+- **FeatherPad** – Edytor Qt z zakładkami <a href="https://github.com/tsujan/FeatherPad" target="_blank">(Link)</a>.
+- **Kakoune** – Edytor modalny inspirowany Vim <a href="https://github.com/mawww/kakoune" target="_blank">(Link)</a>.
+- **JOE** – Joe's Own Editor <a href="https://sourceforge.net/projects/joe-editor/" target="_blank">(Link)</a>.
+- **Zee** – Terminalowy edytor w Rust <a href="https://github.com/zee-editor/zee" target="_blank">(Link)</a>.
+- **Sublime Text** – Wydajny edytor z pluginami <a href="https://www.sublimetext.com" target="_blank">(Link)</a>.
+- **SciTE** – Edytor bazujący na Scintilla <a href="https://github.com/scintillaorg/scite" target="_blank">(Link)</a>.
+- **ash** – Minimalistyczny edytor tekstu <a href="https://github.com/ash-shell/ash" target="_blank">(Link)</a>.
+- **Emacs** – Rozszerzalny edytor Lisp <a href="https://git.savannah.gnu.org/git/emacs.git" target="_blank">(Link)</a>.
+- **Brackets** – Edytor webowy <a href="https://github.com/brackets-cont/brackets" target="_blank">(Link)</a>.
+- **jEdit** – Edytor w Javie <a href="https://github.com/jedit/jedit" target="_blank">(Link)</a>.
+- **Kate** – Rozbudowany edytor KDE <a href="https://invent.kde.org/utilities/kate" target="_blank">(Link)</a>.
+- **Xed** – Edytor środowiska Cinnamon <a href="https://github.com/linuxmint/xed" target="_blank">(Link)</a>.
+- **Neovim** – Nowoczesny fork Vima <a href="https://github.com/neovim/neovim" target="_blank">(Link)</a>.
+- **Vim** – Klasyczny edytor modalny <a href="https://github.com/vim/vim" target="_blank">(Link)</a>.
+- **Nano** – Przyjazny edytor terminalowy <a href="https://git.savannah.gnu.org/git/nano.git" target="_blank">(Link)</a>.
