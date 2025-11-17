@@ -8,6 +8,7 @@ InfoHub to centralne miejsce do przechowywania opisów technologii, aplikacji i 
 | 🌐 | [Networking](networking/README.md) | Firewall, routery, monitoring oraz usługi DNS i proxy. |
 | ⚙️ | [DevOps & Automation](devops/README.md) | Konteneryzacja, orkiestracja, automatyzacja oraz zdalne zarządzanie. |
 | 🤖 | [AI & Kreatywność](ai/README.md) | Narzędzia wspierane sztuczną inteligencją i kreatywne usługi. |
+| 🧅 | [TOR & Darknet](tor/README.md) | Narzędzia do pracy z siecią Tor, katalogi onion i OSINT dark web. |
 
 ## 📎 Dodatkowe materiały
 - [Projekt Ansible + Semaphore](<Ansible prj/README.md>)
