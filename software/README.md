@@ -1,0 +1,166 @@
+# 🧩 Software Hub
+Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pracę administratorów oraz zespołów IT.
+
+## 🧭 Spis treści
+- [Oprogramowania](#oprogramowania)
+  - [Serwerowe](#serwerowe)
+    - [Hiperwizor typu 1](#hiperwizor-typu-1)
+    - [Hiperwizor typu 2](#hiperwizor-typu-2)
+    - [NAS, Chmura, Synchronizacja](#nas-chmura-synchronizacja)
+    - [Zarządzanie Danymi i Backup](#zarzadzanie-danymi-i-backup)
+    - [ERP i Zarządzanie Firmą](#erp-i-zarzadzanie-firma)
+  - [Aplikacje Multimedialne](#aplikacje-multimedialne)
+  - [Aplikacje i Narzędzia IT](#aplikacje-i-narzedzia-it)
+    - [Systemy](#systemy)
+    - [Zarządzanie](#zarzadzanie)
+    - [Komunikacja](#komunikacja)
+    - [Produktywność](#produktywnosc)
+    - [Narzędzia](#narzedzia)
+  - [Linux – Aplikacje](#linux--aplikacje)
+    - [System / Monitoring](#system--monitoring)
+    - [Zarządzanie plikami i obrazami](#zarzadzanie-plikami-i-obrazami)
+    - [Programistyczne i narzędzia](#programistyczne-i-narzedzia)
+    - [Notatki i organizacja](#notatki-i-organizacja)
+  - [Edytory i Środowiska Programistyczne](#edytory-i-srodowiska-programistyczne)
+
+---
+
+### Oprogramowania
+
+#### Serwerowe
+
+##### Hiperwizor typu 1
+<!--<img src="https://cdn.simpleicons.org/proxmox/E57000" width="16" height="16"/> -->
+- **Proxmox** – Platforma wirtualizacji serwerów <a href="https://www.proxmox.com/" target="_blank">(Link)</a>.
+- **VMware ESXi** – Rozwiązanie do wirtualizacji serwerów <a href="https://www.vmware.com/" target="_blank">(Link)</a>.
+- **Hyper-V** – Wirtualizacja Microsoft <a href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/" target="_blank">(Link)</a>.
+
+##### Hiperwizor typu 2
+- **VirtualBox** – Wirtualizacja na systemie operacyjnym <a href="https://www.virtualbox.org/" target="_blank">(Link)</a>.
+
+##### NAS, Chmura, Synchronizacja
+- **TrueNAS** – Oprogramowanie NAS <a href="https://www.truenas.com/" target="_blank">(Link)</a>.
+- **TrueNAS Scale** – NAS z obsługą kontenerów <a href="https://www.truenas.com/truenas-scale/" target="_blank">(Link)</a>.
+- **UNAS Pro** – Rozwiązanie NAS dla profesjonalistów <a href="https://www.unas.com/" target="_blank">(Link)</a>.
+- **Nextcloud** – Chmura osobista <a href="https://nextcloud.com/" target="_blank">(Link)</a>.
+- **docker-dropbox-app** – Self-hosted Dropbox API w Dockerze <a href="https://github.com/rbonghi/docker-dropbox-app" target="_blank">(Link)</a>.
+- **Syncthing** – Zdecentralizowana synchronizacja plików P2P z szyfrowaniem end-to-end i wersjonowaniem <a href="https://syncthing.net/" target="_blank">(Link)</a>.
+- **CasaOS** – System zarządzania aplikacjami domowymi <a href="https://casaos.io/" target="_blank">(Link)</a>.
+- **File Browser** – Menedżer plików przez przeglądarkę <a href="https://filebrowser.org/" target="_blank">(Link)</a>.
+- **HexOS** – System operacyjny dla środowiska NAS.
+- **OpenMediaVault** – Rozwiązanie NAS oparte na Debianie <a href="https://www.openmediavault.org/" target="_blank">(Link)</a>.
+- **openmediavault-webdesk** – GUI dla OMV w Docker Compose <a href="https://github.com/TwanoO67/omv-web-desk" target="_blank">(Link)</a>
+- **Unraid** – System operacyjny dla serwerów NAS z obsługą wirtualizacji i Docker <a href="https://unraid.net/" target="_blank">(Link)</a>.
+- **Portainer + Nextcloud stack** – docker-compose do prostego wdrożenia portainer/nextcloud <a href="https://github.com/tv0ll/portainer-nextcloud" target="_blank">(Link)</a>
+
+##### Zarządzanie Danymi i Backup
+- **Proxmox Backup Server (PBS)** – Backup dla Proxmox <a href="https://www.proxmox.com/en/proxmox-backup-server" target="_blank">(Link)</a>.
+
+##### ERP i Zarządzanie Firmą
+- **ERPNext** – Oprogramowanie ERP oparte na Pythonie <a href="https://github.com/frappe/erpnext" target="_blank">(Link)</a>.
+
+---
+
+#### Aplikacje Multimedialne
+- **Plex** – Strumieniowanie multimediów <a href="https://www.plex.tv/" target="_blank">(Link)</a>.
+- **Sonarr** – Pobieranie seriali <a href="https://sonarr.tv/" target="_blank">(Link)</a>.
+- **Radarr** – Pobieranie filmów <a href="https://radarr.video/" target="_blank">(Link)</a>.
+- **Jellyfin** – Serwer multimedialny open-source <a href="https://jellyfin.org/" target="_blank">(Link)</a>.
+- **PhotoPrism** – Zarządzanie zdjęciami <a href="https://github.com/photoprism/photoprism" target="_blank">(Link)</a>
+- **PhotoPrism w Portainer / Docker Compose** – Oficjalna konfiguracja <a href="https://docs.photoprism.app/getting-started/portainer/" target="_blank">(Docs)</a> | <a href="https://docs.photoprism.app/getting-started/docker-compose/" target="_blank">(Compose)</a>
+- **Immich** – Samohostowana platforma do zarządzania zdjęciami i wideo <a href="https://github.com/immich-app/immich" target="_blank">(Link)</a>
+- **HandBrake** – Open-source narzędzie do transkodowania wideo <a href="https://github.com/HandBrake/HandBrake" target="_blank">(Link)</a>
+- **SABnzbd** – Klient Usenet <a href="https://sabnzbd.org/" target="_blank">(Link)</a>.
+- **Transmission** – Klient BitTorrent <a href="https://transmissionbt.com/" target="_blank">(Link)</a>.
+- **qBittorrent** – Klient BitTorrent <a href="https://www.qbittorrent.org/" target="_blank">(Link)</a>.
+- **Qui** – Webowy frontend do zarządzania autobrr i automatycznymi pobraniami <a href="https://github.com/autobrr/qui" target="_blank">(Link)</a>.
+- **Whisparr** – Zarządzanie treściami <a href="https://github.com/Whisparr/Whisparr" target="_blank">(Link)</a>.
+- **Bazarr** – Napisy do multimediów <a href="https://www.bazarr.media/" target="_blank">(Link)</a>.
+- **Prowlarr** – Indeksatory do PVR <a href="https://prowlarr.com/" target="_blank">(Link)</a>.
+- **Jellyseer** – Zarządzanie żądaniami Jellyfin <a href="https://github.com/Fallenbagel/jellyseerr" target="_blank">(Link)</a>.
+- **Jitsi** – Open-source platforma wideokonferencyjna <a href="https://github.com/jitsi" target="_blank">(Link)</a>.
+- **OpenBooks** – Biblioteka e-booków (brak linku)
+
+---
+
+#### Aplikacje i Narzędzia IT
+
+##### Systemy
+- **Home Assistant** – Automatyzacja domu <a href="https://www.home-assistant.io/" target="_blank">(Link)</a>
+- **GetHomepage** – Strona główna aplikacji <a href="https://gethomepage.dev/" target="_blank">(Link)</a>
+- **Heimdall** – Dashboard do aplikacji <a href="https://heimdall.site/" target="_blank">(Link)</a>
+- **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>
+- **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>
+- **Homie** – Lekka strona-startowa i dashboard linków dla self-hosted <a href="https://github.com/Brramble/homie" target="_blank">(Link)</a>
+
+##### Zarządzanie
+- **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>
+- **Vaultwarden** – Alternatywa self-hosted dla Bitwarden <a href="https://github.com/dani-garcia/vaultwarden" target="_blank">(Link)</a>
+- **Plane** – System do zarządzania projektami <a href="https://github.com/makeplane/plane" target="_blank">(Link)</a>
+- **Taskcafe** – Tablicowy system zarządzania zadaniami <a href="https://github.com/JordanKnott/taskcafe" target="_blank">(Link)</a>
+- **Planka** – Alternatywa Trello <a href="https://github.com/plankanban/planka" target="_blank">(Link)</a>
+- **Asana** – SaaS do zarządzania projektami <a href="https://asana.com/pl" target="_blank">(Link)</a>
+
+##### Komunikacja
+- **Typebot** – Interaktywne chatboty <a href="https://github.com/baptisteArno/typebot.io" target="_blank">(Link)</a>
+- **Formbricks** – Feedback i ankiety <a href="https://github.com/formbricks/formbricks" target="_blank">(Link)</a>
+- **osTicket** – System zgłoszeniowy <a href="https://github.com/osTicket/osTicket" target="_blank">(Link)</a>
+- **Helpy** – Helpdesk z bazą wiedzy <a href="https://github.com/helpyio/helpy" target="_blank">(Link)</a>
+- **Zammad** – Helpdesk/ticketing <a href="https://github.com/zammad/zammad" target="_blank">(Link)</a>
+- **Faveo Helpdesk** – Obsługa zgłoszeń z panelem klienta <a href="https://github.com/faveosuite/faveo-helpdesk" target="_blank">(Link)</a>
+- **FreeScout** – Lekki helpdesk <a href="https://github.com/freescout-help-desk/freescout" target="_blank">(Link)</a>
+
+##### Produktywność
+- **AppFlowy** – Alternatywa dla Notion <a href="https://github.com/AppFlowy-IO/AppFlowy" target="_blank">(Link)</a>
+- **LibreOffice Docker** – Pakiet biurowy <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>
+- **ONLYOFFICE** – Pakiet biurowy do dokumentów, arkuszy i prezentacji <a href="https://github.com/ONLYOFFICE" target="_blank">(Link)</a>
+- **NocoDB** – Baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>
+- **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>
+- **Velld** – Prosty menedżer zadań i notatek w stylu Markdown <a href="https://github.com/dendianugerah/velld" target="_blank">(Link)</a>
+- **IronCalc** – Arkusz kalkulacyjny online z obsługą formuł i importów <a href="https://github.com/ironcalc/IronCalc" target="_blank">(Link)</a>
+- **Paperless-ngx** – System OCR i zarządzania dokumentami dla self-hosted <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank">(Link)</a>
+
+##### Narzędzia
+- **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>
+- **Dangerzone** – Konwersja dokumentów PDF <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>
+- **Stirling PDF** – Edycja i łączenie PDF <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>
+- **ConvertX** – Konwerter plików <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>
+- **Excalidraw** – Edytor diagramów <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>
+- **Draw.io (self-host)** – Diagramy online <a href="https://github.com/jgraph/drawio" target="_blank">(Link)</a>
+
+---
+
+#### Linux – Aplikacje
+
+##### System / Monitoring
+- **Resources** – Monitor zasobów (CPU, RAM, sieć, procesy) w GTK <a href="https://github.com/nokyan/resources" target="_blank">(Link)</a>.
+- **Mission Center** – Zaawansowany monitor systemu z rozbudowanym UI <a href="https://flathub.org/apps/io.missioncenter.MissionCenter" target="_blank">(Link)</a>.
+- **Monitorets** – Minimalistyczny monitor zasobów z wykresami <a href="https://flathub.org/apps/io.github.jorchube.monitorets" target="_blank">(Link)</a>.
+- **LACT** – Kontroler GPU AMD (taktowania, limity mocy, profile) <a href="https://flathub.org/apps/io.github.ilgarmehmetali.lact" target="_blank">(Link)</a>.
+- **Gear Lever** – Narzędzie do montowania i zarządzania dyskami <a href="https://flathub.org/apps/it.mijorus.gearlever" target="_blank">(Link)</a>.
+- **PiMan** – Dashboard do monitoringu Raspberry Pi (temperatura, CPU, RAM) <a href="https://github.com/GalwayCal/piman" target="_blank">(Link)</a>.
+- **GPU Hot** – Monitor temperatur i użycia GPU <a href="https://github.com/psalias2006/gpu-hot" target="_blank">(Link)</a>.
+
+##### Zarządzanie plikami i obrazami
+- **Switcheroo** – Batch resize i konwersja obrazów <a href="https://flathub.org/apps/io.gitlab.adhami3310.Switcheroo" target="_blank">(Link)</a>.
+- **Converseen** – Zaawansowana konwersja i kompresja obrazów <a href="https://flathub.org/apps/net.fasterland.converseen" target="_blank">(Link)</a>.
+- **Pipeline** – Budowanie i uruchamianie pipeline'ów bez skryptów <a href="https://gitlab.com/schmiddi-on-mobile/pipeline" target="_blank">(Link)</a>.
+
+##### Programistyczne i narzędzia
+- **DevToolbox** – Zbiór narzędzi developerskich (JSON, hash, Base64) <a href="https://flathub.org/apps/me.iepure.devtoolbox" target="_blank">(Link)</a>.
+- **Clapgrep** – GUI do szybkiego wyszukiwania w plikach <a href="https://flathub.org/apps/de.leopoldluley.Clapgrep" target="_blank">(Link)</a>.
+- **Warehouse** – Menedżer Flatpaków do instalacji i uprawnień <a href="https://flathub.org/apps/io.github.flattool.Warehouse" target="_blank">(Link)</a>.
+
+##### Notatki i organizacja
+- **Speech Note** – Notatki głosowe z transkrypcją STT <a href="https://flathub.org/apps/net.mkiol.SpeechNote" target="_blank">(Link)</a>.
+- **Errands** – Minimalistyczny menedżer zadań w stylu GNOME <a href="https://flathub.org/apps/io.github.mrvladus.List" target="_blank">(Link)</a>.
+- **Planify** – Rozbudowany menedżer zadań z synchronizacją <a href="https://flathub.org/apps/io.github.alainm23.planify" target="_blank">(Link)</a>.
+- **Klevernotes** – Notatki z obsługą Markdown i folderów <a href="https://flathub.org/apps/org.kde.klevernotes" target="_blank">(Link)</a>.
+- **Iotas** – Minimalistyczna aplikacja do szybkich notatek (GNOME) <a href="https://flathub.org/apps/org.gnome.World.Iotas" target="_blank">(Link)</a>.
+
+---
+
+#### Edytory i Środowiska Programistyczne
+- **Visual Studio Code (VSCode)** – Edytor kodu <a href="https://code.visualstudio.com/" target="_blank">(Link)</a>.
+- **VSCodium** – Wersja open-source Visual Studio Code pozbawiona telemetrii <a href="https://vscodium.com/" target="_blank">(Link)</a>.
+- **GitHub** – Repozytorium kodu <a href="https://github.com/" target="_blank">(Link)</a>.
