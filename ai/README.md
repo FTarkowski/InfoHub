@@ -1,4 +1,4 @@
-# 🤖 AI & Kreatywność Hub
+# 🤖 AI Hub
 Kompendium narzędzi, modeli i raportów o sztucznej inteligencji. Hub obejmuje zarówno praktyczne zastosowania (chatboty, IDE z AI, generatory obrazów), jak i eksperymentalne projekty badawcze.
 
 ## 🧭 Spis treści
