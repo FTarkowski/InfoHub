@@ -1,7 +1,7 @@
-# 🧩 Software Hub
+# Software Hub
 Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pracę administratorów oraz zespołów IT.
 
-## 🧭 Spis treści
+## Spis treści
 - [Oprogramowania](#oprogramowania)
   - [Serwerowe](#serwerowe)
     - [Hiperwizor typu 1](#hiperwizor-typu-1)

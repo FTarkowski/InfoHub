@@ -1,7 +1,7 @@
-# ⚙️ DevOps & Automation Hub
+# DevOps & Automation Hub
 Zbiór narzędzi do konteneryzacji, orkiestracji, automatyzacji oraz zdalnego zarządzania infrastrukturą.
 
-## 🧭 Spis treści
+## Spis treści
 - [Konteneryzacja (Docker)](#konteneryzacja-docker)
 - [Konteneryzacja i Klasteryzacja](#konteneryzacja-i-klasteryzacja)
 - [Automatyzacja i DevOps](#automatyzacja-i-devops)
