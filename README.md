@@ -29,6 +29,11 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
     - [Komunikacja](#komunikacja)
     - [Produktywność](#produktywnosc)
     - [Narzędzia](#narzedzia)
+  - [Linux – Aplikacje](#linux--aplikacje)
+    - [System / Monitoring](#system--monitoring)
+    - [Zarządzanie plikami i obrazami](#zarzadzanie-plikami-i-obrazami)
+    - [Programistyczne i narzędzia](#programistyczne-i-narzedzia)
+    - [Notatki i organizacja](#notatki-i-organizacja)
   - [Edytory i Środowiska Programistyczne](#edytory-i-srodowiska-programistyczne)
 - [Technologie](#technologie)
   - [Konteneryzacja i Klasteryzacja](#konteneryzacja-i-klasteryzacja)
@@ -89,6 +94,8 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 ##### **Zarządzanie**
 - **FreshRSS** – Samohostowane oprogramowanie do czytnika RSS <a href="https://www.freshrss.org/" target="_blank">(Link)</a>.
 - **evillimiter** – Ograniczanie przepustowości sieci <a href="https://github.com/bitbrute/evillimiter" target="_blank">(Link)</a>.
+- **Omada Controller** – Oficjalny kontroler sieci TP-Link Omada (AP, switche, bramy) <a href="https://github.com/mbentley/docker-omada-controller" target="_blank">(Link)</a>.
+- **NetBird** – Zero-trust overlay network oparta o WireGuard <a href="https://github.com/netbirdio/netbird" target="_blank">(Link)</a>.
 
 ##### **Monitorowanie**
 - **MySpeed** – Test prędkości sieci <a href="https://github.com/alexjustesen/myspeed" target="_blank">(Link)</a>.
@@ -123,6 +130,10 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Dozzle** – Dashboard kontenerów self-hosted <a href="https://github.com/dozzle/dozzle" target="_blank">(Link)</a>
 - **Coolify** – Nowoczesna platforma PaaS <a href="https://github.com/coollabsio/coolify" target="_blank">(Link)</a>
 - **Dokku** – Proste wdrożenia aplikacji w stylu Heroku <a href="https://github.com/dokku/dokku" target="_blank">(Link)</a>
+- **Dockmon** – Lekki dashboard do monitorowania i kontrolowania kontenerów Docker <a href="https://github.com/darthnorse/dockmon" target="_blank">(Link)</a>.
+- **NextExplorer** – Webowy menedżer plików działający w kontenerze <a href="https://github.com/vikramsoni2/nextExplorer" target="_blank">(Link)</a>.
+- **Tugtainer** – Panel webowy do zarządzania kontenerami (start/stop, logi, statystyki) <a href="https://github.com/Quenary/tugtainer" target="_blank">(Link)</a>.
+- **Container Census** – Generator pełnego spisu kontenerów wraz z portami i wolumenami <a href="https://github.com/selfhosters-cc/container-census" target="_blank">(Link)</a>.
 
 ---
 
@@ -144,6 +155,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **Remote SSH (VScode)** – SSH w VSCode <a href="https://code.visualstudio.com/docs/remote/ssh" target="_blank">(Link)</a>.
 - **Rustdesk** – Zdalny pulpit typu open-source <a href="https://rustdesk.com/" target="_blank">(Link)</a>.
 - **Rustdesk Server** – Serwer self-host do Rustdesk <a href="https://github.com/rustdesk/rustdesk-server" target="_blank">(Link)</a>.
+- **Twingate** – Komercyjne zero-trust rozwiązanie do zdalnego dostępu <a href="https://www.twingate.com" target="_blank">(Link)</a>.
 
 ---
 
@@ -159,6 +171,7 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **SABnzbd** – Klient Usenet <a href="https://sabnzbd.org/" target="_blank">(Link)</a>.
 - **Transmission** – Klient BitTorrent <a href="https://transmissionbt.com/" target="_blank">(Link)</a>.
 - **qBittorrent** – Klient BitTorrent <a href="https://www.qbittorrent.org/" target="_blank">(Link)</a>.
+- **Qui** – Webowy frontend do zarządzania autobrr i automatycznymi pobraniami <a href="https://github.com/autobrr/qui" target="_blank">(Link)</a>.
 - **Whisparr** – Zarządzanie treściami <a href="https://github.com/Whisparr/Whisparr" target="_blank">(Link)</a>.
 - **Bazarr** – Napisy do multimediów <a href="https://www.bazarr.media/" target="_blank">(Link)</a>.
 - **Prowlarr** – Indeksatory do PVR <a href="https://prowlarr.com/" target="_blank">(Link)</a>.
@@ -171,11 +184,12 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 #### **Aplikacje i Narzędzia IT**
 
 ##### **Systemy**
-- **Home Assistant** – Automatyzacja domu <a href="https://www.home-assistant.io/" target="_blank">(Link)</a>  
-- **GetHomepage** – Strona główna aplikacji <a href="https://gethomepage.dev/" target="_blank">(Link)</a>  
-- **Heimdall** – Dashboard do aplikacji <a href="https://heimdall.site/" target="_blank">(Link)</a>  
-- **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>  
-- **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>  
+- **Home Assistant** – Automatyzacja domu <a href="https://www.home-assistant.io/" target="_blank">(Link)</a>
+- **GetHomepage** – Strona główna aplikacji <a href="https://gethomepage.dev/" target="_blank">(Link)</a>
+- **Heimdall** – Dashboard do aplikacji <a href="https://heimdall.site/" target="_blank">(Link)</a>
+- **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>
+- **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>
+- **Homie** – Lekka strona-startowa i dashboard linków dla self-hosted <a href="https://github.com/Brramble/homie" target="_blank">(Link)</a>
 
 ##### **Zarządzanie**
 - **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>  
@@ -199,15 +213,48 @@ Repozytorium **InfoHub** to centralne miejsce do przechowywania informacji, opis
 - **LibreOffice Docker** – Pakiet biurowy <a href="https://hub.docker.com/r/linuxserver/libreoffice" target="_blank">(Link)</a>
 - **ONLYOFFICE** – Pakiet biurowy do dokumentów, arkuszy i prezentacji <a href="https://github.com/ONLYOFFICE" target="_blank">(Link)</a>
 - **NocoDB** – Baza danych jako usługa <a href="https://github.com/nocodb/nocodb" target="_blank">(Link)</a>
-- **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>  
+- **InstantDB** – Lekka baza danych <a href="https://github.com/instantdb/instant" target="_blank">(Link)</a>
+- **Velld** – Prosty menedżer zadań i notatek w stylu Markdown <a href="https://github.com/dendianugerah/velld" target="_blank">(Link)</a>
+- **IronCalc** – Arkusz kalkulacyjny online z obsługą formuł i importów <a href="https://github.com/ironcalc/IronCalc" target="_blank">(Link)</a>
+- **Paperless-ngx** – System OCR i zarządzania dokumentami dla self-hosted <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank">(Link)</a>
 
 ##### **Narzędzia**
-- **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>  
-- **Dangerzone** – Konwersja dokumentów PDF <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>  
-- **Stirling PDF** – Edycja i łączenie PDF <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>  
-- **ConvertX** – Konwerter plików <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>  
-- **Excalidraw** – Edytor diagramów <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>  
+- **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>
+- **Dangerzone** – Konwersja dokumentów PDF <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>
+- **Stirling PDF** – Edycja i łączenie PDF <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>
+- **ConvertX** – Konwerter plików <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>
+- **Excalidraw** – Edytor diagramów <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>
 - **Draw.io (self-host)** – Diagramy online <a href="https://github.com/jgraph/drawio" target="_blank">(Link)</a>
+
+---
+
+#### **Linux – Aplikacje**
+
+##### **System / Monitoring**
+- **Resources** – Monitor zasobów (CPU, RAM, sieć, procesy) w GTK <a href="https://github.com/nokyan/resources" target="_blank">(Link)</a>.
+- **Mission Center** – Zaawansowany monitor systemu z rozbudowanym UI <a href="https://flathub.org/apps/io.missioncenter.MissionCenter" target="_blank">(Link)</a>.
+- **Monitorets** – Minimalistyczny monitor zasobów z wykresami <a href="https://flathub.org/apps/io.github.jorchube.monitorets" target="_blank">(Link)</a>.
+- **LACT** – Kontroler GPU AMD (taktowania, limity mocy, profile) <a href="https://flathub.org/apps/io.github.ilgarmehmetali.lact" target="_blank">(Link)</a>.
+- **Gear Lever** – Narzędzie do montowania i zarządzania dyskami <a href="https://flathub.org/apps/it.mijorus.gearlever" target="_blank">(Link)</a>.
+- **PiMan** – Dashboard do monitoringu Raspberry Pi (temperatura, CPU, RAM) <a href="https://github.com/GalwayCal/piman" target="_blank">(Link)</a>.
+- **GPU Hot** – Monitor temperatur i użycia GPU <a href="https://github.com/psalias2006/gpu-hot" target="_blank">(Link)</a>.
+
+##### **Zarządzanie plikami i obrazami**
+- **Switcheroo** – Batch resize i konwersja obrazów <a href="https://flathub.org/apps/io.gitlab.adhami3310.Switcheroo" target="_blank">(Link)</a>.
+- **Converseen** – Zaawansowana konwersja i kompresja obrazów <a href="https://flathub.org/apps/net.fasterland.converseen" target="_blank">(Link)</a>.
+- **Pipeline** – Budowanie i uruchamianie pipeline'ów bez skryptów <a href="https://gitlab.com/schmiddi-on-mobile/pipeline" target="_blank">(Link)</a>.
+
+##### **Programistyczne i narzędzia**
+- **DevToolbox** – Zbiór narzędzi developerskich (JSON, hash, Base64) <a href="https://flathub.org/apps/me.iepure.devtoolbox" target="_blank">(Link)</a>.
+- **Clapgrep** – GUI do szybkiego wyszukiwania w plikach <a href="https://flathub.org/apps/de.leopoldluley.Clapgrep" target="_blank">(Link)</a>.
+- **Warehouse** – Menedżer Flatpaków do instalacji i uprawnień <a href="https://flathub.org/apps/io.github.flattool.Warehouse" target="_blank">(Link)</a>.
+
+##### **Notatki i organizacja**
+- **Speech Note** – Notatki głosowe z transkrypcją STT <a href="https://flathub.org/apps/net.mkiol.SpeechNote" target="_blank">(Link)</a>.
+- **Errands** – Minimalistyczny menedżer zadań w stylu GNOME <a href="https://flathub.org/apps/io.github.mrvladus.List" target="_blank">(Link)</a>.
+- **Planify** – Rozbudowany menedżer zadań z synchronizacją <a href="https://flathub.org/apps/io.github.alainm23.planify" target="_blank">(Link)</a>.
+- **Klevernotes** – Notatki z obsługą Markdown i folderów <a href="https://flathub.org/apps/org.kde.klevernotes" target="_blank">(Link)</a>.
+- **Iotas** – Minimalistyczna aplikacja do szybkich notatek (GNOME) <a href="https://flathub.org/apps/org.gnome.World.Iotas" target="_blank">(Link)</a>.
 
 ---
 
