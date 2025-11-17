@@ -1,7 +1,7 @@
-# 🌐 Networking Hub
+# Networking Hub
 Lista narzędzi sieciowych z podziałem na firewall, zarządzanie, monitoring oraz usługi DNS/Proxy.
 
-## 🧭 Spis treści
+## Spis treści
 - [Sieciowe](#sieciowe)
   - [Firewall i Routery](#firewall-i-routery)
   - [Zarządzanie](#zarzadzanie)

@@ -1,7 +1,7 @@
-# 🧅 TOR & Darknet Hub
+# TOR & Darknet Hub
 Zestaw narzędzi i katalogów wspierających pracę w sieci Tor oraz analizę zasobów dark web i powiązanych baz wycieków.
 
-## 🧭 Spis treści
+## Spis treści
 - [Przeglądarki i dostęp](#przeglądarki-i-dostęp)
 - [Wyszukiwarki i katalogi .onion](#wyszukiwarki-i-katalogi-onion)
 - [OSINT, wycieki i bazy danych](#osint-wycieki-i-bazy-danych)

@@ -1,7 +1,7 @@
-# 🤖 AI Hub
+# AI Hub
 Kompendium narzędzi, modeli i raportów o sztucznej inteligencji. Hub obejmuje zarówno praktyczne zastosowania (chatboty, IDE z AI, generatory obrazów), jak i eksperymentalne projekty badawcze.
 
-## 🧭 Spis treści
+## Spis treści
 - [Raport: Ocena najpopularniejszych systemów AI — listopad 2025](#raport-ocena-najpopularniejszych-systemów-ai--listopad-2025)
   - [Top 10 ogólnie](#top-10-ogólnie)
   - [Najważniejsze wnioski 2025](#najważniejsze-wnioski-2025)
