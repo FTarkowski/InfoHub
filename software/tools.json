@@ -1,0 +1,2098 @@
+[
+  {
+    "name": "Proxmox",
+    "category": "Hiperwizor typu 1",
+    "description": "Platforma wirtualizacji serwerów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.proxmox.com/"
+  },
+  {
+    "name": "VMware ESXi",
+    "category": "Hiperwizor typu 1",
+    "description": "Rozwiązanie do wirtualizacji serwerów",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://www.vmware.com/"
+  },
+  {
+    "name": "Hyper-V",
+    "category": "Hiperwizor typu 1",
+    "description": "Wirtualizacja Microsoft",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/"
+  },
+  {
+    "name": "VirtualBox",
+    "category": "Hiperwizor typu 2",
+    "description": "Wirtualizacja na systemie operacyjnym",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.virtualbox.org/"
+  },
+  {
+    "name": "TrueNAS",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Oprogramowanie NAS",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.truenas.com/"
+  },
+  {
+    "name": "TrueNAS Scale",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "NAS z obsługą kontenerów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.truenas.com/truenas-scale/"
+  },
+  {
+    "name": "UNAS Pro",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Rozwiązanie NAS dla profesjonalistów",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://www.unas.com/"
+  },
+  {
+    "name": "Nextcloud",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Chmura osobista",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://nextcloud.com/"
+  },
+  {
+    "name": "docker-dropbox-app",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Self-hosted Dropbox API w Dockerze",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/rbonghi/docker-dropbox-app"
+  },
+  {
+    "name": "Syncthing",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Zdecentralizowana synchronizacja plików P2P z szyfrowaniem end-to-end i wersjonowaniem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://syncthing.net/"
+  },
+  {
+    "name": "CasaOS",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "System zarządzania aplikacjami domowymi",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://casaos.io/"
+  },
+  {
+    "name": "File Browser",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Menedżer plików przez przeglądarkę",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://filebrowser.org/"
+  },
+  {
+    "name": "OpenMediaVault",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "Rozwiązanie NAS oparte na Debianie",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.openmediavault.org/"
+  },
+  {
+    "name": "openmediavault-webdesk",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "GUI dla OMV w Docker Compose",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/TwanoO67/omv-web-desk"
+  },
+  {
+    "name": "Unraid",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "System operacyjny dla serwerów NAS z obsługą wirtualizacji i Docker",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://unraid.net/"
+  },
+  {
+    "name": "Portainer + Nextcloud stack",
+    "category": "NAS, Chmura, Synchronizacja",
+    "description": "docker-compose do prostego wdrożenia portainer/nextcloud",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/tv0ll/portainer-nextcloud"
+  },
+  {
+    "name": "Proxmox Backup Server (PBS)",
+    "category": "Zarządzanie Danymi i Backup",
+    "description": "Backup dla Proxmox",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.proxmox.com/en/proxmox-backup-server"
+  },
+  {
+    "name": "ERPNext",
+    "category": "ERP i Zarządzanie Firmą",
+    "description": "Oprogramowanie ERP oparte na Pythonie",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/frappe/erpnext"
+  },
+  {
+    "name": "Plex",
+    "category": "Aplikacje Multimedialne",
+    "description": "Strumieniowanie multimediów",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://www.plex.tv/"
+  },
+  {
+    "name": "Sonarr",
+    "category": "Aplikacje Multimedialne",
+    "description": "Pobieranie seriali",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://sonarr.tv/"
+  },
+  {
+    "name": "Radarr",
+    "category": "Aplikacje Multimedialne",
+    "description": "Pobieranie filmów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://radarr.video/"
+  },
+  {
+    "name": "Jellyfin",
+    "category": "Aplikacje Multimedialne",
+    "description": "Serwer multimedialny open-source",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://jellyfin.org/"
+  },
+  {
+    "name": "PhotoPrism",
+    "category": "Aplikacje Multimedialne",
+    "description": "Zarządzanie zdjęciami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/photoprism/photoprism"
+  },
+  {
+    "name": "PhotoPrism w Portainer / Docker Compose",
+    "category": "Aplikacje Multimedialne",
+    "description": "Oficjalna konfiguracja",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://docs.photoprism.app/getting-started/portainer/"
+  },
+  {
+    "name": "Immich",
+    "category": "Aplikacje Multimedialne",
+    "description": "Samohostowana platforma do zarządzania zdjęciami i wideo",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/immich-app/immich"
+  },
+  {
+    "name": "SABnzbd",
+    "category": "Aplikacje Multimedialne",
+    "description": "Klient Usenet",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://sabnzbd.org/"
+  },
+  {
+    "name": "Transmission",
+    "category": "Aplikacje Multimedialne",
+    "description": "Klient BitTorrent",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://transmissionbt.com/"
+  },
+  {
+    "name": "qBittorrent",
+    "category": "Aplikacje Multimedialne",
+    "description": "Klient BitTorrent",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.qbittorrent.org/"
+  },
+  {
+    "name": "Qui",
+    "category": "Aplikacje Multimedialne",
+    "description": "Webowy frontend do zarządzania autobrr i automatycznymi pobraniami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/autobrr/qui"
+  },
+  {
+    "name": "Whisparr",
+    "category": "Aplikacje Multimedialne",
+    "description": "Zarządzanie treściami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Whisparr/Whisparr"
+  },
+  {
+    "name": "Bazarr",
+    "category": "Aplikacje Multimedialne",
+    "description": "Napisy do multimediów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.bazarr.media/"
+  },
+  {
+    "name": "Prowlarr",
+    "category": "Aplikacje Multimedialne",
+    "description": "Indeksatory do PVR",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://prowlarr.com/"
+  },
+  {
+    "name": "Jellyseer",
+    "category": "Aplikacje Multimedialne",
+    "description": "Zarządzanie żądaniami Jellyfin",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Fallenbagel/jellyseerr"
+  },
+  {
+    "name": "Jitsi",
+    "category": "Aplikacje Multimedialne",
+    "description": "Open-source platforma wideokonferencyjna",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/jitsi"
+  },
+  {
+    "name": "OpenBooks",
+    "category": "Aplikacje Multimedialne",
+    "description": "Biblioteka e-booków z katalogiem OPDS do samodzielnego hostowania",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/evan-buss/openbooks"
+  },
+  {
+    "name": "GetHomepage",
+    "category": "Systemy",
+    "description": "Strona główna aplikacji",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://gethomepage.dev/"
+  },
+  {
+    "name": "Heimdall",
+    "category": "Systemy",
+    "description": "Dashboard do aplikacji",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://heimdall.site/"
+  },
+  {
+    "name": "Dashy",
+    "category": "Systemy",
+    "description": "Konfigurowalny dashboard aplikacji",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://dashy.to/"
+  },
+  {
+    "name": "Homer",
+    "category": "Systemy",
+    "description": "Prostota w zarządzaniu interfejsem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/bastienwirtz/homer"
+  },
+  {
+    "name": "Homie",
+    "category": "Systemy",
+    "description": "Lekka strona-startowa i dashboard linków dla self-hosted",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Brramble/homie"
+  },
+  {
+    "name": "GrapheneOS",
+    "category": "Systemy",
+    "description": "Hardenowany Android dla urządzeń Pixel nastawiony na prywatność i bezpieczeństwo",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://grapheneos.org/"
+  },
+  {
+    "name": "Ubuntu Touch",
+    "category": "Systemy",
+    "description": "Mobilny system Linux rozwijany przez społeczność UBports",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://www.ubuntu-touch.io/"
+  },
+  {
+    "name": "Vault / Bitwarden",
+    "category": "Zarządzanie",
+    "description": "Menedżer haseł",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://bitwarden.com/"
+  },
+  {
+    "name": "Vaultwarden",
+    "category": "Zarządzanie",
+    "description": "Alternatywa self-hosted dla Bitwarden",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/dani-garcia/vaultwarden"
+  },
+  {
+    "name": "Plane",
+    "category": "Zarządzanie",
+    "description": "System do zarządzania projektami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/makeplane/plane"
+  },
+  {
+    "name": "Taskcafe",
+    "category": "Zarządzanie",
+    "description": "Tablicowy system zarządzania zadaniami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/JordanKnott/taskcafe"
+  },
+  {
+    "name": "Planka",
+    "category": "Zarządzanie",
+    "description": "Alternatywa Trello",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/plankanban/planka"
+  },
+  {
+    "name": "Asana",
+    "category": "Zarządzanie",
+    "description": "SaaS do zarządzania projektami",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://asana.com/pl"
+  },
+  {
+    "name": "Typebot",
+    "category": "Komunikacja",
+    "description": "Interaktywne chatboty",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/baptisteArno/typebot.io"
+  },
+  {
+    "name": "Formbricks",
+    "category": "Komunikacja",
+    "description": "Feedback i ankiety",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/formbricks/formbricks"
+  },
+  {
+    "name": "osTicket",
+    "category": "Komunikacja",
+    "description": "System zgłoszeniowy",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/osTicket/osTicket"
+  },
+  {
+    "name": "Helpy",
+    "category": "Komunikacja",
+    "description": "Helpdesk z bazą wiedzy",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/helpyio/helpy"
+  },
+  {
+    "name": "Zammad",
+    "category": "Komunikacja",
+    "description": "Helpdesk/ticketing",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/zammad/zammad"
+  },
+  {
+    "name": "Faveo Helpdesk",
+    "category": "Komunikacja",
+    "description": "Obsługa zgłoszeń z panelem klienta",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/faveosuite/faveo-helpdesk"
+  },
+  {
+    "name": "FreeScout",
+    "category": "Komunikacja",
+    "description": "Lekki helpdesk",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/freescout-help-desk/freescout"
+  },
+  {
+    "name": "AppFlowy",
+    "category": "Produktywność",
+    "description": "Alternatywa dla Notion",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/AppFlowy-IO/AppFlowy"
+  },
+  {
+    "name": "LibreOffice Docker",
+    "category": "Produktywność",
+    "description": "Pakiet biurowy",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://hub.docker.com/r/linuxserver/libreoffice"
+  },
+  {
+    "name": "ONLYOFFICE",
+    "category": "Produktywność",
+    "description": "Pakiet biurowy do dokumentów, arkuszy i prezentacji",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/ONLYOFFICE"
+  },
+  {
+    "name": "NocoDB",
+    "category": "Produktywność",
+    "description": "Baza danych jako usługa",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/nocodb/nocodb"
+  },
+  {
+    "name": "InstantDB",
+    "category": "Produktywność",
+    "description": "Lekka baza danych",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/instantdb/instant"
+  },
+  {
+    "name": "Velld",
+    "category": "Produktywność",
+    "description": "Prosty menedżer zadań i notatek w stylu Markdown",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/dendianugerah/velld"
+  },
+  {
+    "name": "IronCalc",
+    "category": "Produktywność",
+    "description": "Arkusz kalkulacyjny online z obsługą formuł i importów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/ironcalc/IronCalc"
+  },
+  {
+    "name": "Paperless-ngx",
+    "category": "Produktywność",
+    "description": "System OCR i zarządzania dokumentami dla self-hosted",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/paperless-ngx/paperless-ngx"
+  },
+  {
+    "name": "it-tools",
+    "category": "Narzędzia",
+    "description": "Narzędzia IT w przeglądarce",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://it-tools.tech/"
+  },
+  {
+    "name": "Dangerzone",
+    "category": "Narzędzia",
+    "description": "Konwersja dokumentów PDF",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/freedomofpress/dangerzone"
+  },
+  {
+    "name": "Stirling PDF",
+    "category": "Narzędzia",
+    "description": "Edycja i łączenie PDF",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/sirting-pdf/stirling-pdf"
+  },
+  {
+    "name": "ConvertX",
+    "category": "Narzędzia",
+    "description": "Konwerter plików",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/svenstaro/convertx"
+  },
+  {
+    "name": "Excalidraw",
+    "category": "Narzędzia",
+    "description": "Edytor diagramów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/excalidraw/excalidraw"
+  },
+  {
+    "name": "Draw.io (self-host)",
+    "category": "Narzędzia",
+    "description": "Diagramy online",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/jgraph/drawio"
+  },
+  {
+    "name": "Resources",
+    "category": "System / Monitoring",
+    "description": "Monitor zasobów (CPU, RAM, sieć, procesy) w GTK",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/nokyan/resources"
+  },
+  {
+    "name": "Mission Center",
+    "category": "System / Monitoring",
+    "description": "Zaawansowany monitor systemu z rozbudowanym UI",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.missioncenter.MissionCenter"
+  },
+  {
+    "name": "Monitorets",
+    "category": "System / Monitoring",
+    "description": "Minimalistyczny monitor zasobów z wykresami",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.github.jorchube.monitorets"
+  },
+  {
+    "name": "LACT",
+    "category": "System / Monitoring",
+    "description": "Kontroler GPU AMD (taktowania, limity mocy, profile)",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.github.ilgarmehmetali.lact"
+  },
+  {
+    "name": "Gear Lever",
+    "category": "System / Monitoring",
+    "description": "Narzędzie do montowania i zarządzania dyskami",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/it.mijorus.gearlever"
+  },
+  {
+    "name": "PiMan",
+    "category": "System / Monitoring",
+    "description": "Dashboard do monitoringu Raspberry Pi (temperatura, CPU, RAM)",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/GalwayCal/piman"
+  },
+  {
+    "name": "GPU Hot",
+    "category": "System / Monitoring",
+    "description": "Monitor temperatur i użycia GPU",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/psalias2006/gpu-hot"
+  },
+  {
+    "name": "Switcheroo",
+    "category": "Zarządzanie plikami i obrazami",
+    "description": "Batch resize i konwersja obrazów",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.gitlab.adhami3310.Switcheroo"
+  },
+  {
+    "name": "Converseen",
+    "category": "Zarządzanie plikami i obrazami",
+    "description": "Zaawansowana konwersja i kompresja obrazów",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/net.fasterland.converseen"
+  },
+  {
+    "name": "Pipeline",
+    "category": "Zarządzanie plikami i obrazami",
+    "description": "Budowanie i uruchamianie pipeline'ów bez skryptów",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.com/schmiddi-on-mobile/pipeline"
+  },
+  {
+    "name": "DevToolbox",
+    "category": "Programistyczne i narzędzia",
+    "description": "Zbiór narzędzi developerskich (JSON, hash, Base64)",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/me.iepure.devtoolbox"
+  },
+  {
+    "name": "Clapgrep",
+    "category": "Programistyczne i narzędzia",
+    "description": "GUI do szybkiego wyszukiwania w plikach",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/de.leopoldluley.Clapgrep"
+  },
+  {
+    "name": "Warehouse",
+    "category": "Programistyczne i narzędzia",
+    "description": "Menedżer Flatpaków do instalacji i uprawnień",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.github.flattool.Warehouse"
+  },
+  {
+    "name": "Speech Note",
+    "category": "Notatki i organizacja",
+    "description": "Notatki głosowe z transkrypcją STT",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/net.mkiol.SpeechNote"
+  },
+  {
+    "name": "Errands",
+    "category": "Notatki i organizacja",
+    "description": "Minimalistyczny menedżer zadań w stylu GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.github.mrvladus.List"
+  },
+  {
+    "name": "Planify",
+    "category": "Notatki i organizacja",
+    "description": "Rozbudowany menedżer zadań z synchronizacją",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/io.github.alainm23.planify"
+  },
+  {
+    "name": "Klevernotes",
+    "category": "Notatki i organizacja",
+    "description": "Notatki z obsługą Markdown i folderów",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/org.kde.klevernotes"
+  },
+  {
+    "name": "Iotas",
+    "category": "Notatki i organizacja",
+    "description": "Minimalistyczna aplikacja do szybkich notatek (GNOME)",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://flathub.org/apps/org.gnome.World.Iotas"
+  },
+  {
+    "name": "Alacritty",
+    "category": "Terminale i emulatory",
+    "description": "Wydajny emulator terminala napisany w Rust",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/alacritty/alacritty"
+  },
+  {
+    "name": "Black Box",
+    "category": "Terminale i emulatory",
+    "description": "Nowoczesny emulator terminala dla GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.gnome.org/raggesilver/blackbox"
+  },
+  {
+    "name": "Contour",
+    "category": "Terminale i emulatory",
+    "description": "Terminal z obsługą GPU i rozszerzonym renderingiem",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/contour-terminal/contour"
+  },
+  {
+    "name": "Foot",
+    "category": "Terminale i emulatory",
+    "description": "Lekki emulator Wayland",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://codeberg.org/dnkl/foot"
+  },
+  {
+    "name": "GNOME Terminal",
+    "category": "Terminale i emulatory",
+    "description": "Domyślny terminal środowiska GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.gnome.org/GNOME/gnome-terminal"
+  },
+  {
+    "name": "Guake",
+    "category": "Terminale i emulatory",
+    "description": "Terminal typu dropdown inspirowany Quake",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/Guake/guake"
+  },
+  {
+    "name": "Hyper",
+    "category": "Terminale i emulatory",
+    "description": "Terminal oparty na technologiach webowych",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/vercel/hyper"
+  },
+  {
+    "name": "iTerm2",
+    "category": "Terminale i emulatory",
+    "description": "Rozbudowany terminal dla macOS",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://iterm2.com"
+  },
+  {
+    "name": "Kitty",
+    "category": "Terminale i emulatory",
+    "description": "Terminal z akceleracją GPU",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/kovidgoyal/kitty"
+  },
+  {
+    "name": "Konsole",
+    "category": "Terminale i emulatory",
+    "description": "Emulator terminala KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/utilities/konsole"
+  },
+  {
+    "name": "LXTerminal",
+    "category": "Terminale i emulatory",
+    "description": "Lekki terminal środowiska LXDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/lxde/lxterminal"
+  },
+  {
+    "name": "M-x term / ansi-term / vterm",
+    "category": "Terminale i emulatory",
+    "description": "Terminale wewnątrz Emacsa",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://www.gnu.org/software/emacs/"
+  },
+  {
+    "name": "st",
+    "category": "Terminale i emulatory",
+    "description": "Minimalistyczny terminal suckless",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://git.suckless.org/st"
+  },
+  {
+    "name": "Terminator",
+    "category": "Terminale i emulatory",
+    "description": "Terminal z podziałem okien",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/gnome-terminator/terminator"
+  },
+  {
+    "name": "Terminology",
+    "category": "Terminale i emulatory",
+    "description": "Terminal środowiska Enlightenment",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/Enlightenment/terminology"
+  },
+  {
+    "name": "Tilix",
+    "category": "Terminale i emulatory",
+    "description": "Terminal kafelkowy z sesjami",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/gnunn1/tilix"
+  },
+  {
+    "name": "urxvt",
+    "category": "Terminale i emulatory",
+    "description": "Zaawansowany terminal RXVT-Unicode",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "http://software.schmorp.de/pkg/rxvt-unicode.html"
+  },
+  {
+    "name": "Warp",
+    "category": "Terminale i emulatory",
+    "description": "Terminal z funkcjami współpracy",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.warp.dev"
+  },
+  {
+    "name": "WezTerm",
+    "category": "Terminale i emulatory",
+    "description": "Terminal GPU z wbudowanym multiplexingiem",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/wez/wezterm"
+  },
+  {
+    "name": "Xfce4 Terminal",
+    "category": "Terminale i emulatory",
+    "description": "Terminal środowiska Xfce",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.xfce.org/apps/xfce4-terminal"
+  },
+  {
+    "name": "Xterm",
+    "category": "Terminale i emulatory",
+    "description": "Klasyczny emulator terminala X11",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://invisible-island.net/xterm"
+  },
+  {
+    "name": "Olive",
+    "category": "Edytory wideo",
+    "description": "Nieliniowy edytor wideo open-source",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/olive-editor/olive"
+  },
+  {
+    "name": "DaVinci Resolve",
+    "category": "Edytory wideo",
+    "description": "Profesjonalny pakiet montażowy",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+  },
+  {
+    "name": "Blender",
+    "category": "Edytory wideo",
+    "description": "Kompleksowe środowisko 3D z montażem wideo",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://www.blender.org"
+  },
+  {
+    "name": "Reaper",
+    "category": "Edytory wideo",
+    "description": "Zaawansowana stacja robocza audio-wideo",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.reaper.fm"
+  },
+  {
+    "name": "OpenShot",
+    "category": "Edytory wideo",
+    "description": "Prostota montażu open-source",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/OpenShot/openshot-qt"
+  },
+  {
+    "name": "HandBrake",
+    "category": "Edytory wideo",
+    "description": "Transkodowanie i konwersja materiałów wideo",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/HandBrake/HandBrake"
+  },
+  {
+    "name": "Shotcut",
+    "category": "Edytory wideo",
+    "description": "Cross-platformowy edytor oparty na MLT",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/mltframework/shotcut"
+  },
+  {
+    "name": "FFmpeg",
+    "category": "Edytory wideo",
+    "description": "Narzędzia CLI do obróbki audio/wideo",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+    "name": "Lightworks",
+    "category": "Edytory wideo",
+    "description": "Profesjonalny NLE",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://lwks.com"
+  },
+  {
+    "name": "Pitivi",
+    "category": "Edytory wideo",
+    "description": "Edytor wideo GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.gnome.org/GNOME/pitivi"
+  },
+  {
+    "name": "Kdenlive",
+    "category": "Edytory wideo",
+    "description": "Zaawansowany edytor KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/multimedia/kdenlive"
+  },
+  {
+    "name": "OBS Studio",
+    "category": "Edytory wideo",
+    "description": "Nagrywanie i streaming wideo",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/obsproject/obs-studio"
+  },
+  {
+    "name": "LiVES",
+    "category": "Edytory wideo",
+    "description": "Edytor i VJ tool",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://lives-video.com"
+  },
+  {
+    "name": "Avidemux",
+    "category": "Edytory wideo",
+    "description": "Edytor do szybkiej obróbki",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/mean00/avidemux2"
+  },
+  {
+    "name": "Flowblade",
+    "category": "Edytory wideo",
+    "description": "Edytor NLE dla Linuksa",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/jliljebl/flowblade"
+  },
+  {
+    "name": "Cinelerra",
+    "category": "Edytory wideo",
+    "description": "Profesjonalny montaż wideo",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://cinelerra-gg.org"
+  },
+  {
+    "name": "ProFTPD",
+    "category": "Serwery plików self-hosted",
+    "description": "Wydajny serwer FTP",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/proftpd/proftpd"
+  },
+  {
+    "name": "MyDrive",
+    "category": "Serwery plików self-hosted",
+    "description": "Prosty menedżer plików webowych",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Subarashii-kun/MyDrive"
+  },
+  {
+    "name": "Seafile",
+    "category": "Serwery plików self-hosted",
+    "description": "Prywatna chmura z synchronizacją",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/haiwen/seafile"
+  },
+  {
+    "name": "SeaweedFS",
+    "category": "Serwery plików self-hosted",
+    "description": "Rozproszony system plików",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/seaweedfs/seaweedfs"
+  },
+  {
+    "name": "GlusterFS",
+    "category": "Serwery plików self-hosted",
+    "description": "Skalowalny system plików sieciowych",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/gluster/glusterfs"
+  },
+  {
+    "name": "vsftpd / FTPd",
+    "category": "Serwery plików self-hosted",
+    "description": "Bezpieczny serwer FTP",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://security.appspot.com/vsftpd.html"
+  },
+  {
+    "name": "Pure-FTPd",
+    "category": "Serwery plików self-hosted",
+    "description": "Lekki serwer FTP",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/jedisct1/pure-ftpd"
+  },
+  {
+    "name": "Garage",
+    "category": "Serwery plików self-hosted",
+    "description": "Obiektowy storage kompatybilny z S3",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/garagehq/garage"
+  },
+  {
+    "name": "sshfs",
+    "category": "Serwery plików self-hosted",
+    "description": "Montowanie zasobów przez SSH",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/libfuse/sshfs"
+  },
+  {
+    "name": "Zenko",
+    "category": "Serwery plików self-hosted",
+    "description": "Warstwa zarządzania storage multi-cloud",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/scality/zenko"
+  },
+  {
+    "name": "Pingvin Share",
+    "category": "Serwery plików self-hosted",
+    "description": "Proste udostępnianie plików",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/stonith404/pingvin-share"
+  },
+  {
+    "name": "Pydio Cells",
+    "category": "Serwery plików self-hosted",
+    "description": "Bezpieczna chmura plików",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/pydio/cells"
+  },
+  {
+    "name": "Sharry",
+    "category": "Serwery plików self-hosted",
+    "description": "Wymiana plików z wygasaniem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/eikek/sharry"
+  },
+  {
+    "name": "Samba",
+    "category": "Serwery plików self-hosted",
+    "description": "Udostępnianie SMB/CIFS",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.samba.org"
+  },
+  {
+    "name": "Dufs",
+    "category": "Serwery plików self-hosted",
+    "description": "Jednoplikiowy serwer plików HTTP",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/sigoden/dufs"
+  },
+  {
+    "name": "SFTPgo",
+    "category": "Serwery plików self-hosted",
+    "description": "Serwer SFTP/FTP/HTTP z GUI",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/drakkan/sftpgo"
+  },
+  {
+    "name": "FileBrowser",
+    "category": "Serwery plików self-hosted",
+    "description": "Menedżer plików w przeglądarce",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/filebrowser/filebrowser"
+  },
+  {
+    "name": "Duplicati",
+    "category": "Serwery plików self-hosted",
+    "description": "Backup w chmurze i lokalnie",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/duplicati/duplicati"
+  },
+  {
+    "name": "Syncany",
+    "category": "Serwery plików self-hosted",
+    "description": "Synchronizacja z szyfrowaniem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/syncany/syncany"
+  },
+  {
+    "name": "NFS",
+    "category": "Serwery plików self-hosted",
+    "description": "Klasyczny protokół udostępniania plików",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://kernel.org"
+  },
+  {
+    "name": "ProjectSend",
+    "category": "Serwery plików self-hosted",
+    "description": "Portal do udostępniania plików klientom",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/ignacionelson/ProjectSend"
+  },
+  {
+    "name": "CephFS",
+    "category": "Serwery plików self-hosted",
+    "description": "Rozproszony system plików Ceph",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/ceph/ceph"
+  },
+  {
+    "name": "Radare2",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Rama do analizy binariów",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/radareorg/radare2"
+  },
+  {
+    "name": "Bytecode Viewer",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Analiza bytecode JVM",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/Konloch/bytecode-viewer"
+  },
+  {
+    "name": "Hopper",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Komercyjny disassembler",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.hopperapp.com"
+  },
+  {
+    "name": "Angr",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Silnik analizy symbolicznej",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/angr/angr"
+  },
+  {
+    "name": "Ghidra",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Framework NSA do RE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/NationalSecurityAgency/ghidra"
+  },
+  {
+    "name": "Frida",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Instrumentacja dynamiczna",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/frida/frida"
+  },
+  {
+    "name": "PyREBox",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Piaskownica do analizy malware",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/Cisco-Talos/pyrebox"
+  },
+  {
+    "name": "JD-GUI",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Decompiler Java",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/java-decompiler/jd-gui"
+  },
+  {
+    "name": "Volatility",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Analiza pamięci RAM",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/volatilityfoundation/volatility"
+  },
+  {
+    "name": "YARA",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Reguły wykrywania malware",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/VirusTotal/yara"
+  },
+  {
+    "name": "Wireshark",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Analiza ruchu sieciowego",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.com/wireshark/wireshark"
+  },
+  {
+    "name": "OllyDbg",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Debugger Windows",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "http://www.ollydbg.de"
+  },
+  {
+    "name": "Apktool",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Inżynieria wsteczna aplikacji Android",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/iBotPeaches/Apktool"
+  },
+  {
+    "name": "REMnux",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Dystrybucja do analizy malware",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://remnux.org"
+  },
+  {
+    "name": "wxHexEditor",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Hex editor dla dużych plików",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/EUA/wxHexEditor"
+  },
+  {
+    "name": "Capstone",
+    "category": "Analiza malware i reverse engineering",
+    "description": "Silnik disassemblingu",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/capstone-engine/capstone"
+  },
+  {
+    "name": "OpenVPN",
+    "category": "VPN self-hosted",
+    "description": "Popularne rozwiązanie VPN",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/OpenVPN/openvpn"
+  },
+  {
+    "name": "Pritunl",
+    "category": "VPN self-hosted",
+    "description": "Panel zarządzania OpenVPN/WireGuard",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/pritunl/pritunl"
+  },
+  {
+    "name": "Tailscale",
+    "category": "VPN self-hosted",
+    "description": "VPN typu mesh na bazie WireGuard",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/tailscale/tailscale"
+  },
+  {
+    "name": "PiVPN",
+    "category": "VPN self-hosted",
+    "description": "Skrypty do wdrożenia VPN na Raspberry Pi",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/pivpn/pivpn"
+  },
+  {
+    "name": "Psiphon",
+    "category": "VPN self-hosted",
+    "description": "Sieć VPN i obfuskacja ruchu",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Psiphon-Labs/psiphon"
+  },
+  {
+    "name": "strongSwan",
+    "category": "VPN self-hosted",
+    "description": "IPsec VPN dla Linuksa",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/strongswan/strongswan"
+  },
+  {
+    "name": "SoftEther",
+    "category": "VPN self-hosted",
+    "description": "Wieloprotokołowy serwer VPN",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/SoftEtherVPN/SoftEtherVPN"
+  },
+  {
+    "name": "tinc",
+    "category": "VPN self-hosted",
+    "description": "VPN mesh z szyfrowaniem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/gsliepen/tinc"
+  },
+  {
+    "name": "ZeroTier",
+    "category": "VPN self-hosted",
+    "description": "Wirtualne sieci SD-WAN",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/zerotier/ZeroTierOne"
+  },
+  {
+    "name": "Amnezia VPN",
+    "category": "VPN self-hosted",
+    "description": "Samohostowany klient/serwer VPN",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/amnezia-vpn/amnezia-client"
+  },
+  {
+    "name": "OPNsense",
+    "category": "VPN self-hosted",
+    "description": "Firewall/VPN BSD",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://opnsense.org"
+  },
+  {
+    "name": "Firezone",
+    "category": "VPN self-hosted",
+    "description": "VPN oparty na WireGuard z GUI",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/firezone/firezone"
+  },
+  {
+    "name": "NetBird",
+    "category": "VPN self-hosted",
+    "description": "Alternatywa Tailscale",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/netbirdio/netbird"
+  },
+  {
+    "name": "Libreswan",
+    "category": "VPN self-hosted",
+    "description": "Implementacja IPsec",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/libreswan/libreswan"
+  },
+  {
+    "name": "WireGuard Easy",
+    "category": "VPN self-hosted",
+    "description": "Prosty interfejs do WireGuard",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/wg-easy/wg-easy"
+  },
+  {
+    "name": "pfSense",
+    "category": "VPN self-hosted",
+    "description": "Firewall/VPN FreeBSD",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.pfsense.org"
+  },
+  {
+    "name": "nnn",
+    "category": "Menedżery plików",
+    "description": "Terminalowy menedżer plików",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/jarun/nnn"
+  },
+  {
+    "name": "Nemo",
+    "category": "Menedżery plików",
+    "description": "Menedżer środowiska Cinnamon",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/linuxmint/nemo"
+  },
+  {
+    "name": "Joshuto",
+    "category": "Menedżery plików",
+    "description": "Menedżer terminalowy z interfejsem TUI",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/kamiyaa/joshuto"
+  },
+  {
+    "name": "Caja",
+    "category": "Menedżery plików",
+    "description": "Menedżer MATE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/mate-desktop/caja"
+  },
+  {
+    "name": "Vifm",
+    "category": "Menedżery plików",
+    "description": "Menedżer w stylu Vim",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/vifm/vifm"
+  },
+  {
+    "name": "PCManFM",
+    "category": "Menedżery plików",
+    "description": "Lekki menedżer LXDE/LXQt",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/lxde/pcmanfm"
+  },
+  {
+    "name": "Thunar",
+    "category": "Menedżery plików",
+    "description": "Menedżer środowiska Xfce",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.xfce.org/xfce/thunar"
+  },
+  {
+    "name": "Ranger",
+    "category": "Menedżery plików",
+    "description": "Menedżer konsolowy z podglądem",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/ranger/ranger"
+  },
+  {
+    "name": "Dolphin",
+    "category": "Menedżery plików",
+    "description": "Rozbudowany menedżer KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/system/dolphin"
+  },
+  {
+    "name": "Midnight Commander",
+    "category": "Menedżery plików",
+    "description": "Klasyczny menedżer tekstowy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/MidnightCommander/mc"
+  },
+  {
+    "name": "Double Commander",
+    "category": "Menedżery plików",
+    "description": "Dwupanelowy menedżer multi-platformowy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/doublecmd/doublecmd"
+  },
+  {
+    "name": "Konqueror",
+    "category": "Menedżery plików",
+    "description": "Przeglądarka i menedżer KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/network/konqueror"
+  },
+  {
+    "name": "Nautilus",
+    "category": "Menedżery plików",
+    "description": "Menedżer GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.gnome.org/GNOME/nautilus"
+  },
+  {
+    "name": "Krusader",
+    "category": "Menedżery plików",
+    "description": "Zaawansowany menedżer plików dla KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/utilities/krusader"
+  },
+  {
+    "name": "Sunflower",
+    "category": "Menedżery plików",
+    "description": "Lekki menedżer z dwoma panelami",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/MeanEYE/Sunflower"
+  },
+  {
+    "name": "Clifm",
+    "category": "Menedżery plików",
+    "description": "Menedżer terminalowy typu \"Command Line Interface File Manager\"",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/pascl/clifm"
+  },
+  {
+    "name": "Home Assistant",
+    "category": "Platformy IoT open-source",
+    "description": "Automatyzacja domu",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/home-assistant/core"
+  },
+  {
+    "name": "OpenHAB",
+    "category": "Platformy IoT open-source",
+    "description": "Platforma automatyki domowej",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/openhab/openhab-core"
+  },
+  {
+    "name": "Mainflux",
+    "category": "Platformy IoT open-source",
+    "description": "Platforma IoT z microserwisami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/mainflux/mainflux"
+  },
+  {
+    "name": "DeviceHive",
+    "category": "Platformy IoT open-source",
+    "description": "Zestaw narzędzi i protokołów IoT",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/devicehive/devicehive"
+  },
+  {
+    "name": "WaziGate",
+    "category": "Platformy IoT open-source",
+    "description": "Edge gateway IoT",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/Waziup/wazigate-edge"
+  },
+  {
+    "name": "ChirpStack",
+    "category": "Platformy IoT open-source",
+    "description": "Stos sieci LoRaWAN",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/chirpstack"
+  },
+  {
+    "name": "Domoticz",
+    "category": "Platformy IoT open-source",
+    "description": "Lekka platforma domowa",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/domoticz/domoticz"
+  },
+  {
+    "name": "Eclipse Kura",
+    "category": "Platformy IoT open-source",
+    "description": "Middleware IoT w Javie",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/eclipse/kura"
+  },
+  {
+    "name": "SensorBee",
+    "category": "Platformy IoT open-source",
+    "description": "Strumieniowe przetwarzanie danych IoT",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/sensorbee/sensorbee"
+  },
+  {
+    "name": "Gladys Assistant",
+    "category": "Platformy IoT open-source",
+    "description": "Asystent domowy",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/GladysAssistant/Gladys"
+  },
+  {
+    "name": "SiteWhere",
+    "category": "Platformy IoT open-source",
+    "description": "Platforma IoT na mikroserwisach",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/sitewhere/sitewhere"
+  },
+  {
+    "name": "Zetta",
+    "category": "Platformy IoT open-source",
+    "description": "API-first middleware IoT",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/zettajs/zetta"
+  },
+  {
+    "name": "IoTivity",
+    "category": "Platformy IoT open-source",
+    "description": "Standard komunikacji IoT",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/iotivity/iotivity-lite"
+  },
+  {
+    "name": "MySensors",
+    "category": "Platformy IoT open-source",
+    "description": "Sieci czujników DIY",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/mysensors/MySensors"
+  },
+  {
+    "name": "EdgeX Foundry",
+    "category": "Platformy IoT open-source",
+    "description": "Mikroserwisy IoT sterowane wydarzeniami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/edgexfoundry"
+  },
+  {
+    "name": "ThingsBoard",
+    "category": "Platformy IoT open-source",
+    "description": "Platforma IoT z dashboardami",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/thingsboard/thingsboard"
+  },
+  {
+    "name": "Brave",
+    "category": "Blokowanie reklam · Przeglądarki",
+    "description": "Przeglądarka z wbudowanym Shield",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/brave/brave-browser"
+  },
+  {
+    "name": "Vivaldi",
+    "category": "Blokowanie reklam · Przeglądarki",
+    "description": "Przeglądarka z blokadą trackerów",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://vivaldi.com"
+  },
+  {
+    "name": "Opera",
+    "category": "Blokowanie reklam · Przeglądarki",
+    "description": "Wbudowany ad-blocker i VPN",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.opera.com"
+  },
+  {
+    "name": "Epic Browser",
+    "category": "Blokowanie reklam · Przeglądarki",
+    "description": "Prywatna przeglądarka",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://epicbrowser.com"
+  },
+  {
+    "name": "DuckDuckGo Browser",
+    "category": "Blokowanie reklam · Przeglądarki",
+    "description": "Mobilna przeglądarka z blokowaniem śledzenia",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://duckduckgo.com/app"
+  },
+  {
+    "name": "AdGuard",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Rozszerzenie blokujące reklamy i trackery",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/AdguardTeam/AdguardBrowserExtension"
+  },
+  {
+    "name": "AdBlock",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Klasyczny blokad reklam",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://getadblock.com"
+  },
+  {
+    "name": "uBlock Origin",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Lekki i skuteczny bloker",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/gorhill/uBlock"
+  },
+  {
+    "name": "NoScript",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Blokowanie skryptów w przeglądarce",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/hackademix/noscript"
+  },
+  {
+    "name": "Privacy Badger",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Blokowanie trackerów EFF",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/EFForg/privacybadger"
+  },
+  {
+    "name": "Ghostery",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Ochrona prywatności i blokowanie śledzenia",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.ghostery.com"
+  },
+  {
+    "name": "AdBlocker Ultimate",
+    "category": "Blokowanie reklam · Rozszerzenia",
+    "description": "Otwartoźródłowy bloker reklam",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/adblockultimate/AdBlocker-Ultimate"
+  },
+  {
+    "name": "StevenBlack Hosts",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Zbiorcze listy hostów",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/StevenBlack/hosts"
+  },
+  {
+    "name": "DNS66",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Filtrowanie DNS na Androidzie",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/julian-klode/dns66"
+  },
+  {
+    "name": "AdGuard DNS",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Prywatny DNS z blokowaniem reklam",
+    "license": "Proprietary",
+    "self_hosted": true,
+    "url": "https://adguard-dns.io"
+  },
+  {
+    "name": "hBlock",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Skrypt generujący hostfile",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/hectorm/hblock"
+  },
+  {
+    "name": "Pi-hole",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Sieciowy DNS sinkhole",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/pi-hole/pi-hole"
+  },
+  {
+    "name": "Technitium DNS",
+    "category": "Blokowanie reklam · DNS",
+    "description": "Serwer DNS z filtrowaniem",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/TechnitiumSoftware/DnsServer"
+  },
+  {
+    "name": "OpenSnitch",
+    "category": "Blokowanie reklam · Zapory",
+    "description": "Firewall aplikacyjny",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/evilsocket/opensnitch"
+  },
+  {
+    "name": "Lockdown",
+    "category": "Blokowanie reklam · Zapory",
+    "description": "Firewall i VPN prywatności",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://lockdownprivacy.com"
+  },
+  {
+    "name": "pfBlockerNG",
+    "category": "Blokowanie reklam · Zapory",
+    "description": "Blokowanie DNS/IP w pfSense",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/pfsense/FreeBSD-ports/tree/devel/net/pfblockerng"
+  },
+  {
+    "name": "Privoxy",
+    "category": "Blokowanie reklam · Proxy",
+    "description": "Filtrujący proxy HTTP",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://www.privoxy.org"
+  },
+  {
+    "name": "Squid",
+    "category": "Blokowanie reklam · Proxy",
+    "description": "Popularny proxy z filtracją",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "http://www.squid-cache.org"
+  },
+  {
+    "name": "Zen",
+    "category": "Blokowanie reklam · Proxy",
+    "description": "Reguły filtrujące dla proxy",
+    "license": "Open Source",
+    "self_hosted": true,
+    "url": "https://github.com/zenfilters/zen"
+  },
+  {
+    "name": "Visual Studio Code (VSCode)",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Popularny edytor kodu",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://code.visualstudio.com/"
+  },
+  {
+    "name": "VSCodium",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Wersja open-source Visual Studio Code pozbawiona telemetrii",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://vscodium.com/"
+  },
+  {
+    "name": "GitHub",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Repozytorium kodu i współpracy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/"
+  },
+  {
+    "name": "Gedit",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Lekki edytor GNOME",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.gnome.org/GNOME/gedit"
+  },
+  {
+    "name": "Notepads",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Nowoczesny edytor UWP",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/0x7c13/notepads"
+  },
+  {
+    "name": "Atom",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Rozszerzalny edytor od GitHub",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/atom/atom"
+  },
+  {
+    "name": "JED",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Prosty edytor tekstowy dla terminala",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://www.jedsoft.org"
+  },
+  {
+    "name": "Lapce",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Wydajny edytor w Rust",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/lapce/lapce"
+  },
+  {
+    "name": "Mousepad",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Lekki edytor Xfce",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://gitlab.xfce.org/apps/mousepad"
+  },
+  {
+    "name": "Pico",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Klasyczny edytor konsolowy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://www.nano-editor.org/dist/v2.1/nano.html#Pico"
+  },
+  {
+    "name": "Micro",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Terminalowy edytor z obsługą myszki",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/zyedidia/micro"
+  },
+  {
+    "name": "Geany",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Lekki IDE z obsługą wielu języków",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/geany/geany"
+  },
+  {
+    "name": "Notepadqq",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Alternatywa Notepad++ dla Linuksa",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/notepadqq/notepadqq"
+  },
+  {
+    "name": "FeatherPad",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor Qt z zakładkami",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/tsujan/FeatherPad"
+  },
+  {
+    "name": "Kakoune",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor modalny inspirowany Vim",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/mawww/kakoune"
+  },
+  {
+    "name": "JOE",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Joe's Own Editor",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://sourceforge.net/projects/joe-editor/"
+  },
+  {
+    "name": "Zee",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Terminalowy edytor w Rust",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/zee-editor/zee"
+  },
+  {
+    "name": "Sublime Text",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Wydajny edytor z pluginami",
+    "license": "Proprietary",
+    "self_hosted": false,
+    "url": "https://www.sublimetext.com"
+  },
+  {
+    "name": "SciTE",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor bazujący na Scintilla",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/scintillaorg/scite"
+  },
+  {
+    "name": "ash",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Minimalistyczny edytor tekstu",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/ash-shell/ash"
+  },
+  {
+    "name": "Emacs",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Rozszerzalny edytor Lisp",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://git.savannah.gnu.org/git/emacs.git"
+  },
+  {
+    "name": "Brackets",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor webowy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/brackets-cont/brackets"
+  },
+  {
+    "name": "jEdit",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor w Javie",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/jedit/jedit"
+  },
+  {
+    "name": "Kate",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Rozbudowany edytor KDE",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://invent.kde.org/utilities/kate"
+  },
+  {
+    "name": "Xed",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Edytor środowiska Cinnamon",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/linuxmint/xed"
+  },
+  {
+    "name": "Neovim",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Nowoczesny fork Vima",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/neovim/neovim"
+  },
+  {
+    "name": "Vim",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Klasyczny edytor modalny",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://github.com/vim/vim"
+  },
+  {
+    "name": "Nano",
+    "category": "Edytory i Środowiska Programistyczne",
+    "description": "Przyjazny edytor terminalowy",
+    "license": "Open Source",
+    "self_hosted": false,
+    "url": "https://git.savannah.gnu.org/git/nano.git"
+  }
+]
