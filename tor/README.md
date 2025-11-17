@@ -37,3 +37,6 @@ Zestaw narzędzi i katalogów wspierających pracę w sieci Tor oraz analizę za
 
 ### Dodatkowe narzędzia
 - **PGP Tool** – zestaw narzędzi do szyfrowania PGP; wersja desktop <a href="https://www.pgptool.com/" target="_blank">(Strona)</a> oraz implementacja open source <a href="https://github.com/vbuterin/PGP-Tool" target="_blank">(Repo)</a>.
+- **Pegasus Neo** – framework do automatyzacji OSINT/Threat Intel z naciskiem na źródła dark web <a href="https://github.com/sobri3195/pegasus-neo" target="_blank">(Repo)</a>.
+- **Th3inspector** – narzędzie CLI do profilowania domen, hostów i usług w OSINT (Tor, dark web, powierzchnia) <a href="https://github.com/roshanburnwal/Th3inspector" target="_blank">(Repo)</a>.
+- **CarpaAlko** – zestaw skryptów do gromadzenia danych o usługach onion i przeprowadzania podstawowych analiz <a href="https://github.com/byt3n33dl3/CarpaAlko" target="_blank">(Repo)</a>.
