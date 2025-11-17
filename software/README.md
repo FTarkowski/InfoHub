@@ -100,6 +100,8 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Dashy** – Konfigurowalny dashboard aplikacji <a href="https://dashy.to/" target="_blank">(Link)</a>
 - **Homer** – Prostota w zarządzaniu interfejsem <a href="https://github.com/bastienwirtz/homer" target="_blank">(Link)</a>
 - **Homie** – Lekka strona-startowa i dashboard linków dla self-hosted <a href="https://github.com/Brramble/homie" target="_blank">(Link)</a>
+- **GrapheneOS** – Hardenowany Android dla urządzeń Pixel nastawiony na prywatność i bezpieczeństwo <a href="https://grapheneos.org/" target="_blank">(Link)</a>
+- **Ubuntu Touch** – Mobilny system Linux rozwijany przez społeczność UBports <a href="https://www.ubuntu-touch.io/" target="_blank">(Link)</a>
 
 ##### Zarządzanie
 - **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>
