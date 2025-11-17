@@ -1,6 +1,11 @@
 # AI Hub
 Kompendium narzędzi, modeli i raportów o sztucznej inteligencji. Hub obejmuje zarówno praktyczne zastosowania (chatboty, IDE z AI, generatory obrazów), jak i eksperymentalne projekty badawcze.
 
+## Proces review
+- Aktualizujemy zestawienia i komentarze kwartalnie lub częściej, jeżeli pojawią się przełomowe wyniki benchmarków.
+- Każdą zmianę przechodzi ręczny przegląd dwóch osób odpowiedzialnych za daną domenę (asystenci, obrazowanie, dev tooling).
+- Linki do dokumentacji i raportów są weryfikowane automatycznie przy pomocy skryptu [`scripts/check_links.py`](../scripts/check_links.py), który sprawdza odpowiedź HTTP 200 dla wszystkich adresów.
+
 ## Spis treści
 - [Raport: Ocena najpopularniejszych systemów AI — listopad 2025](#raport-ocena-najpopularniejszych-systemów-ai--listopad-2025)
   - [Top 10 ogólnie](#top-10-ogólnie)
@@ -17,9 +22,15 @@ Kompendium narzędzi, modeli i raportów o sztucznej inteligencji. Hub obejmuje 
 ---
 
 ## Raport: Ocena najpopularniejszych systemów AI — listopad 2025
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [State of AI Report](https://www.stateof.ai/)
+
 Pełne zestawienie metodologii, ocen i komentarzy znajduje się w raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md).
 
-### Top 10 ogólnie
+### Top 10 ogólnie[^raport_ai_top10]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [ArtificialAnalysis.ai Benchmarks](https://artificialanalysis.ai/)
+
 1. **ChatGPT (OpenAI)** — 9.25/10. Lider uniwersalnych zastosowań z niskim wskaźnikiem halucynacji GPT-4o (1.5%).
 2. **Midjourney** — 9.125/10. Złoty standard generowania obrazów i preferencji estetycznych.
 3. **Gemini (Google)** — 8.875/10. Model o najniższej liczbie halucynacji (0.7% dla Gemini-2.0-Flash).
@@ -31,7 +42,10 @@ Pełne zestawienie metodologii, ocen i komentarzy znajduje się w raporcie [OCEN
 9. **DeepSeek R1** — 8.375/10. Świetny reasoning (97% w MATH-500) bez kosztu modeli OpenAI.
 10. **Bolt.new (StackBlitz)** — 8.375/10. Fenomenalny wzrost (0 → $40M ARR w 6 miesięcy).
 
-### Najważniejsze wnioski 2025
+### Najważniejsze wnioski 2025[^ai_wnioski]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4 evals](https://openai.com/index/introducing-o3-mini/) · [Gemini 2.0 Flash benchmark](https://blog.google/technology/ai/google-gemini-update/)
+
 - **Halucynacje**: Gemini 2.0 Flash prowadzi z 0.7%, podczas gdy modele reasoning OpenAI (o3/o4) osiągają nawet 33% w PersonQA.
 - **Trendy technologiczne**: Konteksty rozmów rosną do 1–10M tokenów, a multimodalność (tekst+audio+wideo) staje się standardem.
 - **Open source**: Modele takie jak LLaMA 4 i Mixtral zbliżają się jakością do rozwiązań proprietary, oferując długie okna kontekstu.
@@ -41,9 +55,15 @@ Pełne zestawienie metodologii, ocen i komentarzy znajduje się w raporcie [OCEN
 ---
 
 ## Katalog narzędzi i modeli
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [ArtificialAnalysis.ai Benchmarks](https://artificialanalysis.ai/)
+
 Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: użyteczność, błędy/halucynacje, popularność, poprawność) oraz najważniejsze wyróżniki.
 
-### Chatboty i asystenci AI
+### Chatboty i asystenci AI[^chatboty_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [ArtificialAnalysis.ai Models](https://artificialanalysis.ai/models)
+
 | System | Średnia | Mocne strony | Błędy/Halucynacje |
 | --- | --- | --- | --- |
 | **ChatGPT (OpenAI)** | 9.25/10 | GPT-4o i GPT-5-mini obejmują szeroki zakres zastosowań, modele reasoning (o3/o4) dostępne dla zadań specjalnych. | GPT-4o: 1.5% halucynacji; GPT-5-mini: 4.9%; o3/o4: nawet 33% (PersonQA). |
@@ -53,7 +73,10 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 | **Perplexity** | 7.875/10 | Łączy wyszukiwanie internetowe w czasie rzeczywistym z kilkoma LLM, idealny do badań. | Stabilne 8/10 pod względem błędów dzięki weryfikacji źródeł. |
 | **Grok (xAI)** | 7.25/10 | Integracja z X (Twitter), dostęp do real-time danych platformy. | 7/10 — wciąż nadrabia dokładność względem liderów. |
 
-### Narzędzia programistyczne AI
+### Narzędzia programistyczne AI[^narzedzia_programistyczne_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [SWE-bench Verified](https://huggingface.co/spaces/dkao/swe-bench-leaderboard)
+
 | System | Średnia | Wyróżniki | Dane jakości |
 | --- | --- | --- | --- |
 | **GitHub Copilot** | 8.5/10 | +56% szans na przejście testów, +13.6% linii bez błędów; nowy model embeddings poprawia wyszukiwanie. | Kontrowersje wokół wpływu na utrzymywalność kodu. |
@@ -62,14 +85,20 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 | **Windsurf (Codeium)** | 8/10 | Agent Cascade z pamięcią sesji; $15/mies. start. | 8/10 błędy. |
 | **Replit** | 7.75/10 | IDE w chmurze, Replit Agent generuje pełne aplikacje; świetne do nauki. | 7.5/10 błędy — mniejsza dojrzałość niż Cursor/Windsurf. |
 
-### Narzędzia do prototypowania
+### Narzędzia do prototypowania[^prototypowanie_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [StackBlitz Bolt.new](https://stackblitz.com/blog/introducing-bolt-new) · [Lovable Launch](https://www.lovable.dev/blog)
+
 | System | Średnia | Wyróżniki | Popularność |
 | --- | --- | --- | --- |
 | **Bolt.new (StackBlitz)** | 8.375/10 | WebContainer w przeglądarce, błyskawiczne prototypowanie front-endów. | $40M ARR w 6 miesięcy. |
 | **Lovable** | 7.875/10 | Budowa aplikacji webowych na wzór Bolt.new, plan Pro $25/mies. | $17M ARR w 3 miesiące; 5 wiadomości/dzień w planie darmowym. |
 | **v0 (Vercel)** | 8.25/10 | Konwersja Figma → kod React/Next.js, skupienie na komponentach UI. | Popularność 8/10 dzięki ekosystemowi Vercel. |
 
-### Generowanie obrazów AI
+### Generowanie obrazów AI[^generowanie_obrazow_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Midjourney V7 ogłoszenie](https://www.midjourney.com/showcase) · [OpenAI DALL·E 3](https://openai.com/dall-e-3)
+
 | System | Średnia | Wyróżniki | Uwagi |
 | --- | --- | --- | --- |
 | **Midjourney** | 9.125/10 | Wersja V7 (04.2025) zapewnia najwyższą jakość artystyczną, 72% preferencji w testach. | Słabość: tekst w obrazach, interfejs przez Discorda. |
@@ -77,7 +106,10 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 | **Stable Diffusion** | 8/10 | Open source, najlepsza kontrola i customizacja, idealne do spójności postaci. | Wymaga wiedzy technicznej, jakość zależna od wybranego modelu. |
 | **Canva AI** | 8.5/10 | Najłatwiejsze wejście w generowanie obrazów dla nie-designerów, szeroka biblioteka szablonów. | 996M wizyt miesięcznie — #2 w kategorii projektowania. |
 
-### Modele open source
+### Modele open source[^modele_open_source_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Meta Llama](https://ai.meta.com/llama/) · [Mistral Medium 3](https://mistral.ai/news/mistral-3/)
+
 | System | Średnia | Wyróżniki | Halucynacje |
 | --- | --- | --- | --- |
 | **LLaMA 4 (Meta)** | 8.125/10 | Scout oferuje 10M tokenów kontekstu (~7 500 stron); Maverick i Scout dominują w zastosowaniach on-premise. | 4.6–4.7% |
@@ -85,15 +117,30 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 | **Qwen (Alibaba)** | 7.125/10 | Qwen 3 4B obsługuje 100+ języków, mocny w ekosystemie chińskim. | 7/10 błędy. |
 | **GPT-OSS-120B (OpenAI)** | 7/10 | Pierwszy open-weight OpenAI od czasów GPT-2; 117B parametrów, 5.1B aktywnych. | 7.5/10 błędy. |
 
-### Modele specjalistyczne
+### Modele specjalistyczne[^modele_specjalistyczne_sources]
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) · [DeepSeek R1](https://www.deepseek.com/)
+
 | System | Średnia | Wyróżniki | Błędy |
 | --- | --- | --- | --- |
 | **o3 / o4 (OpenAI)** | 7/10 | Modele reasoning z lepszym kodowaniem i matematyką, potrafią planować autonomiczne kroki. | 33% halucynacji w PersonQA — wymagają ręcznej weryfikacji. |
 | **DeepSeek R1** | 8.375/10 | 97% dokładności w MATH-500, dorównuje o1 przy niższym koszcie. | 9/10 błędy — dużo bardziej stabilny niż o3/o4. |
 
 ### Eksperymentalne interfejsy i wyszukiwarki
+> **Ostatnia aktualizacja:** listopad 2025  
+> **Źródła danych:** [GitHub Next](https://githubnext.com/) · [DeepSeek.com](https://www.deepseek.com/)
+
 - **GitHub Spark** — eksperymentalny interfejs do współpracy z repozytoriami w formie czatu, prezentowany w ramach [GitHub Next](https://githubnext.com/projects/github-spark).
 - **DeepSeek.com** — wyszukiwarka wykorzystująca AI do grupowania wyników wątpliwych, łączy wątki tematyczne.
 - **Perplexity** — opisany wyżej jako chatbot; kluczowy element to wyszukiwarka ze śledzeniem źródeł w czasie rzeczywistym.
+
+[^raport_ai_top10]: Dane z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz publicznych zestawień [State of AI Report](https://www.stateof.ai/) i [ArtificialAnalysis.ai Benchmarks](https://artificialanalysis.ai/).
+[^ai_wnioski]: Wnioski syntetyzują raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), komunikaty [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) i [aktualizacje Gemini 2.0 Flash](https://blog.google/technology/ai/google-gemini-update/).
+[^chatboty_sources]: Średnie i metryki halucynacji bazują na raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz zestawieniu [ArtificialAnalysis.ai Models](https://artificialanalysis.ai/models).
+[^narzedzia_programistyczne_sources]: Oceny i wyniki SWE-bench zaczerpnięto z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz tabeli [SWE-bench Verified](https://huggingface.co/spaces/dkao/swe-bench-leaderboard).
+[^prototypowanie_sources]: Dane biznesowe dostarcza raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), wpis [StackBlitz Bolt.new](https://stackblitz.com/blog/introducing-bolt-new) i aktualizacja [Lovable](https://www.lovable.dev/blog).
+[^generowanie_obrazow_sources]: Statystyki jakości i popularności pochodzą z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), strony [Midjourney Showcase](https://www.midjourney.com/showcase) oraz ogłoszenia [OpenAI DALL·E 3](https://openai.com/dall-e-3).
+[^modele_open_source_sources]: Dane o modelach open source bazują na raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), [Meta Llama](https://ai.meta.com/llama/) i [Mistral 3](https://mistral.ai/news/mistral-3/).
+[^modele_specjalistyczne_sources]: Dane o modelach reasoning zaczerpnięto z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), materiałów [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) oraz strony [DeepSeek R1](https://www.deepseek.com/).
 
 ---

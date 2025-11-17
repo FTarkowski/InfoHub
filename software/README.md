@@ -1,6 +1,11 @@
 # Software Hub
 Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pracę administratorów oraz zespołów IT.
 
+## Proces review
+- Aktualizujemy wpisy kwartalnie w ramach przeglądu technologii infrastrukturalnych i desktopowych.
+- Każda zmiana jest zatwierdzana w formule peer-review przez co najmniej dwie osoby odpowiedzialne za daną kategorię narzędzi.
+- Raz w tygodniu uruchamiamy skrypt [`scripts/check_links.py`](../scripts/check_links.py), aby upewnić się, że wszystkie odnośniki HTTP nadal odpowiadają kodem 200.
+
 ## Spis treści
 - [Oprogramowania](#oprogramowania)
   - [Serwerowe](#serwerowe)
