@@ -11,7 +11,6 @@ InfoHub to centralne miejsce do przechowywania opisów technologii, aplikacji i 
 | [TOR & Darknet](tor/README.md) | Narzędzia do pracy z siecią Tor, katalogi onion i OSINT dark web. |
 
 ## Dodatkowe materiały
-- [Projekt Ansible + Semaphore](<Ansible prj/README.md>)
 - [Hosting i Panel Administracyjny](<Hosting i Panel Administracyjny.md>)
 
 ---
