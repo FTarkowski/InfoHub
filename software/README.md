@@ -107,6 +107,7 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Homie** – Lekka strona-startowa i dashboard linków dla self-hosted <a href="https://github.com/Brramble/homie" target="_blank">(Link)</a>
 - **GrapheneOS** – Hardenowany Android dla urządzeń Pixel nastawiony na prywatność i bezpieczeństwo <a href="https://grapheneos.org/" target="_blank">(Link)</a>
 - **Ubuntu Touch** – Mobilny system Linux rozwijany przez społeczność UBports <a href="https://www.ubuntu-touch.io/" target="_blank">(Link)</a>
+- **authentik** – Otwartoźródłowy dostawca tożsamości i SSO dla aplikacji self-hosted <a href="https://goauthentik.io/" target="_blank">(Link)</a>
 
 ##### Zarządzanie
 - **Vault / Bitwarden** – Menedżer haseł <a href="https://bitwarden.com/" target="_blank">(Link)</a>
@@ -134,11 +135,12 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Velld** – Prosty menedżer zadań i notatek w stylu Markdown <a href="https://github.com/dendianugerah/velld" target="_blank">(Link)</a>
 - **IronCalc** – Arkusz kalkulacyjny online z obsługą formuł i importów <a href="https://github.com/ironcalc/IronCalc" target="_blank">(Link)</a>
 - **Paperless-ngx** – System OCR i zarządzania dokumentami dla self-hosted <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank">(Link)</a>
+- **Linkwarden** – Samohostowany menedżer zakładek z funkcjami archiwizacji <a href="https://github.com/linkwarden/linkwarden/tree/main" target="_blank">(Link)</a>
 
 ##### Narzędzia
 - **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>
 - **Dangerzone** – Konwersja dokumentów PDF <a href="https://github.com/freedomofpress/dangerzone" target="_blank">(Link)</a>
-- **Stirling PDF** – Edycja i łączenie PDF <a href="https://github.com/sirting-pdf/stirling-pdf" target="_blank">(Link)</a>
+- **Stirling PDF** – Samohostowany zestaw narzędzi do edycji, konwersji i łączenia PDF <a href="https://github.com/Stirling-Tools/Stirling-PDF" target="_blank">(Link)</a>
 - **ConvertX** – Konwerter plików <a href="https://github.com/svenstaro/convertx" target="_blank">(Link)</a>
 - **Excalidraw** – Edytor diagramów <a href="https://github.com/excalidraw/excalidraw" target="_blank">(Link)</a>
 - **Draw.io (self-host)** – Diagramy online <a href="https://github.com/jgraph/drawio" target="_blank">(Link)</a>
@@ -154,6 +156,7 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **LACT** – Kontroler GPU AMD (taktowania, limity mocy, profile) <a href="https://flathub.org/apps/io.github.ilgarmehmetali.lact" target="_blank">(Link)</a>.
 - **Gear Lever** – Narzędzie do montowania i zarządzania dyskami <a href="https://flathub.org/apps/it.mijorus.gearlever" target="_blank">(Link)</a>.
 - **PiMan** – Dashboard do monitoringu Raspberry Pi (temperatura, CPU, RAM) <a href="https://github.com/GalwayCal/piman" target="_blank">(Link)</a>.
+- **Beszel** – Lekki, samohostowany monitoring serwerów z alertami i metrykami <a href="https://beszel.dev/" target="_blank">(Link)</a>.
 - **GPU Hot** – Monitor temperatur i użycia GPU <a href="https://github.com/psalias2006/gpu-hot" target="_blank">(Link)</a>.
 
 ##### Zarządzanie plikami i obrazami
