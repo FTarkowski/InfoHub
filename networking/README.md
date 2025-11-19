@@ -25,6 +25,7 @@ Lista narzędzi sieciowych z podziałem na firewall, zarządzanie, monitoring or
 - **evillimiter** – Ograniczanie przepustowości sieci <a href="https://github.com/bitbrute/evillimiter" target="_blank">(Link)</a>.
 - **Omada Controller** – Oficjalny kontroler sieci TP-Link Omada (AP, switche, bramy) <a href="https://github.com/mbentley/docker-omada-controller" target="_blank">(Link)</a>.
 - **NetBird** – Zero-trust overlay network oparta o WireGuard <a href="https://github.com/netbirdio/netbird" target="_blank">(Link)</a>.
+- **Porównanie Tailscale, NetBird, Netmaker, Zerotier i Twingate** – Kompleksowa analiza VPN/Overlay/Zero-Trust <a href="./porownanie-tailscale-netbird-netmaker-zerotier-twingate.md">(Artykuł)</a>.
 
 #### Monitorowanie
 - **MySpeed** – Test prędkości sieci <a href="https://github.com/alexjustesen/myspeed" target="_blank">(Link)</a>.
