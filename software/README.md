@@ -198,7 +198,7 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Terminology** – Terminal środowiska Enlightenment <a href="https://github.com/Enlightenment/terminology" target="_blank">(Link)</a>.
 - **Tilix** – Terminal kafelkowy z sesjami <a href="https://github.com/gnunn1/tilix" target="_blank">(Link)</a>.
 - **urxvt** – Zaawansowany terminal RXVT-Unicode <a href="http://software.schmorp.de/pkg/rxvt-unicode.html" target="_blank">(Link)</a>.
-- **Warp** – Terminal z funkcjami współpracy <a href="https://www.warp.dev" target="_blank">(Link)</a>.
+- **Warp** – Nowoczesny terminal z blokami poleceń, funkcjami współpracy i asystentem Warp AI <a href="https://www.warp.dev/" target="_blank">(Link)</a>.
 - **WezTerm** – Terminal GPU z wbudowanym multiplexingiem <a href="https://github.com/wez/wezterm" target="_blank">(Link)</a>.
 - **Xfce4 Terminal** – Terminal środowiska Xfce <a href="https://gitlab.xfce.org/apps/xfce4-terminal" target="_blank">(Link)</a>.
 - **Xterm** – Klasyczny emulator terminala X11 <a href="https://invisible-island.net/xterm" target="_blank">(Link)</a>.
