@@ -136,6 +136,10 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **IronCalc** – Arkusz kalkulacyjny online z obsługą formuł i importów <a href="https://github.com/ironcalc/IronCalc" target="_blank">(Link)</a>
 - **Paperless-ngx** – System OCR i zarządzania dokumentami dla self-hosted <a href="https://github.com/paperless-ngx/paperless-ngx" target="_blank">(Link)</a>
 - **Linkwarden** – Samohostowany menedżer zakładek z funkcjami archiwizacji <a href="https://github.com/linkwarden/linkwarden/tree/main" target="_blank">(Link)</a>
+- **GitBook** – Platforma do tworzenia dokumentacji i baz wiedzy <a href="https://github.com/GitbookIO/gitbook" target="_blank">(Repo)</a> | <a href="https://www.gitbook.com/" target="_blank">(Strona)</a>
+- **Featurebase** – Alternatywa dla GitBooka do zbierania feedbacku i prowadzenia bazy wiedzy <a href="https://www.featurebase.app/alternative/gitbook?gad_campaignid=22965331894" target="_blank">(Link)</a>
+- **KaraKeep** – Lekka wiki i system notatek w stylu Markdown <a href="https://karakeep.app/" target="_blank">(Strona)</a> | <a href="https://github.com/karakeep-app/karakeep" target="_blank">(Repo)</a>
+- **Wiki.js** – Samohostowana platforma wiki oparta na Node.js <a href="https://js.wiki/" target="_blank">(Link)</a>
 
 ##### Narzędzia
 - **it-tools** – Narzędzia IT w przeglądarce <a href="https://it-tools.tech/" target="_blank">(Link)</a>
