@@ -23,6 +23,8 @@ Lista narzędzi sieciowych z podziałem na firewall, zarządzanie, monitoring or
 #### Zarządzanie
 - **FreshRSS** – Samohostowane oprogramowanie do czytnika RSS <a href="https://www.freshrss.org/" target="_blank">(Link)</a>.
 - **evillimiter** – Ograniczanie przepustowości sieci <a href="https://github.com/bitbrute/evillimiter" target="_blank">(Link)</a>.
+- **phpIPAM** – System IPAM do zarządzania adresacją i VLAN-ami <a href="https://phpipam.net/download/" target="_blank">(Link)</a>.
+- **NetBox** – DCIM i IPAM do modelowania infrastruktury i automatyzacji sieci <a href="https://github.com/netbox-community/netbox" target="_blank">(Repo)</a>.
 - **Omada Controller** – Oficjalny kontroler sieci TP-Link Omada (AP, switche, bramy) <a href="https://github.com/mbentley/docker-omada-controller" target="_blank">(Link)</a>.
 - **NetBird** – Zero-trust overlay network oparta o WireGuard <a href="https://github.com/netbirdio/netbird" target="_blank">(Link)</a>.
 - **Porównanie Tailscale, NetBird, Netmaker, Zerotier i Twingate** – Kompleksowa analiza VPN/Overlay/Zero-Trust <a href="./porownanie-tailscale-netbird-netmaker-zerotier-twingate.md">(Artykuł)</a>.
