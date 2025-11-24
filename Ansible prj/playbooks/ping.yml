@@ -1,8 +1,0 @@
----
-- name: Test połączenia z hostami
-  hosts: all
-  gather_facts: false
-
-  tasks:
-    - name: Ping hostów przez moduł Ansible
-      ansible.builtin.ping:
