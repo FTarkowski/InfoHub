@@ -18,7 +18,7 @@ from typing import Iterable, List, Set
 from urllib import error, request
 
 URL_PATTERN = re.compile(r"\[(?:[^\[\]]+)\]\((https?://[^\s)]+)\)")
-DEFAULT_PATHS = ["ai", "software"]
+DEFAULT_PATHS = ["."]
 REPO_ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "InfoHubLinkChecker/1.0 (+https://github.com/FTarkowski/InfoHub)"
 
@@ -38,7 +38,14 @@ def parse_args() -> argparse.Namespace:
         "paths",
         nargs="*",
         default=DEFAULT_PATHS,
-        help="Paths to scan (directories or files). Defaults to ai and software.",
+        help="Paths to scan (directories or files). Defaults to the entire repository.",
+    )
+    parser.add_argument(
+        "--exclude",
+        "-x",
+        action="append",
+        default=[],
+        help="Directories to skip (e.g. scripts, venv). Can be used multiple times.",
     )
     parser.add_argument(
         "--max-workers",
@@ -55,7 +62,8 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def iter_markdown_files(paths: Iterable[str]) -> Iterable[Path]:
+def iter_markdown_files(paths: Iterable[str], excluded_dirs: Set[str]) -> Iterable[Path]:
+    excluded = {Path(name).name for name in excluded_dirs}
     for raw in paths:
         path = Path(raw)
         if not path.exists():
@@ -64,10 +72,15 @@ def iter_markdown_files(paths: Iterable[str]) -> Iterable[Path]:
             path = (REPO_ROOT / raw).resolve()
         if not path.exists():
             continue
+        if path.is_file() and path.suffix.lower() == ".md":
+            if not any(part in excluded for part in path.parts):
+                yield path
+            continue
         if path.is_dir():
-            yield from path.rglob("*.md")
-        elif path.suffix.lower() == ".md":
-            yield path
+            for md_file in path.rglob("*.md"):
+                if any(part in excluded for part in md_file.parts):
+                    continue
+                yield md_file
 
 
 def extract_links(file_path: Path) -> Set[str]:
@@ -110,7 +123,7 @@ def check_link(url: str, timeout: float) -> LinkStatus:
 
 def main() -> int:
     args = parse_args()
-    md_files = list(iter_markdown_files(args.paths))
+    md_files = list(iter_markdown_files(args.paths, set(args.exclude)))
     if not md_files:
         print("No markdown files found for the provided paths.")
         return 1
