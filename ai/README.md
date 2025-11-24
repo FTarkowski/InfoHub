@@ -4,7 +4,7 @@ Kompendium narzędzi, modeli i raportów o sztucznej inteligencji. Hub obejmuje 
 ## Proces review
 - Aktualizujemy zestawienia i komentarze kwartalnie lub częściej, jeżeli pojawią się przełomowe wyniki benchmarków.
 - Każdą zmianę przechodzi ręczny przegląd dwóch osób odpowiedzialnych za daną domenę (asystenci, obrazowanie, dev tooling).
-- Linki do dokumentacji i raportów są weryfikowane automatycznie przy pomocy skryptu [`scripts/check_links.py`](../scripts/check_links.py), który sprawdza odpowiedź HTTP 200 dla wszystkich adresów.
+- Linki do dokumentacji i raportów są weryfikowane automatycznie przy pomocy skryptu [`scripts/check_links.py`](../scripts/check_links.py), który domyślnie skanuje całe repozytorium (można pominąć katalogi typu `scripts`/`venv` przez `--exclude`) i sprawdza odpowiedź HTTP 200 dla wszystkich adresów.
 
 ## Spis treści
 - [Raport: Ocena najpopularniejszych systemów AI — listopad 2025](#raport-ocena-najpopularniejszych-systemów-ai--listopad-2025)
