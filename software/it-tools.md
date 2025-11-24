@@ -50,7 +50,7 @@ Powrót: [Software Hub](README.md)
 | --- | --- | --- | --- | --- |
 | **it-tools** | Narzędzia IT w przeglądarce | Open Source | 🟢 | [🔗](https://it-tools.tech/) |
 | **Dangerzone** | Konwersja dokumentów PDF | Open Source | ⚪️ | [🔗](https://github.com/freedomofpress/dangerzone) |
-| **Stirling PDF** | Edycja i łączenie PDF | Open Source | 🟢 | [🔗](https://github.com/sirting-pdf/stirling-pdf) |
-| **ConvertX** | Konwerter plików | Open Source | ⚪️ | [🔗](https://github.com/svenstaro/convertx) |
+| **Stirling PDF** | Edycja i łączenie PDF | Open Source | 🟢 | [🔗](https://github.com/Stirling-Tools/Stirling-PDF) |
+| **ConvertX** | Konwerter plików | Open Source | ⚪️ | [🔗](https://github.com/search?q=convertx+file+converter) |
 | **Excalidraw** | Edytor diagramów | Open Source | 🟢 | [🔗](https://github.com/excalidraw/excalidraw) |
 | **Draw.io (self-host)** | Diagramy online | Open Source | 🟢 | [🔗](https://github.com/jgraph/drawio) |

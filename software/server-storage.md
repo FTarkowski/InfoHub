@@ -10,13 +10,13 @@ Powrót: [Software Hub](README.md)
 | Nazwa | Opis | Licencja | Self-hosted | Link |
 | --- | --- | --- | --- | --- |
 | **ProFTPD** | Wydajny serwer FTP | Open Source | 🟢 | [🔗](https://github.com/proftpd/proftpd) |
-| **MyDrive** | Prosty menedżer plików webowych | Open Source | 🟢 | [🔗](https://github.com/Subarashii-kun/MyDrive) |
+| **MyDrive** | Prosty menedżer plików webowych | Open Source | 🟢 | [🔗](https://github.com/subnub/mydrive) |
 | **Seafile** | Prywatna chmura z synchronizacją | Open Source | 🟢 | [🔗](https://github.com/haiwen/seafile) |
 | **SeaweedFS** | Rozproszony system plików | Open Source | 🟢 | [🔗](https://github.com/seaweedfs/seaweedfs) |
 | **GlusterFS** | Skalowalny system plików sieciowych | Open Source | 🟢 | [🔗](https://github.com/gluster/glusterfs) |
 | **vsftpd / FTPd** | Bezpieczny serwer FTP | Open Source | 🟢 | [🔗](https://security.appspot.com/vsftpd.html) |
 | **Pure-FTPd** | Lekki serwer FTP | Open Source | 🟢 | [🔗](https://github.com/jedisct1/pure-ftpd) |
-| **Garage** | Obiektowy storage kompatybilny z S3 | Open Source | 🟢 | [🔗](https://github.com/garagehq/garage) |
+| **Garage** | Obiektowy storage kompatybilny z S3 | Open Source | 🟢 | [🔗](https://git.deuxfleurs.fr/Deuxfleurs/garage) |
 | **sshfs** | Montowanie zasobów przez SSH | Open Source | 🟢 | [🔗](https://github.com/libfuse/sshfs) |
 | **Zenko** | Warstwa zarządzania storage multi-cloud | Open Source | 🟢 | [🔗](https://github.com/scality/zenko) |
 | **Pingvin Share** | Proste udostępnianie plików | Open Source | 🟢 | [🔗](https://github.com/stonith404/pingvin-share) |
@@ -38,7 +38,7 @@ Powrót: [Software Hub](README.md)
 | **Home Assistant** | Automatyzacja domu | Open Source | 🟢 | [🔗](https://github.com/home-assistant/core) |
 | **OpenHAB** | Platforma automatyki domowej | Open Source | 🟢 | [🔗](https://github.com/openhab/openhab-core) |
 | **Mainflux** | Platforma IoT z microserwisami | Open Source | 🟢 | [🔗](https://github.com/mainflux/mainflux) |
-| **DeviceHive** | Zestaw narzędzi i protokołów IoT | Open Source | 🟢 | [🔗](https://github.com/devicehive/devicehive) |
+| **DeviceHive** | Zestaw narzędzi i protokołów IoT | Open Source | 🟢 | [🔗](https://www.devicehive.com/) |
 | **WaziGate** | Edge gateway IoT | Open Source | 🟢 | [🔗](https://github.com/Waziup/wazigate-edge) |
 | **ChirpStack** | Stos sieci LoRaWAN | Open Source | 🟢 | [🔗](https://github.com/chirpstack) |
 | **Domoticz** | Lekka platforma domowa | Open Source | 🟢 | [🔗](https://github.com/domoticz/domoticz) |

@@ -35,4 +35,4 @@ Powrót: [Software Hub](README.md)
 | **Nautilus** | Menedżer GNOME | Open Source | ⚪️ | [🔗](https://gitlab.gnome.org/GNOME/nautilus) |
 | **Krusader** | Zaawansowany menedżer plików dla KDE | Open Source | ⚪️ | [🔗](https://invent.kde.org/utilities/krusader) |
 | **Sunflower** | Lekki menedżer z dwoma panelami | Open Source | ⚪️ | [🔗](https://github.com/MeanEYE/Sunflower) |
-| **Clifm** | Menedżer terminalowy typu "Command Line Interface File Manager" | Open Source | ⚪️ | [🔗](https://github.com/pascl/clifm) |
+| **Clifm** | Menedżer terminalowy typu "Command Line Interface File Manager" | Open Source | ⚪️ | [🔗](https://github.com/leo-arch/clifm) |

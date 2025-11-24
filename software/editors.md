@@ -22,11 +22,11 @@ Powrót: [Software Hub](README.md)
 | **JOE** | Joe's Own Editor | Open Source | ⚪️ | [🔗](https://sourceforge.net/projects/joe-editor/) |
 | **Zee** | Terminalowy edytor w Rust | Open Source | ⚪️ | [🔗](https://github.com/zee-editor/zee) |
 | **Sublime Text** | Wydajny edytor z pluginami | Proprietary | ⚪️ | [🔗](https://www.sublimetext.com) |
-| **SciTE** | Edytor bazujący na Scintilla | Open Source | ⚪️ | [🔗](https://github.com/scintillaorg/scite) |
+| **SciTE** | Edytor bazujący na Scintilla | Open Source | ⚪️ | [🔗](https://www.scintilla.org/SciTE.html) |
 | **ash** | Minimalistyczny edytor tekstu | Open Source | ⚪️ | [🔗](https://github.com/ash-shell/ash) |
 | **Emacs** | Rozszerzalny edytor Lisp | Open Source | ⚪️ | [🔗](https://git.savannah.gnu.org/git/emacs.git) |
 | **Brackets** | Edytor webowy | Open Source | ⚪️ | [🔗](https://github.com/brackets-cont/brackets) |
-| **jEdit** | Edytor w Javie | Open Source | ⚪️ | [🔗](https://github.com/jedit/jedit) |
+| **jEdit** | Edytor w Javie | Open Source | ⚪️ | [🔗](https://www.jedit.org) |
 | **Kate** | Rozbudowany edytor KDE | Open Source | ⚪️ | [🔗](https://invent.kde.org/utilities/kate) |
 | **Xed** | Edytor środowiska Cinnamon | Open Source | ⚪️ | [🔗](https://github.com/linuxmint/xed) |
 | **Neovim** | Nowoczesny fork Vima | Open Source | ⚪️ | [🔗](https://github.com/neovim/neovim) |

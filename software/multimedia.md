@@ -37,7 +37,7 @@ Powrót: [Software Hub](README.md)
 | **Pitivi** | Edytor wideo GNOME | Open Source | ⚪️ | [🔗](https://gitlab.gnome.org/GNOME/pitivi) |
 | **Kdenlive** | Zaawansowany edytor KDE | Open Source | ⚪️ | [🔗](https://invent.kde.org/multimedia/kdenlive) |
 | **OBS Studio** | Nagrywanie i streaming wideo | Open Source | ⚪️ | [🔗](https://github.com/obsproject/obs-studio) |
-| **LiVES** | Edytor i VJ tool | Open Source | ⚪️ | [🔗](https://lives-video.com) |
+| **LiVES** | Edytor i VJ tool | Open Source | ⚪️ | [🔗](https://gitlab.com/salsaman/lives) |
 | **Avidemux** | Edytor do szybkiej obróbki | Open Source | ⚪️ | [🔗](https://github.com/mean00/avidemux2) |
 | **Flowblade** | Edytor NLE dla Linuksa | Open Source | ⚪️ | [🔗](https://github.com/jliljebl/flowblade) |
 | **Cinelerra** | Profesjonalny montaż wideo | Proprietary | ⚪️ | [🔗](https://cinelerra-gg.org) |
