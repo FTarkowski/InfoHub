@@ -1,6 +1,6 @@
 # Community projects hub
 
-Repozytorium na ciekawe projekty z GitHuba. Struktura odzwierciedla styl pozostałych katalogów InfoHub: krótki opis, spis treści i listy elementów w sekcjach tematycznych z jednozdaniowymi opisami.
+Repozytorium projektów community z GitHuba.
 
 ## Spis treści
 - [Platformy agentów i orkiestracja](#platformy-agentow-i-orkiestracja)
