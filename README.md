@@ -11,6 +11,10 @@ InfoHub to centralne miejsce do przechowywania opisów technologii, aplikacji i 
 | [Community projects](community-projects/README.md) | Katalog repozytoriów community open-source z podziałem na kategorie. |
 | [TOR & Darknet](tor/README.md) | Narzędzia do pracy z siecią Tor, katalogi onion i OSINT dark web. |
 
+## Automatyczne sprawdzanie linków
+- Workflow **Link Checker** uruchamia `scripts/check_links.py` dla całego repozytorium co poniedziałek o 06:00 UTC oraz na żądanie przez `Run workflow` w zakładce **Actions**.
+- Wyniki sprawdzenia znajdują się w logach jobu; niedziałające adresy są wypisywane jako wpisy `[FAIL]` z listą plików, w których występują.
+
 ## Dodatkowe materiały
 - [Hosting i Panel Administracyjny](<Hosting i Panel Administracyjny.md>)
 
