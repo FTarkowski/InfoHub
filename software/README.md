@@ -60,7 +60,7 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Syncthing** – Zdecentralizowana synchronizacja plików P2P z szyfrowaniem end-to-end i wersjonowaniem <a href="https://syncthing.net/" target="_blank">(Link)</a>.
 - **CasaOS** – System zarządzania aplikacjami domowymi <a href="https://casaos.io/" target="_blank">(Link)</a>.
 - **File Browser** – Menedżer plików przez przeglądarkę <a href="https://filebrowser.org/" target="_blank">(Link)</a>.
-- **HexOS** – System operacyjny dla środowiska NAS.
+- **HexOS** – System operacyjny dla środowiska NAS <a href="https://github.com/IceWhaleTech/HexOS" target="_blank">(Link)</a>.
 - **OpenMediaVault** – Rozwiązanie NAS oparte na Debianie <a href="https://www.openmediavault.org/" target="_blank">(Link)</a>.
 - **openmediavault-webdesk** – GUI dla OMV w Docker Compose <a href="https://github.com/TwanoO67/omv-web-desk" target="_blank">(Link)</a>
 - **Unraid** – System operacyjny dla serwerów NAS z obsługą wirtualizacji i Docker <a href="https://unraid.net/" target="_blank">(Link)</a>.
@@ -92,7 +92,7 @@ Centralny katalog aplikacji, systemów i narzędzi wspierających codzienną pra
 - **Prowlarr** – Indeksatory do PVR <a href="https://prowlarr.com/" target="_blank">(Link)</a>.
 - **Jellyseer** – Zarządzanie żądaniami Jellyfin <a href="https://github.com/Fallenbagel/jellyseerr" target="_blank">(Link)</a>.
 - **Jitsi** – Open-source platforma wideokonferencyjna <a href="https://github.com/jitsi" target="_blank">(Link)</a>.
-- **OpenBooks** – Biblioteka e-booków (brak linku)
+- **OpenBooks** – Biblioteka e-booków <a href="https://github.com/evan-buss/openbooks" target="_blank">(Link)</a>.
 
 ---
 
