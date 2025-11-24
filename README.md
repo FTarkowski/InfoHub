@@ -8,7 +8,7 @@ InfoHub to centralne miejsce do przechowywania opisów technologii, aplikacji i 
 | [Networking](networking/README.md) | Firewall, routery, monitoring oraz usługi DNS i proxy. |
 | [DevOps & Automation](devops/README.md) | Konteneryzacja, orkiestracja, automatyzacja oraz zdalne zarządzanie. |
 | [AI Hub](ai/README.md) | Narzędzia wspierane sztuczną inteligencją i innowacyjne usługi. |
-| [Community projects](community-projects/README.md) | Katalog ciekawych repozytoriów open-source z podziałem na kategorie. |
+| [Community projects](community-projects/README.md) | Katalog repozytoriów community open-source z podziałem na kategorie. |
 | [TOR & Darknet](tor/README.md) | Narzędzia do pracy z siecią Tor, katalogi onion i OSINT dark web. |
 
 ## Dodatkowe materiały
