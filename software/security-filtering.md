@@ -19,7 +19,7 @@ Powrót: [Software Hub](README.md)
 | **NoScript** | Blokowanie skryptów w przeglądarce | Open Source | ⚪️ | [🔗](https://github.com/hackademix/noscript) |
 | **Privacy Badger** | Blokowanie trackerów EFF | Open Source | ⚪️ | [🔗](https://github.com/EFForg/privacybadger) |
 | **Ghostery** | Ochrona prywatności i blokowanie śledzenia | Proprietary | ⚪️ | [🔗](https://www.ghostery.com) |
-| **AdBlocker Ultimate** | Otwartoźródłowy bloker reklam | Open Source | ⚪️ | [🔗](https://github.com/adblockultimate/AdBlocker-Ultimate) |
+| **AdBlocker Ultimate** | Otwartoźródłowy bloker reklam | Open Source | ⚪️ | [🔗](https://adblockultimate.net) |
 
 ## Blokowanie reklam – DNS
 | Nazwa | Opis | Licencja | Self-hosted | Link |
@@ -36,11 +36,11 @@ Powrót: [Software Hub](README.md)
 | --- | --- | --- | --- | --- |
 | **OpenSnitch** | Firewall aplikacyjny | Open Source | 🟢 | [🔗](https://github.com/evilsocket/opensnitch) |
 | **Lockdown** | Firewall i VPN prywatności | Open Source | 🟢 | [🔗](https://lockdownprivacy.com) |
-| **pfBlockerNG** | Blokowanie DNS/IP w pfSense | Open Source | 🟢 | [🔗](https://github.com/pfsense/FreeBSD-ports/tree/devel/net/pfblockerng) |
+| **pfBlockerNG** | Blokowanie DNS/IP w pfSense | Open Source | 🟢 | [🔗](https://github.com/pfsense/pfBlockerNG) |
 
 ## Blokowanie reklam – proxy
 | Nazwa | Opis | Licencja | Self-hosted | Link |
 | --- | --- | --- | --- | --- |
 | **Privoxy** | Filtrujący proxy HTTP | Open Source | 🟢 | [🔗](https://www.privoxy.org) |
 | **Squid** | Popularny proxy z filtracją | Open Source | 🟢 | [🔗](http://www.squid-cache.org) |
-| **Zen** | Reguły filtrujące dla proxy | Open Source | 🟢 | [🔗](https://github.com/zenfilters/zen) |
+| **Zen** | Reguły filtrujące dla proxy | Open Source | 🟢 | [🔗](https://github.com/zen-browser/desktop) |

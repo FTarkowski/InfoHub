@@ -28,7 +28,7 @@ Powrót: [Software Hub](README.md)
 | **Pritunl** | Panel zarządzania OpenVPN/WireGuard | Open Source | 🟢 | [🔗](https://github.com/pritunl/pritunl) |
 | **Tailscale** | VPN typu mesh na bazie WireGuard | Open Source | 🟢 | [🔗](https://github.com/tailscale/tailscale) |
 | **PiVPN** | Skrypty do wdrożenia VPN na Raspberry Pi | Open Source | 🟢 | [🔗](https://github.com/pivpn/pivpn) |
-| **Psiphon** | Sieć VPN i obfuskacja ruchu | Open Source | 🟢 | [🔗](https://github.com/Psiphon-Labs/psiphon) |
+| **Psiphon** | Sieć VPN i obfuskacja ruchu | Open Source | 🟢 | [🔗](https://github.com/Psiphon-Inc/psiphon-android) |
 | **strongSwan** | IPsec VPN dla Linuksa | Open Source | 🟢 | [🔗](https://github.com/strongswan/strongswan) |
 | **SoftEther** | Wieloprotokołowy serwer VPN | Open Source | 🟢 | [🔗](https://github.com/SoftEtherVPN/SoftEtherVPN) |
 | **tinc** | VPN mesh z szyfrowaniem | Open Source | 🟢 | [🔗](https://github.com/gsliepen/tinc) |

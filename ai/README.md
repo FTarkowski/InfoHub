@@ -44,7 +44,7 @@ Pełne zestawienie metodologii, ocen i komentarzy znajduje się w raporcie [OCEN
 
 ### Najważniejsze wnioski 2025[^ai_wnioski]
 > **Ostatnia aktualizacja:** listopad 2025  
-> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4 evals](https://openai.com/index/introducing-o3-mini/) · [Gemini 2.0 Flash benchmark](https://blog.google/technology/ai/google-gemini-update/)
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4 evals](https://openai.com/index/introducing-o3-mini-and-o1/) · [Gemini 2.0 Flash benchmark](https://blog.google/technology/ai/google-gemini-ai/)
 
 - **Halucynacje**: Gemini 2.0 Flash prowadzi z 0.7%, podczas gdy modele reasoning OpenAI (o3/o4) osiągają nawet 33% w PersonQA.
 - **Trendy technologiczne**: Konteksty rozmów rosną do 1–10M tokenów, a multimodalność (tekst+audio+wideo) staje się standardem.
@@ -87,7 +87,7 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 
 ### Narzędzia do prototypowania[^prototypowanie_sources]
 > **Ostatnia aktualizacja:** listopad 2025  
-> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [StackBlitz Bolt.new](https://stackblitz.com/blog/introducing-bolt-new) · [Lovable Launch](https://www.lovable.dev/blog)
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [StackBlitz Bolt.new](https://stackblitz.com/blog/bolt-new) · [Lovable Launch](https://www.lovable.dev/blog)
 
 | System | Średnia | Wyróżniki | Popularność |
 | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 
 ### Generowanie obrazów AI[^generowanie_obrazow_sources]
 > **Ostatnia aktualizacja:** listopad 2025  
-> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Midjourney V7 ogłoszenie](https://www.midjourney.com/showcase) · [OpenAI DALL·E 3](https://openai.com/dall-e-3)
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Midjourney V7 ogłoszenie](https://docs.midjourney.com/docs/showcase) · [OpenAI DALL·E 3](https://openai.com/index/dall-e-3)
 
 | System | Średnia | Wyróżniki | Uwagi |
 | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 
 ### Modele open source[^modele_open_source_sources]
 > **Ostatnia aktualizacja:** listopad 2025  
-> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Meta Llama](https://ai.meta.com/llama/) · [Mistral Medium 3](https://mistral.ai/news/mistral-3/)
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [Meta Llama](https://ai.meta.com/llama/) · [Mistral Medium 3](https://mistral.ai/news/mistral-medium-3/)
 
 | System | Średnia | Wyróżniki | Halucynacje |
 | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 
 ### Modele specjalistyczne[^modele_specjalistyczne_sources]
 > **Ostatnia aktualizacja:** listopad 2025  
-> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) · [DeepSeek R1](https://www.deepseek.com/)
+> **Źródła danych:** [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) · [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini-and-o1/) · [DeepSeek R1](https://www.deepseek.com/)
 
 | System | Średnia | Wyróżniki | Błędy |
 | --- | --- | --- | --- |
@@ -135,12 +135,12 @@ Poniższe tabele łączą ocenę średnią (uśrednienie czterech kryteriów: u�
 - **Perplexity** — opisany wyżej jako chatbot; kluczowy element to wyszukiwarka ze śledzeniem źródeł w czasie rzeczywistym.
 
 [^raport_ai_top10]: Dane z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz publicznych zestawień [State of AI Report](https://www.stateof.ai/) i [ArtificialAnalysis.ai Benchmarks](https://artificialanalysis.ai/).
-[^ai_wnioski]: Wnioski syntetyzują raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), komunikaty [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) i [aktualizacje Gemini 2.0 Flash](https://blog.google/technology/ai/google-gemini-update/).
+[^ai_wnioski]: Wnioski syntetyzują raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), komunikaty [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini-and-o1/) i [aktualizacje Gemini 2.0 Flash](https://blog.google/technology/ai/google-gemini-ai/).
 [^chatboty_sources]: Średnie i metryki halucynacji bazują na raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz zestawieniu [ArtificialAnalysis.ai Models](https://artificialanalysis.ai/models).
 [^narzedzia_programistyczne_sources]: Oceny i wyniki SWE-bench zaczerpnięto z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md) oraz tabeli [SWE-bench Verified](https://huggingface.co/spaces/dkao/swe-bench-leaderboard).
-[^prototypowanie_sources]: Dane biznesowe dostarcza raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), wpis [StackBlitz Bolt.new](https://stackblitz.com/blog/introducing-bolt-new) i aktualizacja [Lovable](https://www.lovable.dev/blog).
-[^generowanie_obrazow_sources]: Statystyki jakości i popularności pochodzą z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), strony [Midjourney Showcase](https://www.midjourney.com/showcase) oraz ogłoszenia [OpenAI DALL·E 3](https://openai.com/dall-e-3).
-[^modele_open_source_sources]: Dane o modelach open source bazują na raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), [Meta Llama](https://ai.meta.com/llama/) i [Mistral 3](https://mistral.ai/news/mistral-3/).
-[^modele_specjalistyczne_sources]: Dane o modelach reasoning zaczerpnięto z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), materiałów [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini/) oraz strony [DeepSeek R1](https://www.deepseek.com/).
+[^prototypowanie_sources]: Dane biznesowe dostarcza raport [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), wpis [StackBlitz Bolt.new](https://stackblitz.com/blog/bolt-new) i aktualizacja [Lovable](https://www.lovable.dev/blog).
+[^generowanie_obrazow_sources]: Statystyki jakości i popularności pochodzą z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), strony [Midjourney Showcase](https://docs.midjourney.com/docs/showcase) oraz ogłoszenia [OpenAI DALL·E 3](https://openai.com/index/dall-e-3).
+[^modele_open_source_sources]: Dane o modelach open source bazują na raporcie [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), [Meta Llama](https://ai.meta.com/llama/) i [Mistral 3](https://mistral.ai/news/mistral-medium-3/).
+[^modele_specjalistyczne_sources]: Dane o modelach reasoning zaczerpnięto z raportu [OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md](./OCENA_NAJPOPULARNIEJSZYCH_SYSTEMÓW_AI_LISTOPAD_2025.md), materiałów [OpenAI o3/o4](https://openai.com/index/introducing-o3-mini-and-o1/) oraz strony [DeepSeek R1](https://www.deepseek.com/).
 
 ---

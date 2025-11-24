@@ -36,7 +36,7 @@ Powrót: [Software Hub](README.md)
 | **M-x term / ansi-term / vterm** | Terminale wewnątrz Emacsa | Open Source | ⚪️ | [🔗](https://www.gnu.org/software/emacs/) |
 | **st** | Minimalistyczny terminal suckless | Open Source | ⚪️ | [🔗](https://git.suckless.org/st) |
 | **Terminator** | Terminal z podziałem okien | Open Source | ⚪️ | [🔗](https://github.com/gnome-terminator/terminator) |
-| **Terminology** | Terminal środowiska Enlightenment | Open Source | ⚪️ | [🔗](https://github.com/Enlightenment/terminology) |
+| **Terminology** | Terminal środowiska Enlightenment | Open Source | ⚪️ | [🔗](https://www.enlightenment.org/about-terminology) |
 | **Tilix** | Terminal kafelkowy z sesjami | Open Source | ⚪️ | [🔗](https://github.com/gnunn1/tilix) |
 | **urxvt** | Zaawansowany terminal RXVT-Unicode | Open Source | ⚪️ | [🔗](http://software.schmorp.de/pkg/rxvt-unicode.html) |
 | **Warp** | Terminal z funkcjami współpracy | Proprietary | ⚪️ | [🔗](https://www.warp.dev) |
