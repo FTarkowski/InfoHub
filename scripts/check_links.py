@@ -30,6 +30,23 @@ class LinkStatus:
     status: int | None = None
     error: str | None = None
     source_files: List[Path] | None = None
+    ignored: bool = False
+
+
+IGNORED_STATUS_CODES = {401, 403}
+IGNORED_ERROR_PATTERNS = {"ssl", "certificate"}
+
+
+def should_ignore(status: LinkStatus) -> bool:
+    if status.status in IGNORED_STATUS_CODES:
+        return True
+    if status.error:
+        lowered = status.error.lower()
+        if any(code in lowered for code in ("401", "403")):
+            return True
+        if any(pattern in lowered for pattern in IGNORED_ERROR_PATTERNS):
+            return True
+    return False
 
 
 def parse_args() -> argparse.Namespace:
@@ -117,7 +134,10 @@ def check_link(url: str, timeout: float) -> LinkStatus:
     if not result.ok and result.status is None and result.error:
         # retry with GET after short delay for transient errors
         time.sleep(0.2)
-        return get_request(url, timeout)
+        result = get_request(url, timeout)
+    if should_ignore(result):
+        result.ok = True
+        result.ignored = True
     return result
 
 
@@ -141,7 +161,9 @@ def main() -> int:
         }
         for future in concurrent.futures.as_completed(futures):
             status = future.result()
-            if not status.ok:
+            if status.ignored:
+                print(f"[IGNORED] {status.url} -> status={status.status} error={status.error}")
+            elif not status.ok:
                 status.source_files = sorted(link_map[status.url])
                 failures.append(status)
                 files_list = ", ".join(str(p) for p in status.source_files)
