@@ -233,4 +233,5 @@ Repozytorium projektów community z GitHuba.
 - **Stacks** - infrastruktura IaC do deployu usług. [Link](https://github.com/zelestcarlyone/stacks)
 - **Reclaimarr** - agregator multimediów self-hosted. [Link](https://github.com/Okhr/reclaimarr)
 - **Walrus** - magazyn danych odporne na cenzurę. [Link](https://github.com/PolymathicAI/walrus)
+- **Termix** - klient SSH rozwijany przez społeczność. [Link](https://github.com/Termix-SSH/Termix)
 
