@@ -31,6 +31,7 @@ Zbiór narzędzi do konteneryzacji, orkiestracji, automatyzacji oraz zdalnego za
 - **Puppet** – Konfiguracja infrastruktury <a href="https://puppet.com/" target="_blank">(Link)</a>.
 - **Chef** – Zarządzanie konfiguracją <a href="https://www.chef.io/" target="_blank">(Link)</a>.
 - **Ansible** – Automatyzacja systemów <a href="https://www.ansible.com/" target="_blank">(Link)</a>.
+- **Kroki** – Diagramy jako usługa (Diagrams as Code) z obsługą PlantUML, Mermaid i Graphviz <a href="https://github.com/yuzutech/kroki" target="_blank">(Link)</a>.
 - **Ansible Semaphore** – Graficzny interfejs Ansible <a href="https://github.com/semaphoreui/semaphore" target="_blank">(Link)</a>.
 - **Projekt Ansible + Semaphore (Docker Compose + instrukcje)** – <a href="../Ansible%20prj/README.md">Dokumentacja wdrożenia</a>.
 - **Ansible role - Ubuntu Autoinstall** – Automatyzacja instalacji Ubuntu via PiKVM <a href="https://github.com/notthebee/ansible-role-ubuntu_autoinstall" target="_blank">(Link)</a>
